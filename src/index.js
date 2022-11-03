@@ -9,8 +9,10 @@ dotenv.config();
 // view engine
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
+
 // Router
 require('./routes')(app)
+
 // config mongodb
 require('./db/mongodb').connect()
 
