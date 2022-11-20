@@ -41,7 +41,7 @@ nav.navbar {
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
-.navbar-name {
+.navbar-name {  
   flex: 1;
   background-color: #206b40;
   color: white;
