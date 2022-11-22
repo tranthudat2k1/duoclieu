@@ -19,5 +19,5 @@ require('./routes')(app)
 require('./db/mongodb').connect()
 
 app.listen(process.env.PORT, () => {
-  console.log(`Example app listening on port ${process.env.PORT}`)
+  console.log(`Example app listening on port ${port}`)
 })
