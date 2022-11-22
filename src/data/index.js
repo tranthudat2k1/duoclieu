@@ -122,7 +122,57 @@ const description = [
   }
 ]
 
+const introduction = {
+  name: "Ludwigia hyssopifolia (G.Don) Exell",
+  otherNames: [
+    "Fissendocarpa linifolia (Vahl) Bennet ",
+    "Jussiaea fissendocarpa Haines",
+    "Jussiaea hyssopifolia G.Don",
+    "Jussiaea linifolia Vahl",
+    "Jussiaea micrantha Kunze",
+    "Jussiaea weddelii Micheli",
+    "Ludwigia linifolia (Vahl) R.S.Rao",
+    "Ludwigia micrantha (Kunze) Hara",
+  ],
+  vietnameseName: "Rau mương, đinh nam, nhớt mèo, cây xương cá, rau lục.",
+  relationship: {
+    des1: "Rau dừa nước hoặc họ rau mương, còn gọi là họ Anh thảo chiều hay Nguyệt kiến thảo (Danh pháp khoa học: Onagraceae).",
+    des2: "Ludwigia hypssopifolia được (G. Don) Exell mô tả lần đầu tiên năm 1957 và được phân loại theo hệ thống của Takhtajan như sau [70] :",
+    root: [
+      {
+        vn: "Giới thực vật",
+        eng: "Plantae"
+      },
+      {
+        vn: "Lớp hai lá mầm",
+        eng: "Dicotyledoneae"
+      },
+      {
+        vn: "Ngành Ngọc lan",
+        eng: "Angiaspermae"
+      },
+      {
+        vn: "Bộ Sim",
+        eng: "Myrtales"
+      },
+      {
+        vn: "Họ Rau dừa nước",
+        eng: "Onagaraceae"
+      },
+      {
+        vn: "Chi Rau mương",
+        eng: "Ludwigia Linn"
+      },
+      {
+        vn: "Loài",
+        eng: "Ludwigia hyssopifolia"
+      }
+    ]
+  }
+}
+
 module.exports = {
-  description
+  description,
+  introduction
 }
 

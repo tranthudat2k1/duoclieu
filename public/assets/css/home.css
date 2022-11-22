@@ -1,0 +1,126 @@
+
+.infor {
+    position: relative;
+    left: 100px;
+    width: auto;
+    height: auto;
+    background-color: aquamarine;
+    top: -40px;
+}
+
+h1 {
+    position: absolute;
+    top: 0px;
+    font-family: 'Gagalin';
+    color: rgb(45, 106, 86);
+    font-size: 200px;
+}
+
+b {
+    position: absolute;
+    font-family: 'Arial';
+    color: rgb(45, 106, 86);
+    top: 380px;
+    left: 70px;
+    font-size: 20px;
+}
+
+.search_div {
+    position: absolute;
+    top: 440px;
+    left: 80px;
+}
+
+.link_div {
+    position: absolute;
+    top: 520px;
+    font-family: 'Arial';
+    left: -150px;
+}
+
+.link_div a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+.link_div li {
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+#gioithieu {
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 450px 80px;
+    padding: 30px 250px 30px 50px; /*top-right-bottom-left*/
+
+}
+
+#lienhe{
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px 80px;
+    padding: 30px 250px 30px 50px;
+}
+
+.search-input {
+    position: absolute;
+    top: 0px;
+    border-style: solid;
+    width: 370px;
+    height: 20px;
+    display: block;
+    border-radius: 25px;
+    padding: 13px 45px 13px 60px;
+    border-width: 6px;
+    font-size: 20px;
+    border-color: rgb(45, 106, 86);
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-button {
+    position: absolute;
+    top: 11px;
+    left: 430px;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 30px;
+}
+
+.fa-sharp {
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+}
+
+.search-button i {
+    color: rgb(45, 106, 86);
+}
+
+.search-button:hover i {
+    color: rgb(22, 47, 39);
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: black;
+}
+
+img {
+    float: right;
+    margin-top: -20%;
+    margin-right: -23%;
+    width: 75%;
+    height: 75%;
+    object-fit: contain;
+}

@@ -16,7 +16,7 @@ app.set('views', path.join(__dirname, 'views'));
 require('./routes')(app)
 
 // config mongodb
-require('./db/mongodb').connect()
+//require('./db/mongodb').connect()
 
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)

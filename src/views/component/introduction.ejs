@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/introduction.css" />
+    <link rel="stylesheet" href="/font/Agrandir-WideBlackItalic.otf">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/22de35541d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <form class="search_form" action="">
+                <div class="search-input-div">
+                    <input type="text" placeholder="Nhập thông tin loại cần tìm" />
+                </div>
+                <div class="search-button-div">
+                    <button type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </form>
+        </div>
+        <div class="navbar">
+            <img src="/upload/introduction-nav.jpg" alt="">
+            <div class="nav-name">
+                <div class="div-name">Ludgiwia hyssofolia</div>
+                <div class="div-another-name">Ludgiwia hyssofolia (G.Don) Exell</div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <%- include('../include/sidebar.ejs') -%>
+            </div>
+            <div class="content-desc">
+                <img src="/upload/14.jpg" alt="">
+                <div>
+                    <span style="color: #206b40; font-weight: 600;">Tên khoa học</span><span
+                        style="color: rgb(93, 82, 240);">[1]</span>: <%= data.name %>
+                </div>
+                <br>
+                <div>
+                    <div><span style="color: #206b40;font-weight: 600">Tên khác</span><span
+                            style="color: rgb(93, 82, 240);">[1]</span>:</div>
+                    <ul class="list-other-name">
+                        <% data.otherNames.forEach(function(name){ %>
+                            <li class="name">
+                                <%= name %>
+                            </li>
+                            <% }) %>
+                    </ul>
+                </div>
+                <br>
+                <div>
+                    <span style="color: #206b40;font-weight: 600">Tên tiếng việt</span>: <%= data.vietnameseName %>
+                </div>
+                <br>
+                <div>
+                    <div>
+                        <span style="color: #206b40;font-weight: 600">Họ: </span>
+                        <%=data.relationship.des1%>
+                    </div>
+                    <div style="margin:8px 0 0 28px;">
+                        <%=data.relationship.des2%>
+                    </div>
+                    <div style="margin-top: 10px;">
+                        <% let tab=100%>
+                            <%data.relationship.root.forEach(function(result){ %>
+                                <div style="margin-left: <%=tab%>px;"><span style="color: #206b40;font-weight: 600">
+                                        <%=result.vn%>:
+                                    </span>(<%=result.eng%>)</div>
+                                <% tab=tab + 28 %>
+                                    <%})%>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
