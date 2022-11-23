@@ -501,7 +501,8 @@ const biochemistry = {
         "Phổ IR",
         "Phổ NMR"
       ],
-      "Pteleoellagic.jpg""Chưa được công bố."
+      "Pteleoellagic.jpg",
+      "Chưa được công bố."
     ],
     [
       "3,3’,4’-tri-O-methylellagic acid [158]",
@@ -650,8 +651,32 @@ const biochemistry = {
   ]
 }
 
+const introCommon = [
+  {
+    img : "intro-page1.jpeg",
+    text : "Công thức phân tử: C30H48O3 Khối lượng mol: 456,7 g/mol Tính chất: Chất rắn màu trắng hoặc trắng ngà.    Nhiệt độ điểm nóng chảy:  316 - 318 °C Nhiệt độ điểm sôi:  550,02 ° C Độ tan: 0,001607 mg/L trong nước ở 25 °C [31]",
+    id : 1
+  },
+  {
+    img : "intro-page2.jpg",
+    text : "Toàn cây Ludwigia adscendens được thu hái vào mùa thu, có thể dùng tươi hay phơi khô. Ludwigia adscendens được dùng chữa cảm sốt, ho khan, đái đục, phù thủng, lỵ ra máu [2]. Đắp ngoài, chữa sưng lở, vết thương, rắn cắn, bỏng. Cả cây Ludwigia adscendens giã nát với dầu thầu dầu rồi xát lên đầu chữa nấm tóc và một số bệnh da đầu khác.",
+    id : 2
+  },
+  {
+    img : "intro-page3.jpeg",
+    text : "Một số bệnh viện đông y dược liệu Ludwigia adscendens để điều trị viêm bàng quang không do sỏi, lao bàng quang hoặc lao thận với những triệu chứng đái buốt, đái rắt, đái ra máu. Sau đó, đã mở rộng việc điều trị đái ra dưỡng trấp và huyết dưỡng trấp niệu mà không có ấu trùng giun chỉ trong máu. Thuốc không những làm hết dưỡng trấp mà còn hết cả albumin, hồng cầu, bạch cầu trong nước tiểu [1]. ",
+    id : 3
+  },
+  {
+    img : "intro-page4.jpg",
+    text : "Ở Việt Nam, Ludwigia adscendens (rau dừa nước) có thể gặp ở hầu hết các địa phương thuộc vùng đồng bằng trung du và miền núi thấp, cây thường mọc ở nơi đất ngập nước (ao, đầm, bờ rượng ẩm ướt) [2]. Nếu mọc ở nơi nước nông như ở ruộng nước, vũng lầy cây mọc thẳng. Khi nước dâng cao hay ở môi trường nước sâu như ao, hồ, kênh mương, cây nổi trên mặt nước nhờ hệ thống rễ phụ biến thành phao xốp. Rau dừa nước ra hoa quả hàng năm. Quả nang khi già sẽ tự mở, hạt phát tán nhờ nước. Vào mùa xuân hè, khi cây bị cắt, phần còn lại mọc ra nhiều chồi [1].",
+    id : 4
+  },
+]
+
 module.exports = {
   description,
   introduction,
-  biochemistry
+  biochemistry,
+  introCommon
 }
