@@ -501,7 +501,8 @@ const biochemistry = {
         "Phổ IR",
         "Phổ NMR"
       ],
-      "Pteleoellagic.jpg""Chưa được công bố."
+      "Pteleoellagic.jpg",
+      "Chưa được công bố."
     ],
     [
       "3,3’,4’-tri-O-methylellagic acid [158]",
