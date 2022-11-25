@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hóa thực vật và hoạt tính sinh học</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/hoa-thuc-vat.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <%- include('../include/sidebar.ejs')%></div>
+      <div class="right">
+          <%- include('../include/navWithName.ejs',{title : "Hóa thực vật và hoạt tính sinh học"})%>
+          <table>
+            <tr>
+              <th style="width:13%">Hoạt chất</th>
+              <th style="width:8%">Phân đoạn chiết tách</th>
+              <th style="width:26%">Tính chất vật lý</th>
+              <th style="width:13%">Quang phổ</th>
+              <th style="width:21%">Cấu trúc hóa học</th>
+              <th style="width:19%">Hoạt tính dược lý</th>
+            </tr>
+            <tr class="item">
+              <th colspan="6">Alkaloid</th>
+            </tr>
+            <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+            </tr>
+            <tr>
+              <td>Centro comercial Moctezuma</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+              <td>Centro comercial Moctezuma</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+            </tr>
+          </table>  
+      </div>
+    </div>
+  </body>
+</html>
