@@ -29,25 +29,30 @@
               <th style="width:21%">Cấu trúc hóa học</th>
               <th style="width:19%">Hoạt tính dược lý</th>
             </tr>
-            <tr class="item">
-              <th colspan="6">Alkaloid</th>
-            </tr>
-            <tr>
-              <td>Alfreds Futterkiste</td>
-              <td>Maria Anders</td>
-              <td>Germany</td>
-              <td>Alfreds Futterkiste</td>
-              <td>Maria Anders</td>
-              <td>Germany</td>
-            </tr>
-            <tr>
-              <td>Centro comercial Moctezuma</td>
-              <td>Francisco Chang</td>
-              <td>Mexico</td>
-              <td>Centro comercial Moctezuma</td>
-              <td>Francisco Chang</td>
-              <td>Mexico</td>
-            </tr>
+            <% for(let i=0; i < result.length; i++) { %>
+              <tr class="item">
+                <th colspan="6"><%=result[i].name %></th>
+              </tr>
+              
+              <% for(let j=0; j < result[i].data.length; j++) { %>
+                <tr>
+                <td class="hoat-chat"><%= result[i].data[j].hoatChat %></td>
+                <td class="phan-doan"><%= result[i].data[j].phanDoan %></td>
+                <td class="tinh-chat">
+                  <% for(let k=0; k < result[i].data[j].tinhChat.length; k++) { %>
+                    <p class="item-tinh-chat"><%= result[i].data[j].tinhChat[k] %></p>
+                  <%}%>
+                </td>
+                <td>
+                  <% for(let k=0; k < result[i].data[j].pho.length; k++) { %>
+                    <p><%= result[i].data[j].pho[k] %></p>
+                  <%}%>
+                </td>
+                <td><img src="/upload/<%= result[i].data[j].cauTruc%>" class="img"/></td>
+                <td><%= result[i].data[j].hoatTinh%></td>
+              </tr>
+              <%}%>
+            <%}%>
           </table>  
       </div>
     </div>

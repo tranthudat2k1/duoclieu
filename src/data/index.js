@@ -178,12 +178,12 @@ const biochemistry = [
       hoatChat : "Kaempferol [14]",
       phanDoan : "ethyl acetate",
       tinhChat : [
-        "Công thức phân tử:  C15H10O6",
-        "286,24 g/mol",
-        "Chất rắn màu vàng.",
-        "285-287 °C",
-        "582,00 đến 583,00 °C",
-        ": 440 mg/L trong nước ở 25 °C, hoạt chất tan trong benzene; ít tan trong chloroform; hòa tan trong acetic acid, dung dịch kiềm; rất tan trong ethanol, ethyl ether, acetone [35]."
+        "Công thức phân tử :  C15H10O6",
+        "Khối lượng mol : 286,24 g/mol",
+        "Tính chất:Chất rắn màu vàng.",
+        "Nhiệt độ điểm nóng chảy: 285-287 °C",
+        "Nhiệt độ điểm sôi:582,00 đến 583,00 °C",
+        "Độ tan: 440 mg/L trong nước ở 25 °C, hoạt chất tan trong benzene; ít tan trong chloroform; hòa tan trong acetic acid, dung dịch kiềm; rất tan trong ethanol, ethyl ether, acetone [35]."
       ],
       pho : [
         "Phổ UV",
