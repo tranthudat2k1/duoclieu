@@ -1,44 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Giới thiệu page</title>
-    <link rel="stylesheet" href="/assets/css/intro-page.css" />
-  </head>
-  <body>
-    <div class="nav">Giới thiệu về website</div>
-    <div class="container">
-      <div class="content">
-        <%for(let i=0;i < data.length;i++) {%>
-        <p class="content-item"><%= data[i].text %></p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giới thiệu page</title>
+  <link rel="stylesheet" href="/assets/css/intro-page.css" />
+</head>
+
+<body>
+  <div class="nav">Giới thiệu về website</div>
+  <div class="container">
+    <div class="content">
+      <%for(let i=0;i < data.length;i++) {%>
+        <p class="content-item">
+          <%= data[i].text %>
+        </p>
         <%}%>
+    </div>
+    <div class="container-img">
+      <div class="img-top">
+        <img src="/upload/<%=data[0].img%>" />
       </div>
-      <div class="container-img">
-        <div class="img-top">
-          <img src="/upload/<%=data[0].img%>" />
-        </div>
-        <div class="img-bottom">
-          <%for(let i=1;i < data.length;i++) {%>
+      <div class="img-bottom">
+        <%for(let i=1;i < data.length;i++) {%>
           <img src="/upload/<%=data[i].img%>" />
           <%}%>
-        </div>
       </div>
     </div>
-    <script>
-      const listContent = document.getElementsByClassName("content-item");
-      const listImg = document.querySelectorAll(".container-img img");
-      let active = 0;
-      listContent[active].classList.add("active");
-      for (let i = 0; i < listImg.length; i++) {
-        listImg[i].addEventListener("click", () => {
-          for (let j = 0; j < listContent.length; j++) {
-            listContent[j].classList.remove("active");
-          }
-          listContent[i].classList.add("active");
-        });
-      }
-    </script>
-  </body>
+  </div>
+  <script>
+    const listContent = document.getElementsByClassName("content-item");
+    const listImg = document.querySelectorAll(".container-img img");
+    let active = 0;
+    listContent[active].classList.add("active");
+    for (let i = 0; i < listImg.length; i++) {
+      listImg[i].addEventListener("click", () => {
+        for (let j = 0; j < listContent.length; j++) {
+          listContent[j].classList.remove("active");
+        }
+        listContent[i].classList.add("active");
+      });
+    }
+
+    const listTagA = document.getElementsByClassName('link-reference')
+    for (let index = 0; index < listTagA.length; index++) {
+      listTagA[index].setAttribute("target", "_blank")
+    }
+
+  </script>
+</body>
+
 </html>

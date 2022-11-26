@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ludgiwia hyssofolia</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/uses.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <%- include('../include/navbar.ejs',{title : "Bộ phận dùng và <br> công dụng" }) %>
+            <div class="content">
+                <div class="sidebar">
+                    <%- include('../include/sidebar.ejs') -%>
+                </div>
+                <div class="content-desc">
+                    <div class="text">
+                        <%data.text.forEach(function(item){%>
+                            <div class="text-desc">
+                                <%-item%>
+                            </div>
+                            <%})%>
+                    </div>
+                    <div class="imgs">
+                        <%data.img.forEach(function(item){%>
+                            <div>
+                                <img src='/upload/<%=item%>' alt="">
+                            </div>
+                            <%})%>
+                    </div>
+                    <div class="prescription">
+                        <div style="font-weight: 600;">Một số bài thuốc có sử dụng dược liệu Ludwigia adcendens <a
+                                class="link-reference" href="">[1]</a>:</div>
+                        <ol>
+                            <%for(let i=0; i < data.prescription.length; i++){%>
+                                <li style="margin-top: 10px;">
+                                    <div style="font-style:italic">
+                                        <%-data.prescription[i][0]%>
+                                    </div>
+                                    <%for(let j=1; j < data.prescription[i].length; j++){%>
+                                        <div class="prescription-desc">
+                                            <%-data.prescription[i][j]%>
+                                        </div>
+                                        <%}%>
+                                </li>
+                                <%}%>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script>
+        const listTagA = document.getElementsByClassName('link-reference')
+        for (let index = 0; index < listTagA.length; index++) {
+            listTagA[index].setAttribute("target", "_blank")
+        }
+    </script>
+</body>
+
+</html>

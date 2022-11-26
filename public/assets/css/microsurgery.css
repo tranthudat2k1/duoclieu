@@ -1,0 +1,11 @@
+
+.content {
+  display: flex;
+  padding-top: 70px;
+}
+
+.content-desc {
+  padding: 8rem;
+  /* padding-left: 332px; */
+}
+
