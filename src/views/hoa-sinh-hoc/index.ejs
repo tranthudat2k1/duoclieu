@@ -31,22 +31,22 @@
             </tr>
             <% for(let i=0; i < result.length; i++) { %>
               <tr class="item">
-                <th colspan="6"><%=result[i].name %></th>
+                <th colspan="6"><%-result[i].name %></th>
               </tr>
               
               <% for(let j=0; j < result[i].data.length; j++) { %>
                 <tr>
-                <td class="hoat-chat"><%= result[i].data[j].hoatChat %></td>
-                <td class="phan-doan"><%= result[i].data[j].phanDoan %></td>
+                <td class="hoat-chat"><%- result[i].data[j].hoatChat %></td>
+                <td class="phan-doan"><%- result[i].data[j].phanDoan %></td>
                 <td class="tinh-chat">
                   <% for(let k=0; k < result[i].data[j].tinhChat.length; k++) { %>
-                    <p class="item-tinh-chat"><%= result[i].data[j].tinhChat[k] %></p>
+                    <p class="item-tinh-chat"><%- result[i].data[j].tinhChat[k] %></p>
                   <%}%>
                 </td>
                 <td>
                   <%if (result[i].data[j].pho[0] !== "1") {%>
                     <% for(let k=0; k < result[i].data[j].pho.length; k++) { %>
-                      <p><%= result[i].data[j].pho[k] %></p>
+                      <p><%- result[i].data[j].pho[k] %></p>
                     <%}%>
                   <%} else {%>          
                       <% for(let k=1; k < result[i].data[j].pho.length; k++) { %>
@@ -56,7 +56,7 @@
                             <div class="popup">
                               <%if (result[i].data[j].pho[k].text !== "") {%>
                                 <div class="popup-text">
-                                  <p><%= result[i].data[j].pho[k].text %></p>
+                                  <p><%- result[i].data[j].pho[k].text %></p>
                                 </div>                        
                                 <%}%>
                                 <%if (result[i].data[j].pho[k].img !== "") {%>
@@ -67,7 +67,7 @@
                             </div>
                           </div>
                           <%} else {%>
-                            <p><%= result[i].data[j].pho[k].name %></p>
+                            <p><%- result[i].data[j].pho[k].name %></p>
                           <%}%>
                       <%}%>
                     <%}%>
@@ -75,11 +75,12 @@
                 <td class="cau-truc">
                   <div class="bg-cau-truc"></div>
                   <img src="/upload/<%= result[i].data[j].cauTruc%>" class="img"/></td>
-                <td class="hoat-tinh"><%= result[i].data[j].hoatTinh%></td>
+                <td class="hoat-tinh"><%- result[i].data[j].hoatTinh%></td>
               </tr>
               <%}%>
-                <%}%>
-        </table>
+            <%}%>
+          </table>  
+      </div>
     </div>
     <script>
       const listNamePho = document.getElementsByClassName("container-popup")
@@ -96,6 +97,10 @@
       const listHoatTinh = document.getElementsByClassName("hoat-tinh")
       for (let index = 0; index < listHoatTinh.length; index++) {
         listCauTruc[index].style.height = `${listHoatTinh[index].offsetHeight}px`
+      }
+      const listTagA = document.getElementsByClassName('link-reference')
+      for (let index = 0; index < listTagA.length; index++) {
+        listTagA[index].setAttribute("target", "_blank")
       }
     </script>
   </body>
