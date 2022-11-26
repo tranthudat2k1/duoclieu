@@ -195,17 +195,17 @@ const biochemistry = [
         {
           name : "Phổ MS", 
           text : "",
-          img : "pho/Kaempfero/MS.jpeg"
+          img : "pho/Kaempfero/MS.jpg"
         },
         {
           name : "Phổ NMR", 
           text : "Phổ H^1 –NMR  của kaempferol",
-          img : "pho/Kaempfero/NMR.jpeg"
+          img : "pho/Kaempfero/NMR.jpg"
         },
         {
           name : "Phổ IR", 
           text : "",
-          img : "pho/Kaempfero/NMR.jpeg"
+          img : "pho/Kaempfero/IR.jpg"
         }
       ],
       cauTruc : "Kaempferol.jpg",
@@ -232,17 +232,17 @@ const biochemistry = [
         {
           name : "Phổ MS", 
           text : "",
-          img : "pho/Quercetin/MS.jpeg"
+          img : "pho/Quercetin/MS.jpg"
         },
         {
           name : "Phổ IR", 
           text : "",
-          img : "pho/Quercetin/IR.jpeg"
+          img : "pho/Quercetin/IR.jpg"
         },
         {
           name : "Phổ NMR", 
           text : "",
-          img : "pho/Kaempfero/NMR.jpeg"
+          img : ""
         }
       ],
       cauTruc :"Quercetin.jpg",

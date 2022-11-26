@@ -6,3 +6,7 @@ module.exports.get = (req, res, next) => {
     const data = require("../data")
     res.render("hoa-sinh-hoc/index.ejs", {result : data.biochemistry})
   }
+
+  module.exports.test = (req, res, next) => {
+    res.render("hoa-sinh-hoc/test.ejs")
+  }
