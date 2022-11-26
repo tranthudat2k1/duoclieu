@@ -54,6 +54,7 @@ body {
   border: 6px solid #cdac0b;
   border-radius: 1rem;
   cursor: pointer;
+  object-fit: cover;
 }
 
 .img-bottom {

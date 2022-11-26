@@ -16,10 +16,10 @@
   </head>
   <body>
     <div class="container">
-      <div class="left">
+      <%- include('../include/navbar.ejs',{title : "Hóa thực vật và <br>hoạt tính sinh học" }) %>
+      <div class="sidebar">
         <%- include('../include/sidebar.ejs')%></div>
       <div class="right">
-          <%- include('../include/navWithName.ejs',{title : "Hóa thực vật và hoạt tính sinh học"})%>
           <table>
             <tr>
               <th style="width:13%">Hoạt chất</th>

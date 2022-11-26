@@ -4,6 +4,8 @@
     flex-direction: row;
 }
 
+
+
 .search_form {
     /* width: 500px; */
     background-color: #94c2a7;
@@ -17,6 +19,7 @@
 }
 
 .sidebar {
+    position: fixed;
     flex-grow: 1;
 }
 
@@ -55,6 +58,7 @@
     flex-grow: 5;
     text-align: left;
     padding: 2rem 2rem 2rem ;
+    margin-left: 300px;
 }
 
 .navbar {
