@@ -1,0 +1,8 @@
+.content {
+  display: flex;
+  padding-top: 60px;
+}
+.sidebar {
+  position: fixed;
+  top: 60px;
+}
