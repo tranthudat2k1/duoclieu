@@ -4,39 +4,50 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
 .nav {
   padding: 1rem;
   background-color: #ffde59;
   font-size: 3.4rem;
   font-weight: 800;
-  color: #5ca278;
+  color: #527f64;
 }
+
 .content-item {
   display: none;
+  
 }
+
 .content-item.active {
   display: block;
   width: 88%;
+  height: 400px;
   padding: 2rem 1rem;
-  border: 6px solid #206b40;
+  border: 9px solid #206b40;
   border-radius: 1rem;
-  text-align: center;
+  text-align: justify;
   font-size: 1.4rem;
 }
+
 .container {
   padding: 4rem;
   display: flex;
   align-items: center;
 }
+
 .content {
+  position: relative;
   width: 60%;
 }
+
 .container-img {
   width: 40%;
 }
+
 .img-top {
   width: 100%;
 }
+
 .img-top img {
   width: calc(100% - 12px);
   height: 180px;
@@ -44,11 +55,13 @@ body {
   border-radius: 1rem;
   cursor: pointer;
 }
+
 .img-bottom {
   width: 100%;
   display: flex;
   justify-content: space-around;
 }
+
 .img-bottom img {
   width: 30%;
   height: 180px;

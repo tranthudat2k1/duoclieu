@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/distribution.css" />
+    <link rel="stylesheet" href="/font/Agrandir-WideBlackItalic.otf">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/22de35541d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <%- include('../include/navbar.ejs',{title : "Phân bố sinh thái" }) %>
+            <div class="content">
+                <div class="sidebar">
+                    <%- include('../include/sidebar.ejs') -%>
+                </div>
+                <div class="content-desc">
+                    <div id="text-div">
+                        <%- data%>
+                    </div>
+                    <div class="img">
+                        <img src="/upload/distribution.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+
+</html>

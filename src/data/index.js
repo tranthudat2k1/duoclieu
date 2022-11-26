@@ -1,120 +1,126 @@
 const description = [
   {
-    text: "L. hyssopifolia là cây thân thảo sống mọc dưới nước hoặc bán thủy sinh có vòng đời ngắn khoảng 1 năm. ",
+    text: "Cây thân thảo, mọc bò <sup>(hình 1)</sup>, nổi trên mặt nước nhờ có phao xốp hình trứng, màu trắng, mọc thành búi <sup>(hình 2, 3)</sup> <a class='link-reference' href=''>[1]</a>.",
     image: [
       {
         link: "1.jpg",
-        explain: "",
+        explain: "Hình 1",
         type: "1/3"
       },
       {
         link: "2.jpg",
-        explain: "",
+        explain: "Hình 2",
         type: "1/3"
       },
       {
         link: "3.jpg",
-        explain: "",
+        explain: "Hình 3",
         type: "1/3"
       }
     ],
-    explainAll: "Hình: Môi trường sống của loài L. hyssofolia"
+    explainAll: ""
   },
   {
-    text: "Rễ không đều có nhiều lông nhỏ giúp bám dính tốt ở môi trường đất ẩm ướt .",
+    text: "Thân hình trụ, mềm yếu, bén rễ ở các mấu <sup>(hình 4, 5)</sup> <a class='link-reference' href=''>[2]</a>.",
     image: [
       {
         link: "4.jpg",
-        explain: "",
-        type: "1/1"
-      }
-    ],
-    explainAll: "Hình: rễ cây nhiều lông nhỏ của loài L. hyssofolia"
-  },
-  {
-    text: "Thân cao thường từ 20-40 cm, mọc đứng, gốc thân xốp và có nhu mô, đôi khi trở nên hóa gỗ ở phần gốc. Thân và cành có 4 gờ lồi.",
-    image: [
-      {
-        link: "5.jpg",
-        explain: "Hình: Toàn cây loài L. hyssofolia",
-        type: "1/1"
+        explain: "Hình 4",
+        type: "1/2"
       },
       {
+        link: "5.jpg",
+        explain: "Hình 5",
+        type: "1/2"
+      }
+    ],
+    explainAll: ""
+  },
+  {
+    text: "Lá mọc so le <sup>(hình 6)</sup>, hình bầu dục, gốc thuôn, đầu tù, dài 4-6 cm, hai mặt nhẵn, mặt trên sẫm bóng, mặt dưới nhạt, cuống lá dài khoảng 1 cm <sup>(hình 7, 8)</sup> <a class='link-reference' href=''>[1]</a>, <a class='link-reference' href=''>[2]</a>",
+    image: [
+      {
         link: "6.jpg",
-        explain: "Hình: Nhu mô thân",
+        explain: "Hình 6",
         type: "1/3"
       },
       {
         link: "7.jpg",
-        explain: "Hình: Thân cây hóa gỗ ở gốc",
+        explain: "Hình 7",
         type: "1/3"
       },
       {
         link: "8.jpg",
-        explain: "Hình: gờ lồi thân",
+        explain: "Hình 8",
         type: "1/3"
       }
     ],
     explainAll: ""
   },
   {
-    text: "Lá mọc so le, hình mác gốc thuôn đầu nhọn, dài 4 -8 cm, rộng 1 - 2 cm. Lá có cuống rõ rệt, phiến lá hình bầu dục đến hình elip thường có từ 8 đến 9 cặp gân phụ, màu sẩm  ",
+    text: "Hoa mọc đơn độc ở kẽ lá, màu trắng, có cuống dài, lá bắc rất nhỏ, dạng vảy <sup>(hình 9, 10, 11)</sup> <a class='link-reference' href=''>[1]</a>, <a class='link-reference' href=''>[2]</a>",
     image: [
       {
         link: "9.jpg",
-        explain: "",
-        type: "1/2"
+        explain: "Hình 9",
+        type: "1/3"
       },
       {
         link: "10.jpg",
-        explain: "",
+        explain: "Hình 10",
+        type: "1/3"
+      },
+      {
+        link: "11.jpg",
+        explain: "Hình 11",
+        type: "1/3"
+      }
+    ],
+    explainAll: ""
+  },
+  {
+    text: "Đài dính với bầu, có 5 răng hình dài nhọn <sup>(hình 12, 13)</sup> <a class='link-reference' href=''>[2]</a>.",
+    image: [
+      {
+        link: "12.jpg",
+        explain: "Hình 12",
+        type: "1/2"
+      },
+      {
+        link: "13.jpg",
+        explain: "Hình 13",
         type: "1/2"
       }
     ],
     explainAll: ""
   },
   {
-    text: "Hoa mọc đơn độc ở kẽ lá, không cuống, màu vàng, lá bắc hình vảy, đài hoa hình ống trụ 4 phiến đều, tràng hoa 4 cánh hẹp",
+    text: "Tràng 5 cánh mỏng <sup>(hình 14)</sup>, hình bầu dục ngược, có vân <sup>(hình 15)</sup> <a class='link-reference' href=''>[1]</a>.",
     image: [
       {
-        link: "11.jpg",
-        explain: "",
-        type: "1/3"
-      },
-      {
-        link: "12.jpg",
-        explain: "",
-        type: "1/3"
-      },
-      {
-        link: "13.jpg",
-        explain: "",
-        type: "1/3"
-      },
-      {
         link: "14.jpg",
-        explain: "",
+        explain: "Hình 14",
         type: "1/2"
       },
       {
         link: "15.jpg",
-        explain: "",
+        explain: "Hình 15",
         type: "1/2"
       }
     ],
-    explainAll: "Hoa có 8 nhị, bao phấn hình mắt chim, bầu hạ có từ 4 đến 5 ô. (ảnh)  "
+    explainAll: ""
   },
   {
-    text: "Quả hình trụ nhẵn dài 1,5 đến 1,8 cm màu xanh sẫm gồm rất nhiều hạt. ",
+    text: "Nhị 10 xếp thành hai hàng, nhúng nhị ở phía ngoài ngắn hơn <sup>(hình 16)</sup>, chỉ nhị mảnh, bao phấn thuôn, bầu có 5 cạnh, có lông thưa nhiều noãn <sup>(hình 17)</sup>. Quả nang, hình trụ dài, có lông nhỏ, mở thành 5 mảnh; hạt nhiều, hình chữ nhật <a class='link-reference' href=''>[1]</a>.",
     image: [
       {
-        link: "14.jpg",
-        explain: "",
+        link: "16.jpg",
+        explain: "Hình 16",
         type: "1/2"
       },
       {
-        link: "15.jpg",
-        explain: "",
+        link: "17.jpg",
+        explain: "Hình 17",
         type: "1/2"
       }
     ],
@@ -123,33 +129,31 @@ const description = [
 ]
 
 const introduction = {
-  name: "Ludwigia hyssopifolia (G.Don) Exell",
+  name: "Ludwigia adscendens (L.) Hara",
   otherNames: [
-    "Fissendocarpa linifolia (Vahl) Bennet ",
-    "Jussiaea fissendocarpa Haines",
-    "Jussiaea hyssopifolia G.Don",
-    "Jussiaea linifolia Vahl",
-    "Jussiaea micrantha Kunze",
-    "Jussiaea weddelii Micheli",
-    "Ludwigia linifolia (Vahl) R.S.Rao",
-    "Ludwigia micrantha (Kunze) Hara",
+    "Jussiaea repens f. brevipes Domin",
+    "Jussiaea repens f. longipes Domin",
+    "Jussiaea repens subsp. glabrata Hassl",
+    "Jussiaea repens subsp. hirsuta Hassl",
+    "Jussiaea repens var. clarenciana H. Lév",
+    "Jussiaea repens var. grandiflora Hassl <a class='link-reference' href=''>[27]</a>",
   ],
-  vietnameseName: "Rau mương, đinh nam, nhớt mèo, cây xương cá, rau lục.",
+  vietnameseName: "Rau dừa nước, rau dừa trâu, thuy thái, thủy long, du long thái <a class='link-reference' href=''>[1]</a>",
   relationship: {
-    des1: "Rau dừa nước hoặc họ rau mương, còn gọi là họ Anh thảo chiều hay Nguyệt kiến thảo (Danh pháp khoa học: Onagraceae).",
-    des2: "Ludwigia hypssopifolia được (G. Don) Exell mô tả lần đầu tiên năm 1957 và được phân loại theo hệ thống của Takhtajan như sau [70] :",
+    des1: "Rau dừa nước hoặc họ rau mương, còn gọi là họ Anh thảo chiều hay Nguyệt kiến thảo (Danh pháp khoa học: Onagraceae) <a class='link-reference' href=''>[1]</a>",
+    des2: "Ludwigia adscendens được (L.) Hara mô tả lần đầu tiên năm 1953 và được phân loại theo hệ thống của Takhtajan như sau:",
     root: [
       {
         vn: "Giới thực vật",
         eng: "Plantae"
       },
       {
-        vn: "Lớp hai lá mầm",
-        eng: "Dicotyledoneae"
-      },
-      {
         vn: "Ngành Ngọc lan",
         eng: "Angiaspermae"
+      },
+      {
+        vn: "Lớp hai lá mần",
+        eng: "Dicotyledoneae"
       },
       {
         vn: "Bộ Sim",
@@ -161,11 +165,11 @@ const introduction = {
       },
       {
         vn: "Chi Rau mương",
-        eng: "Ludwigia Linn"
+        eng: "Ludwigia L."
       },
       {
         vn: "Loài",
-        eng: "Ludwigia hyssopifolia"
+        eng: "Ludwigia adscendens <a class='link-reference' href=''>[27]</a>"
       }
     ]
   }
@@ -653,30 +657,74 @@ const biochemistry = {
 
 const introCommon = [
   {
-    img : "intro-page1.jpeg",
-    text : "Công thức phân tử: C30H48O3 Khối lượng mol: 456,7 g/mol Tính chất: Chất rắn màu trắng hoặc trắng ngà.    Nhiệt độ điểm nóng chảy:  316 - 318 °C Nhiệt độ điểm sôi:  550,02 ° C Độ tan: 0,001607 mg/L trong nước ở 25 °C [31]",
-    id : 1
+    img: "intro-page1.jpeg",
+    text: "Công thức phân tử: C30H48O3 Khối lượng mol: 456,7 g/mol Tính chất: Chất rắn màu trắng hoặc trắng ngà.    Nhiệt độ điểm nóng chảy:  316 - 318 °C Nhiệt độ điểm sôi:  550,02 ° C Độ tan: 0,001607 mg/L trong nước ở 25 °C [31]",
+    id: 1
   },
   {
-    img : "intro-page2.jpg",
-    text : "Toàn cây Ludwigia adscendens được thu hái vào mùa thu, có thể dùng tươi hay phơi khô. Ludwigia adscendens được dùng chữa cảm sốt, ho khan, đái đục, phù thủng, lỵ ra máu [2]. Đắp ngoài, chữa sưng lở, vết thương, rắn cắn, bỏng. Cả cây Ludwigia adscendens giã nát với dầu thầu dầu rồi xát lên đầu chữa nấm tóc và một số bệnh da đầu khác.",
-    id : 2
+    img: "intro-page2.jpg",
+    text: "Toàn cây Ludwigia adscendens được thu hái vào mùa thu, có thể dùng tươi hay phơi khô. Ludwigia adscendens được dùng chữa cảm sốt, ho khan, đái đục, phù thủng, lỵ ra máu [2]. Đắp ngoài, chữa sưng lở, vết thương, rắn cắn, bỏng. Cả cây Ludwigia adscendens giã nát với dầu thầu dầu rồi xát lên đầu chữa nấm tóc và một số bệnh da đầu khác.",
+    id: 2
   },
   {
-    img : "intro-page3.jpeg",
-    text : "Một số bệnh viện đông y dược liệu Ludwigia adscendens để điều trị viêm bàng quang không do sỏi, lao bàng quang hoặc lao thận với những triệu chứng đái buốt, đái rắt, đái ra máu. Sau đó, đã mở rộng việc điều trị đái ra dưỡng trấp và huyết dưỡng trấp niệu mà không có ấu trùng giun chỉ trong máu. Thuốc không những làm hết dưỡng trấp mà còn hết cả albumin, hồng cầu, bạch cầu trong nước tiểu [1]. ",
-    id : 3
+    img: "intro-page3.jpeg",
+    text: "Một số bệnh viện đông y dược liệu Ludwigia adscendens để điều trị viêm bàng quang không do sỏi, lao bàng quang hoặc lao thận với những triệu chứng đái buốt, đái rắt, đái ra máu. Sau đó, đã mở rộng việc điều trị đái ra dưỡng trấp và huyết dưỡng trấp niệu mà không có ấu trùng giun chỉ trong máu. Thuốc không những làm hết dưỡng trấp mà còn hết cả albumin, hồng cầu, bạch cầu trong nước tiểu [1]. ",
+    id: 3
   },
   {
-    img : "intro-page4.jpg",
-    text : "Ở Việt Nam, Ludwigia adscendens (rau dừa nước) có thể gặp ở hầu hết các địa phương thuộc vùng đồng bằng trung du và miền núi thấp, cây thường mọc ở nơi đất ngập nước (ao, đầm, bờ rượng ẩm ướt) [2]. Nếu mọc ở nơi nước nông như ở ruộng nước, vũng lầy cây mọc thẳng. Khi nước dâng cao hay ở môi trường nước sâu như ao, hồ, kênh mương, cây nổi trên mặt nước nhờ hệ thống rễ phụ biến thành phao xốp. Rau dừa nước ra hoa quả hàng năm. Quả nang khi già sẽ tự mở, hạt phát tán nhờ nước. Vào mùa xuân hè, khi cây bị cắt, phần còn lại mọc ra nhiều chồi [1].",
-    id : 4
+    img: "intro-page4.jpg",
+    text: "Ở Việt Nam, Ludwigia adscendens (rau dừa nước) có thể gặp ở hầu hết các địa phương thuộc vùng đồng bằng trung du và miền núi thấp, cây thường mọc ở nơi đất ngập nước (ao, đầm, bờ rượng ẩm ướt) [2]. Nếu mọc ở nơi nước nông như ở ruộng nước, vũng lầy cây mọc thẳng. Khi nước dâng cao hay ở môi trường nước sâu như ao, hồ, kênh mương, cây nổi trên mặt nước nhờ hệ thống rễ phụ biến thành phao xốp. Rau dừa nước ra hoa quả hàng năm. Quả nang khi già sẽ tự mở, hạt phát tán nhờ nước. Vào mùa xuân hè, khi cây bị cắt, phần còn lại mọc ra nhiều chồi [1].",
+    id: 4
   },
 ]
+
+const microsurgery = {
+
+}
+
+const distribution = "Ở Việt Nam, <a style='font-style: italic;'>Ludwigia adscendens</a> (rau dừa nước)  <a class='link-reference' href=''>[1]</a> có thể gặp ở hầu hết các địa phương thuộc vùng đồng bằng trung du và miền núi thấp, cây thường mọc ở nơi đất ngập nước (ao, đầm, bờ rượng ẩm ướt) <a class='link-reference' href=''>[2]</a>. Nếu mọc ở nơi nước nông như ở ruộng nước, vũng lầy cây mọc thẳng. Khi nước dâng cao hay ở môi trường nước sâu như ao, hồ, kênh mương, cây nổi trên mặt nước nhờ hệ thống rễ phụ biến thành phao xốp. Rau dừa nước ra hoa quả hàng năm. Quả nang khi già sẽ tự mở, hạt phát tán nhờ nước. Vào mùa xuân hè, khi cây bị cắt, phần còn lại mọc ra nhiều chồi <a class='link-reference' href=''>[1]</a>."
+
+const uses = {
+  text: [
+    "Toàn cây Ludwigia adscendens được thu hái vào mùa thu, có thể dùng tươi hay phơi khô. Ludwigia adscendens được dùng chữa cảm sốt, ho khan, đái đục, phù thủng, lỵ ra máu <a class='link-reference' href=''>[2]</a>. Đắp ngoài, chữa sưng lở, vết thương, rắn cắn, bỏng. Cả cây Ludwigia adscendens giã nát với dầu thầu dầu rồi xát lên đầu chữa nấm tóc và một số bệnh da đầu khác.",
+    "Một số bệnh viện đông y dược liệu Ludwigia adscendens để điều trị viêm bàng quang không do sỏi, lao bàng quang hoặc lao thận với những triệu chứng đái buốt, đái rắt, đái ra máu. Sau đó, đã mở rộng việc điều trị đái ra dưỡng trấp và huyết dưỡng trấp niệu mà không có ấu trùng giun chỉ trong máu. Thuốc không những làm hết dưỡng trấp mà còn hết cả albumin, hồng cầu, bạch cầu trong nước tiểu <a class='link-reference' href=''>[1]</a>.",
+    "Mỗi ngày uống 10-20g, có thể đến 100g dược liệu khô. Dùng ngoài không kể liều lượng <a class='link-reference' href=''>[1]</a>."
+  ],
+  img: [
+    "adscemdens_uses.jpg",
+    "adscemdens_uses1.jpg"
+  ],
+  prescription: [
+    [
+      "Chữa đái ra dưỡng trấp, viêm cầu thận cấp và các loại đái đục:",
+      "Rau dừa nước 100-200g, sắc uống.",
+      "Rau dừa nước 30-40g, tua đa (phần non của rễ cây đa mọc ở cành rũ xuống), 20-30g, tỳ giải 15-20g, sắc uống."
+    ],
+    [
+      "Chữa vết thương phần mềm, ứ máu sưng tấy, mụn nhọt đơn độc, sưng lở:",
+      "Dùng trong: Rau dừa nước, vỏ thân cây gáo (lớp trắng ở trong), mỗi vị 30g, sắc uống.",
+      "Dùng ngoài: Rau dừa nước giã nhỏ chế ít giấm, đắp."
+    ],
+    [
+      "Chữa cảm sốt:",
+      "Rau dừa nước 30g, thài lài tía 10g, sắc uống."
+    ],
+    [
+      "Chữa vết thương sưng tấy, đơn độc, sang lở:",
+      "Rau dừa nước 30g, vỏ cây gáo (chỉ lấy vỏ trắng ở mặt trong) 30g, sắc uống."
+    ]
+  ]
+}
+
+const reference = {}
 
 module.exports = {
   description,
   introduction,
   biochemistry,
-  introCommon
+  introCommon,
+  microsurgery,
+  distribution,
+  uses,
+  reference
 }

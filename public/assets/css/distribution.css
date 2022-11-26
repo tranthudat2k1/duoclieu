@@ -1,0 +1,26 @@
+body {
+  overflow: hidden;
+}
+
+.sidebar {
+  position: fixed;
+  top: 71px;
+}
+
+.content {
+  display: flex;
+  padding-top: 70px;
+}
+
+.content-desc {
+  padding: 2rem 2rem 0 2rem;
+  padding-left: 332px;
+}
+
+.text-div {
+  text-align: justify;
+}
+
+.img {
+  text-align: center;
+}

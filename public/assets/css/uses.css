@@ -1,0 +1,44 @@
+.content {
+    display: flex;
+    padding-top: 110px;
+    margin-bottom: 40px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 110px;
+}
+
+.content-desc {
+    padding: 2rem 8rem 0 2rem;
+    padding-left: 332px;
+}
+
+.text div {
+    margin-bottom: 10px;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.imgs img {
+    width: 100%;
+    height: 100%;
+}
+
+.prescription ol {
+    padding-left: 30px;
+}
+
+.prescription-desc{
+    padding-left: 30px;
+    list-style-type: initial; 
+    display: list-item ;
+    list-style-position: inside
+}
