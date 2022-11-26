@@ -33,6 +33,12 @@
                 </div>
             </div>
     </div>
+    <script>
+        const listTagA = document.getElementsByClassName('link-reference')
+        for (let index = 0; index < listTagA.length; index++) {
+            listTagA[index].setAttribute("target", "_blank")
+        }
+    </script>
 </body>
 
 </html>

@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
-      rel="stylesheet" />
+        rel="stylesheet" />
     <link rel="stylesheet" href="/assets/css/home.css">
 
 </head>
@@ -39,6 +39,12 @@
         <img src="./upload/home.png" alt="">
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const listTagA = document.getElementsByClassName('link-reference')
+        for (let index = 0; index < listTagA.length; index++) {
+            listTagA[index].setAttribute("target", "_blank")
+        }
+    </script>
 </body>
 
 </html>

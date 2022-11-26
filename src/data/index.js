@@ -136,7 +136,7 @@ const introduction = {
     "Jussiaea repens subsp. glabrata Hassl",
     "Jussiaea repens subsp. hirsuta Hassl",
     "Jussiaea repens var. clarenciana H. Lév",
-    "Jussiaea repens var. grandiflora Hassl <a class='link-reference' href=''>[27]</a>",
+    "Jussiaea repens var. grandiflora Hassl <a class='link-reference' href='https://www.gbif.org/species/7322187'>[27]</a>",
   ],
   vietnameseName: "Rau dừa nước, rau dừa trâu, thuy thái, thủy long, du long thái <a class='link-reference' href=''>[1]</a>",
   relationship: {
@@ -169,7 +169,7 @@ const introduction = {
       },
       {
         vn: "Loài",
-        eng: "Ludwigia adscendens <a class='link-reference' href=''>[27]</a>"
+        eng: "Ludwigia adscendens <a class='link-reference' href='https://www.gbif.org/species/7322187'>[27]</a>"
       }
     ]
   }
@@ -179,7 +179,7 @@ const biochemistry = [
   {name : "Flavonoid",
   data : [
     {
-      hoatChat : "Kaempferol <a class='link-reference' href=''>[14]</a>",
+      hoatChat : "Kaempferol <a class='link-reference' href='https://doi.org/10.1080/14786410600943288'>[14]</a>",
       phanDoan : "ethyl acetate",
       tinhChat : [
         "Công thức phân tử :  C15H10O6",
@@ -187,7 +187,7 @@ const biochemistry = [
         "Tính chất:Chất rắn màu vàng.",
         "Nhiệt độ điểm nóng chảy: 285-287 °C",
         "Nhiệt độ điểm sôi:582,00 đến 583,00 °C",
-        "Độ tan: 440 mg/L trong nước ở 25 °C, hoạt chất tan trong benzene; ít tan trong chloroform; hòa tan trong acetic acid, dung dịch kiềm; rất tan trong ethanol, ethyl ether, acetone <a class='link-reference' href=''>[35]</a>."
+        "Độ tan: 440 mg/L trong nước ở 25 °C, hoạt chất tan trong benzene; ít tan trong chloroform; hòa tan trong acetic acid, dung dịch kiềm; rất tan trong ethanol, ethyl ether, acetone <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Kaempferol'>[35]</a>."
       ],
       pho : [
         "1",
@@ -213,10 +213,10 @@ const biochemistry = [
         }
       ],
       cauTruc : "Kaempferol.jpg",
-      hoatTinh : "Kaempferol có hoạt tính kháng ung thư giảm nguy cơ phát triển một số loại tế bào ung thư, bao gồm tế bào ung thư vú <a class='link-reference' href=''>[5]</a>,<a class='link-reference' href=''>[119]</a> tế bào ung thư não <a class='link-reference' href=''>[103]</a> tế bào ung thư da và ung thư gan <a class='link-reference' href=''>[17]</a>,  tế bào ung thư ruột kết <a class='link-reference' href=''>[148]</a>, <a class='link-reference' href=''>[74]</a>, tế bào ung thư tiền liệt tuyến <a class='link-reference' href=''>[132]</a> tế  bào ung thư tuyến tụy <a class='link-reference' href=''>[116]</a>, tế bào ung thư phổi <a class='link-reference' href=''>[165]</a>, <a class='link-reference' href=''>[93]</a>, tế bào ung thư thận, tế bào ung thư biểu mô ống thận <a class='link-reference' href=''>[164]</a>, tế bào ung thư cổ tử cung <a class='link-reference' href=''>[106]</a>, <a class='link-reference' href=''>[172]</a> ung thư tế bào buồn trứng <a class='link-reference' href=''>[26]</a>; kháng khuẩn <a class='link-reference' href=''>[84]</a>; chống viêm mạnh <a class='link-reference' href=''>[78]</a>, <a class='link-reference' href=''>[178]</a>; chống oxy hóa <a class='link-reference' href=''>[81]</a>, <a class='link-reference' href=''>[128]</a>; chống béo phì và ức chế quá trình tạo mỡ <a class='link-reference' href=''>[170]</a> <a class='link-reference' href=''>[176]</a>; bảo vệ thành mạch máu <a class='link-reference' href=''>[24]</a>, bảo vệ tim <a class='link-reference' href=''>[72]</a>, bảo vệ gan <a class='link-reference' href=''>[6]</a>, hỗ trợ điều trị đái tháo đường, ức chế tân tạo đường ở gan và tăng cường độ nhạy insulin <a class='link-reference' href=''>[59]</a>."
+      hoatTinh : "Kaempferol có hoạt tính kháng ung thư giảm nguy cơ phát triển một số loại tế bào ung thư, bao gồm tế bào ung thư vú <a class='link-reference' href='https://doi.org/10.1080/01635581.2015.1002625'>[5]</a>,<a class='link-reference' href='https://doi.org/10.1016/j.cbi.2018.02.022'>[119]</a> tế bào ung thư não <a class='link-reference' href='https://doi.org/10.1007/s11064-008-9868-5'>[103]</a> tế bào ung thư da và ung thư gan <a class='link-reference' href='https://doi.org/10.1080/01635581.2018.1460679'>[17]</a>,  tế bào ung thư ruột kết <a class='link-reference' href='https://doi.org/10.1038/s41598-018-36808-z'>[148]</a>, <a class='link-reference' href='https://doi.org/10.1021/acs.jafc.8b02656'>[74]</a>, tế bào ung thư tiền liệt tuyến <a class='link-reference' href='https://doi.org/10.1016/j.neo.2018.06.003'>[132]</a> tế  bào ung thư tuyến tụy <a class='link-reference' href='https://doi.org/10.1371/journal.pone.0155264'>[116]</a>, tế bào ung thư phổi <a class='link-reference' href='https://www.mdpi.com/2072-6643/9/6/597'>[165]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.biopha.2018.09.087'>[93]</a>, tế bào ung thư thận, tế bào ung thư biểu mô ống thận <a class='link-reference' href='https://link.springer.com/article/10.1007/s12272-018-1064-9'>[164]</a>, tế bào ung thư cổ tử cung <a class='link-reference' href='https://doi.org/10.1016/j.biopha.2017.02.061'>[106]</a>, <a class='link-reference' href='https://onlinelibrary.wiley.com/doi/abs/10.1002/sca.21312'>[172]</a> ung thư tế bào buồn trứng <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5669221/'>[26]</a>; kháng khuẩn <a class='link-reference' href='https://doi.org/10.1007/s00217-016-2650-z'>[84]</a>; chống viêm mạnh <a class='link-reference' href='https://doi.org/10.1016/j.phrs.2015.05.002'>[78]</a>, <a class='link-reference' href='https://www.mdpi.com/1420-3049/25/18/4073'>[178]</a>; chống oxy hóa <a class='link-reference' href='https://doi.org/10.1155/2018/1610751'>[81]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.ejmech.2016.02.045'>[128]</a>; chống béo phì và ức chế quá trình tạo mỡ <a class='link-reference' href='https://link.springer.com/article/10.1007/s13105-018-0659-4'>[170]</a> <a class='link-reference' href='https://www.hindawi.com/journals/bmri/2020/4532482/'>[176]</a>; bảo vệ thành mạch máu <a class='link-reference' href='https://doi.org/10.3389/fphar.2020.01118'>[24]</a>, bảo vệ tim <a class='link-reference' href='https://doi.org/10.1007/s12020-018-1525-4'>[72]</a>, bảo vệ gan <a class='link-reference' href='https://doi.org/10.1080/13880209.2021.1877734'>[6]</a>, hỗ trợ điều trị đái tháo đường, ức chế tân tạo đường ở gan và tăng cường độ nhạy insulin <a class='link-reference' href='https://doi.org/10.1016/j.jnutbio.2018.04.014'>[59]</a>."
     },
     {
-      hoatChat :"Quercetin <a class='link-reference' href=''>[158]</a>",
+      hoatChat :"Quercetin <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan :"hexane",
       tinhChat :[
         "Công thức phân tử: C15H10O7",
@@ -224,7 +224,7 @@ const biochemistry = [
         "Tính chất: Dạng rắn, kết tinh hình kim màu vàng, có tính ổn định và bền với nhiệt",
         "Nhiệt độ điểm nóng chảy: 316-318 °C",
         "Nhiệt độ điểm sôi: 642,00 °C đến 643,00 °C",
-        "Độ tan: 0,06 mg/mL trong nước ở 16 °C , hoạt chất rất tan trong ether, methanol; tan trong ethanol,acetone, pyridine, acetic acid <a class='link-reference' href=''>[44]</a>",
+        "Độ tan: 0,06 mg/mL trong nước ở 16 °C , hoạt chất rất tan trong ether, methanol; tan trong ethanol,acetone, pyridine, acetic acid <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Quercetin'>[44]</a>",
       ],
       pho : [
         "1",
@@ -250,15 +250,15 @@ const biochemistry = [
         }
       ],
       cauTruc :"Quercetin.jpg",
-      hoatTinh :"Quercetin  có hoạt tính chống ung thư <a class='link-reference' href=''>[145]</a>, <a class='link-reference' href=''>[65]</a> (tế bào ung thư vú <a class='link-reference' href=''>[85]</a>, tế bào ung thư dạ dày <a class='link-reference' href=''>[120]</a>, tế bào ung thư gan <a class='link-reference' href=''>[193]</a>,…); kháng viêm <a class='link-reference' href=''>[91]</a>, <a class='link-reference' href=''>[151]</a>, <a class='link-reference' href=''>[121]</a>; kháng khuẩn <a class='link-reference' href=''>[102]</a>, <a class='link-reference' href=''>[91]</a>, <a class='link-reference' href=''>[137]</a>; kháng virus <a class='link-reference' href=''>[133]</a>, <a class='link-reference' href=''>[149]</a>; chống oxy hóa <a class='link-reference' href=''>[121]</a>, <a class='link-reference' href=''>[62]</a>."
+      hoatTinh :"Quercetin  có hoạt tính chống ung thư <a class='link-reference' href='https://doi.org/10.1002/ptr.6155'>[145]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.biopha.2018.07.106'>[65]</a> (tế bào ung thư vú <a class='link-reference' href='https://doi.org/10.1016/j.lfs.2020.117463'>[85]</a>, tế bào ung thư dạ dày <a class='link-reference' href='https://doi.org/10.1016/j.jnutbio.2017.09.011'>[120]</a>, tế bào ung thư gan <a class='link-reference' href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172838'>[193]</a>,…); kháng viêm <a class='link-reference' href='https://doi.org/10.1016/j.ejphar.2019.172486'>[91]</a>, <a class='link-reference' href='https://link.springer.com/article/10.1186/s12950-021-00268-6'>[151]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.jff.2017.10.047'>[121]</a>; kháng khuẩn <a class='link-reference' href='https://doi.org/10.4081/mr.2017.6877'>[102]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.ejphar.2019.172486'>[91]</a>, <a class='link-reference' href='https://doi.org/10.3390/molecules27082494'>[137]</a>; kháng virus <a class='link-reference' href='https://doi.org/10.3390/biom11010010'>[133]</a>, <a class='link-reference' href='https://doi.org/10.1038/srep31777'>[149]</a>; chống oxy hóa <a class='link-reference' href='https://doi.org/10.1016/j.jff.2017.10.047'>[121]</a>, <a class='link-reference' href='https://doi.org/10.3390/biomimetics2030009'>[62]</a>."
     },
     {
-      hoatChat : "Dihydroquercetin <a class='link-reference' href=''>[158]</a>",
+      hoatChat : "Dihydroquercetin <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan: "hexane",
       tinhChat :[
         "Công thức phân tử: C15 H12O7",
         "Khối lượng mol: 304,25 g/mol",
-        "Tính chất: : Bột màu trắng đến nâu nhạt <a class='link-reference' href=''>[32]</a>",
+        "Tính chất: : Bột màu trắng đến nâu nhạt <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Taxifolin'>[32]</a>",
       ],
       pho : [
         "Phổ UV",
@@ -267,10 +267,10 @@ const biochemistry = [
         "Phổ NMR"
       ],
       cauTruc :"Dihydroquercetin.jpg",
-      hoatTinh :"Dihydroquercetin có hoạt tính chống oxy hóa mạnh <a class='link-reference' href=''>[161]</a>, <a class='link-reference' href=''>[73]</a>, <a class='link-reference' href=''>[173]</a>, <a class='link-reference' href=''>[113]</a>; chống viêm <a class='link-reference' href=''>[139]</a>, <a class='link-reference' href=''>[140]</a>; chống  ung  thư (tế bào ung thư xương <a class='link-reference' href=''>[71]</a> tế bào ung thư vú <a class='link-reference' href=''>[94]</a>); bảo vệ hệ tim mạch và tế bào gan <a class='link-reference' href=''>[184]</a>; bảo vệ tế bào thần kinh <a class='link-reference' href=''>[173]</a>"
+      hoatTinh :"Dihydroquercetin có hoạt tính chống oxy hóa mạnh <a class='link-reference' href='https://www.mdpi.com/2076-3921/10/8/1262'>[161]</a>, <a class='link-reference' href='https://doi.org/10.3390/ijms17121986'>[73]</a>, <a class='link-reference' href='https://pubmed.ncbi.nlm.nih.gov/30776416/'>[173]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.jddst.2021.102486'>[113]</a>; chống viêm <a class='link-reference' href='https://doi.org/10.1016/j.intimpp.2019.03.038'>[139]</a>, <a class='link-reference' href='https://doi.org/10.1007/s10787-022-01014-x'>[140]</a>; chống  ung  thư (tế bào ung thư xương <a class='link-reference' href='https://doi.org/10.3892/mmr.2017.8271'>[71]</a> tế bào ung thư vú <a class='link-reference' href='https://doi.org/10.1016/j.biopha.2018.05.114'>[94]</a>); bảo vệ hệ tim mạch và tế bào gan <a class='link-reference' href='https://www.mdpi.com/2072-6643/11/11/2655'>[184]</a>; bảo vệ tế bào thần kinh <a class='link-reference' href='https://pubmed.ncbi.nlm.nih.gov/30776416/'>[173]</a>"
     },
     {
-      hoatChat: "Afzelin ",
+      hoatChat: "Afzelin <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan :"hexane",
       tinhChat :[
         "Công thức phân tử: C21H20O10",
@@ -283,10 +283,10 @@ const biochemistry = [
         "Phổ NMR"
       ],
       cauTruc :"Afzelin.jpg",
-      hoatTinh :"Afzelin có hoạt kháng viêm <a class='link-reference' href=''>[110]</a>; chống ung thư ( tế bào ung thư dạ dày <a class='link-reference' href=''>[142]</a>, tế bào ung thư vú <a class='link-reference' href=''>[16]</a>); chống oxy hóa <a class='link-reference' href=''>[54]</a>; bảo vệ tế bào gan và cải thiện suy gan <a class='link-reference' href=''>[118]</a>, bảo vệ thận <a class='link-reference' href=''>[70]</a>, bảo vệ tế bào da chống lại tổn thương do tia cực tím <a class='link-reference' href=''>[159]</a>."
+      hoatTinh :"Afzelin có hoạt kháng viêm <a class='link-reference' href='https://doi.org/10.3892/ijmm.2019.4162'>[110]</a>; chống ung thư ( tế bào ung thư dạ dày <a class='link-reference' href='https://doi.org/10.3390/ph14100973'>[142]</a>, tế bào ung thư vú <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7710241/'>[16]</a>); chống oxy hóa <a class='link-reference' href='https://doi.org/10.1186/s12906-022-03633-x'>[54]</a>; bảo vệ tế bào gan và cải thiện suy gan <a class='link-reference' href='https://doi.org/10.1111/bph.13669'>[118]</a>, bảo vệ thận <a class='link-reference' href='https://doi.org/10.1021/acs.jnatprod.0c00274'>[70]</a>, bảo vệ tế bào da chống lại tổn thương do tia cực tím <a class='link-reference' href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061971'>[159]</a>."
     },
     {
-      hoatChat : "Quercitrin <a class='link-reference' href=''>[158]</a>",
+      hoatChat : "Quercitrin <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan :"hexane",
       tinhChat :[
         "Công thức phân tử: C21H20O11",
@@ -294,7 +294,7 @@ const biochemistry = [
         "Tính chất: Chất rắn màu vàng",
         "Nhiệt độ điểm nóng chảy: 176-179°C",
         "Nhiệt độ điểm sôi: 813,97°C",
-        "Độ tan: 0,064 mg/mL trong nước ở 16°C <a class='link-reference' href=''>[33]</a>",
+        "Độ tan: 0,064 mg/mL trong nước ở 16°C <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Quercitrin'>[33]</a>",
       ],
       pho : [
         "Phổ UV",
@@ -303,10 +303,10 @@ const biochemistry = [
         "Phổ NMR"
       ],
       cauTruc :"Quercitrin.jpg",
-      hoatTinh :"Quercitrin có hoạt tính chống oxy hóa <a class='link-reference' href=''>[124]</a>, <a class='link-reference' href=''>[191]</a>; kháng viêm <a class='link-reference' href=''>[89]</a>; hạn chế sự di căn và xâm lấn của những tế bào ung thư (tế bào ung thư biểu mô phổi <a class='link-reference' href=''>[12]</a>, tế bào ung thư ruột kết <a class='link-reference' href=''>[171]</a>); bảo vệ thành mạch máu <a class='link-reference' href=''>[150]</a>; cải thiện tình trạng tăng lipid máu <a class='link-reference' href=''>[101]</a>."
+      hoatTinh :"Quercitrin có hoạt tính chống oxy hóa <a class='link-reference' href='https://doi.org/10.3390/molecules21091246'>[124]</a>, <a class='link-reference' href='https://link.springer.com/article/10.1007/s10456-016-9504-y'>[191]</a>; kháng viêm <a class='link-reference' href='https://doi.org/10.1016/j.jare.2020.06.020'>[89]</a>; hạn chế sự di căn và xâm lấn của những tế bào ung thư (tế bào ung thư biểu mô phổi <a class='link-reference' href='https://doi.org/10.1080/21655979.2022.2037372'>[12]</a>, tế bào ung thư ruột kết <a class='link-reference' href='https://www.mdpi.com/1424-8247/15/3/364'>[171]</a>); bảo vệ thành mạch máu <a class='link-reference' href='https://pubs.rsc.org/en/content/articlelanding/2017/fo/c7fo00755h/unauth'>[150]</a>; cải thiện tình trạng tăng lipid máu <a class='link-reference' href='https://doi.org/10.3390/life10100243'>[101]</a>."
     },
     {
-      hoatChat :"Myricitrin <a class='link-reference' href=''>[158]</a>",
+      hoatChat :"Myricitrin <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan :"methanol",
       tinhChat :[
         "Công thức phân tử: C21H20O12",
@@ -314,7 +314,7 @@ const biochemistry = [
         "Tính chất: Chất rắn màu trắng đến vàng nhạt và có mùi thơm nhẹ.",
         "Nhiệt độ điểm nóng chảy: 197 °C",
         "Nhiệt độ điểm sôi: ",
-        "Độ tan: hoạt chất không tan trong nước, hơi tan trong ethanol <a class='link-reference' href=''>[37]</a>",
+        "Độ tan: hoạt chất không tan trong nước, hơi tan trong ethanol <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Myricitrin'>[37]</a>",
       ],
       pho : [
         "Phổ UV",
@@ -323,10 +323,10 @@ const biochemistry = [
         "Phổ NMR"
       ],
       cauTruc : "Myricitrin.jpg",
-      hoatTinh :"Myricitrin có hoạt tính kháng virus <a class='link-reference' href=''>[87]</a>; chống oxy hóa <a class='link-reference' href=''>[50]</a>, <a class='link-reference' href=''>[49]</a>; chống trầm cảm <a class='link-reference' href=''>[134]</a>; chống đái tháo đường <a class='link-reference' href=''>[50]</a>, <a class='link-reference' href=''>[11]</a>; bảo vệ gan hạn chế tổn thương gan do thiếu máu cục bộ <a class='link-reference' href=''>[157]</a>, bảo vệ tế bào thần kinh <a class='link-reference' href=''>[185]</a>, bảo vệ tế bào cơ tim <a class='link-reference' href=''>[168]</a>, bảo vệ thận <a class='link-reference' href=''>[123]</a>; cải thiện tình trạng tăng đường huyết do không dung nạp glucose, gan nhiễm mỡ và viêm ở chuột thử nghiệm <a class='link-reference' href=''>[109]</a>; hạn chế hình thành huyết khối <a class='link-reference' href=''>[95]</a>; chống xơ vữa động mạch và chống tăng lipid máu <a class='link-reference' href=''>[87]</a>."
+      hoatTinh :"Myricitrin có hoạt tính kháng virus <a class='link-reference' href='https://doi.org/10.1186/s13568-019-0924-0'>[87]</a>; chống oxy hóa <a class='link-reference' href='https://doi.org/10.1155/2018/7496936'>[50]</a>, <a class='link-reference' href='https://doi.org/10.1007/s12192-018-0888-z'>[49]</a>; chống trầm cảm <a class='link-reference' href='https://doi.org/10.1016/j.bbr.2016.08.048'>[134]</a>; chống đái tháo đường <a class='link-reference' href='https://doi.org/10.1155/2018/7496936'>[50]</a>, <a class='link-reference' href='https://doi.org/10.1080/14756366.2020.1754813'>[11]</a>; bảo vệ gan hạn chế tổn thương gan do thiếu máu cục bộ <a class='link-reference' href='https://www.sciencedirect.com/science/article/pii/S1567576920306883'>[157]</a>, bảo vệ tế bào thần kinh <a class='link-reference' href='https://www.sciencedirect.com/science/article/pii/S0165572819302231'>[185]</a>, bảo vệ tế bào cơ tim <a class='link-reference' href='https://www.hindawi.com/journals/ecam/2016/6093783/'>[168]</a>, bảo vệ thận <a class='link-reference' href='https://doi.org/10.1007/s11255-019-02334-8'>[123]</a>; cải thiện tình trạng tăng đường huyết do không dung nạp glucose, gan nhiễm mỡ và viêm ở chuột thử nghiệm <a class='link-reference' href='https://doi.org/10.3390/ijms21051870'>[109]</a>; hạn chế hình thành huyết khối <a class='link-reference' href='https://doi.org/10.3390/ijms21051870'>[95]</a>; chống xơ vữa động mạch và chống tăng lipid máu <a class='link-reference' href='https://doi.org/10.1186/s13568-019-0924-0'>[87]</a>."
     },
     {
-      hoatChat : "Avicularin 2″-(4′″-O-n-pentanoyl)-gallate <a class='link-reference' href=''>[14]</a>",
+      hoatChat : "Avicularin 2″-(4′″-O-n-pentanoyl)-gallate <a class='link-reference' href='https://doi.org/10.1080/14786410600943288'>[14]</a>",
       phanDoan :"ethyl acetate",
       tinhChat :[],
       pho : [
@@ -339,7 +339,7 @@ const biochemistry = [
       hoatTinh :"Chưa được công bố"
     },
     {
-      hoatChat :"Trifolin 2’’-O-gallate <a class='link-reference' href=''>[14]</a>",
+      hoatChat :"Trifolin 2’’-O-gallate <a class='link-reference' href='https://doi.org/10.1080/14786410600943288'>[14]</a>",
       phanDoan :"ethyl acetate",
       tinhChat :[],
       pho : [
@@ -352,11 +352,11 @@ const biochemistry = [
       hoatTinh :"Chưa được công bố"
     },
     {
-      hoatChat : "Guaijaverin <a class='link-reference' href=''>[14]</a>",
+      hoatChat : "Guaijaverin <a class='link-reference' href='https://doi.org/10.1080/14786410600943288'>[14]</a>",
       phanDoan :"ethyl acetate",
       tinhChat :[
         "Công thức phân tử:  C20H18O11",
-        "Khối lượng mol:  434,3 g/mol <a class='link-reference' href=''>[45]</a>"
+        "Khối lượng mol:  434,3 g/mol <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Guaijaverin'>[45]</a>"
       ],
       pho : [
         "Phổ UV",
@@ -368,12 +368,12 @@ const biochemistry = [
       hoatTinh :"Chưa được công bố."
     },
     {
-      hoatChat : "Reynoutrin <a class='link-reference' href=''>[14]</a>",
+      hoatChat : "Reynoutrin <a class='link-reference' href='https://doi.org/10.1080/14786410600943288'>[14]</a>",
       phanDoan :"ethyl acetate",
       tinhChat :[
         "Công thức phân tử: C20H18O11",
         "Khối lượng mol: 434,3 g/mol",
-        "Nhiệt độ điểm nóng chảy: 201-203 ℃ <a class='link-reference' href=''>[40]</a>",
+        "Nhiệt độ điểm nóng chảy: 201-203 ℃ <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Reynoutrin'>[40]</a>",
       ],
       pho : [
         "Phổ UV",
@@ -382,14 +382,14 @@ const biochemistry = [
         "Phổ NMR"
       ],
       cauTruc : "Reynoutrin.jpg",
-      hoatTinh :"Reynoutrin có hoạt tính giúp cải thiện bệnh suy tim do thiếu máu cục bộ <a class='link-reference' href=''>[23]</a>; điều hòa miễn dịch và chống lại tế bào ung thư bạch cầu <a class='link-reference' href=''>[47]</a>."
+      hoatTinh :"Reynoutrin có hoạt tính giúp cải thiện bệnh suy tim do thiếu máu cục bộ <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8343003/'>[23]</a>; điều hòa miễn dịch và chống lại tế bào ung thư bạch cầu <a class='link-reference' href='https://doi.org/10.1016/j.bfopcu.2018.06.001'>[47]</a>."
     },
     {
-      hoatChat :"Juglanin <a class='link-reference' href=''>[14]</a>",
+      hoatChat :"Juglanin <a class='link-reference' href='https://doi.org/10.1080/14786410600943288'>[14]</a>",
       phanDoan :"ethyl acetate",
       tinhChat :[
         "Công thức phân tử: C20H18O10",
-        "Khối lượng mol: 418,3 g/mol <a class='link-reference' href=''>[39]</a>"
+        "Khối lượng mol: 418,3 g/mol <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Juglanin'>[39]</a>"
       ],
       pho : [
         "Phổ UV",
@@ -398,10 +398,10 @@ const biochemistry = [
         "Phổ NMR"
       ],
       cauTruc :"Juglanin.jpg",
-      hoatTinh :"Juglanin gây ra quá trình apoptosis và autophagy ức chế sự phát triển của tế bào ung thư vú <a class='link-reference' href=''>[169]</a> và ung thư phổi <a class='link-reference' href=''>[7]</a>;  kháng viêm <a class='link-reference' href=''>[8]</a>, <a class='link-reference' href=''>[80]</a>; chống oxy hóa <a class='link-reference' href=''>[147]</a>; bảo vệ phổi, giúp ngăn ngăn ngừa xơ hóa phổi <a class='link-reference' href=''>[80]</a>; bảo vệ gan <a class='link-reference' href=''>[192]</a>, bảo vệ da chống lại tổn thương do UVB <a class='link-reference' href=''>[21]</a>, bảo vệ não trong bệnh thiếu máu cục bộ não <a class='link-reference' href=''>[13]</a>, bảo vệ thận <a class='link-reference' href=''>[122]</a>; ngoài ra, Juglanin ức chế quá trình tạo mỡ ngắn ngừa bệnh béo phì <a class='link-reference' href=''>[21]</a>."
+      hoatTinh :"Juglanin gây ra quá trình apoptosis và autophagy ức chế sự phát triển của tế bào ung thư vú <a class='link-reference' href='https://www.sciencedirect.com/science/article/abs/pii/S0753332216309891'>[169]</a> và ung thư phổi <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5706842/'>[7]</a>;  kháng viêm <a class='link-reference' href='https://doi.org/10.1080/21691401.2019.1657877'>[8]</a>, <a class='link-reference' href='https://doi.org/10.3892/ijmm.2018.3554'>[80]</a>; chống oxy hóa <a class='link-reference' href='https://doi.org/10.1016/j.jff.2022.105263'>[147]</a>; bảo vệ phổi, giúp ngăn ngăn ngừa xơ hóa phổi <a class='link-reference' href='https://doi.org/10.3892/ijmm.2018.3554'>[80]</a>; bảo vệ gan <a class='link-reference' href='https://www.sciencedirect.com/science/article/abs/pii/S0753332216302852'>[192]</a>, bảo vệ da chống lại tổn thương do UVB <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7719332/'>[21]</a>, bảo vệ não trong bệnh thiếu máu cục bộ não <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7415453/'>[13]</a>, bảo vệ thận <a class='link-reference' href='https://doi.org/10.1016/j.intimpp.2020.107340'>[122]</a>; ngoài ra, Juglanin ức chế quá trình tạo mỡ ngắn ngừa bệnh béo phì <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7719332/'>[21]</a>."
     },
     {
-      hoatChat :"Avicularin <a class='link-reference' href=''>[14]</a>",
+      hoatChat :"Avicularin <a class='link-reference' href='https://doi.org/10.1080/14786410600943288'>[14]</a>",
       phanDoan :"ethyl acetate",
       tinhChat :[
         "Công thức phân tử: C20H18O11",
@@ -415,10 +415,10 @@ const biochemistry = [
         "Phổ NMR"
       ],
       cauTruc :"Avicularin1.jpg",
-      hoatTinh : "Avicularin có hoạt tính giúp cải thiện ung thư biểu mô tế bào gan <a class='link-reference' href=''>[177]</a>, giúp đảo ngược tình trạng đa kháng thuốc ở bệnh ung thư dạ dày <a class='link-reference' href=''>[90]</a>; cải thiện đái tháo đường type 2 <a class='link-reference' href=''>[196]</a>; kháng viêm <a class='link-reference' href=''>[25]</a> <a class='link-reference' href=''>[174]</a>; chống oxy hóa <a class='link-reference' href=''>[25]</a> <a class='link-reference' href=''>[117]</a>; bảo vệ gan <a class='link-reference' href=''>[141]</a>, <a class='link-reference' href=''>[195]</a>."
+      hoatTinh : "Avicularin có hoạt tính giúp cải thiện ung thư biểu mô tế bào gan <a class='link-reference' href='https://www.spandidos-publications.com/10.3892/mmr.2019.10198'>[177]</a>, giúp đảo ngược tình trạng đa kháng thuốc ở bệnh ung thư dạ dày <a class='link-reference' href='https://doi.org/10.1016/j.jare.2020.06.020'>[90]</a>; cải thiện đái tháo đường type 2 <a class='link-reference' href='https://faseb.onlinelibrary.wiley.com/doi/abs/10.1096/fasebj.31.1_supplement.46.7'>[196]</a>; kháng viêm <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7278328/'>[25]</a> <a class='link-reference' href='https://link.springer.com/article/10.1007/s42250-022-00413-5'>[174]</a>; chống oxy hóa <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7278328/'>[25]</a> <a class='link-reference' href='https://doi.org/10.1016/j.jiec.2018.11.018'>[117]</a>; bảo vệ gan <a class='link-reference' href='https://doi.org/10.3390/nu14224806'>[141]</a>, <a class='link-reference' href='https://www.sciencedirect.com/science/article/abs/pii/S2212429219302007'>[195]</a>."
     },
     {
-      hoatChat :"Hyperin <a class='link-reference' href=''>[14]</a>",
+      hoatChat :"Hyperin <a class='link-reference' href='https://doi.org/10.1080/14786410600943288'>[14]</a>",
       phanDoan :"ethyl acetate",
       tinhChat :[
         "Công thức phân tử: C20H18O12",
@@ -426,7 +426,7 @@ const biochemistry = [
         "Tính chất: Chất rắn màu vàng nhạt đến vàng",
         "Nhiệt độ điểm nóng chảy: 232 - 233 °C",
         "Nhiệt độ điểm sôi: 872,63 °C ",
-        "Độ tan: 27,82 mg/mL nước ở 25 °C <a class='link-reference' href=''>[36]</a>",
+        "Độ tan: 27,82 mg/mL nước ở 25 °C <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Hyperoside'>[36]</a>",
       ],
       pho :[
         "Phổ UV",
@@ -435,16 +435,16 @@ const biochemistry = [
         "Phổ NMR"
       ],
       cauTruc :"Hyperin.jpg",
-      hoatTinh :"Hoạt chất đã được chứng minh có những hoạt tính sinh học như chống oxy hóa <a class='link-reference' href=''>[100]</a>; chống viêm <a class='link-reference' href=''>[100]</a>; tăng độ nhạy của dòng tế bào ung thư ruột kết <a class='link-reference' href=''>[22]</a>;  bảo vệ thận <a class='link-reference' href=''>[9]</a>;bảo vệ phổi <a class='link-reference' href=''>[99]</a> và bảo vệ tế bào hạt ở buồng trứng <a class='link-reference' href=''>[188]</a> ."
+      hoatTinh :"Hoạt chất đã được chứng minh có những hoạt tính sinh học như chống oxy hóa <a class='link-reference' href='https://doi.org/10.1111/1750-3841.13706'>[100]</a>; chống viêm <a class='link-reference' href='https://doi.org/10.1111/1750-3841.13706'>[100]</a>; tăng độ nhạy của dòng tế bào ung thư ruột kết <a class='link-reference' href='https://europepmc.org/article/med/29739100'>[22]</a>;  bảo vệ thận <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5347717/'>[9]</a>;bảo vệ phổi <a class='link-reference' href='https://doi.org/10.1016/j.micpath.2018.11.048'>[99]</a> và bảo vệ tế bào hạt ở buồng trứng <a class='link-reference' href='https://www.hindawi.com/journals/ecam/2021/9399261/'>[188]</a> ."
     },
     {
-      hoatChat :"Trifolin <a class='link-reference' href=''>[14]</a>",
+      hoatChat :"Trifolin <a class='link-reference' href='https://doi.org/10.1080/14786410600943288'>[14]</a>",
       phanDoan :"ethyl acetate",
       tinhChat :[
         "Công thức phân tử: C21H20O11",
         "Khối lượng mol: 448,4 g/mol",
         "Tính chất: Chất rắn",
-        "Nhiệt độ điểm nóng chảy: 235 °C <a class='link-reference' href=''>[38]</a>",
+        "Nhiệt độ điểm nóng chảy: 235 °C <a class='link-reference' href=' https://pubchem.ncbi.nlm.nih.gov/compound/Trifolin'>[38]</a>",
       ],
       pho :[
         "Phổ UV",
@@ -453,10 +453,10 @@ const biochemistry = [
         "Phổ NMR"
       ],
       cauTruc :"Trifolin1.jpg",
-      hoatTinh :"Trifolin (kaempferol-3-O-galactoside) là một flavonol liên hợp với galactose có hoạt tính chống ung thư phổi ở người thông qua cơ chế apoptosis <a class='link-reference' href=''>[111]</a>."
+      hoatTinh :"Trifolin (kaempferol-3-O-galactoside) là một flavonol liên hợp với galactose có hoạt tính chống ung thư phổi ở người thông qua cơ chế apoptosis <a class='link-reference' href='https://doi.org/10.1016/j.phymed.2016.05.009'>[111]</a>."
     },
     {
-      hoatChat : "Hyperin 2’’-O-gallate <a class='link-reference' href=''>[14]</a>",
+      hoatChat : "Hyperin 2’’-O-gallate <a class='link-reference' href='https://doi.org/10.1080/14786410600943288'>[14]</a>",
       phanDoan :"ethyl acetate",
       tinhChat :[],
       pho :[
@@ -469,14 +469,14 @@ const biochemistry = [
       hoatTinh :"Chưa được công bố."
     },
     {
-      hoatChat:"Rutin <a class='link-reference' href=''>[14]</a>",
+      hoatChat:"Rutin <a class='link-reference' href='https://doi.org/10.1080/14786410600943288'>[14]</a>",
       phanDoan: "ethyl acetate",
       tinhChat :[
         "Công thức phân tử: C27H30O16",
         "Khối lượng mol: 610,5 g/mol",
         "Tính chất: Chất rắn màu vàng đến xanh lục",
         "Nhiệt độ điểm nóng chảy: 125 °C",
-        "Độ tan: 0,125 mg/mL <a class='link-reference' href=''>[34]</a>",
+        "Độ tan: 0,125 mg/mL <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Rutin'>[34]</a>",
       ],
       pho :[
         "Phổ UV",
@@ -485,20 +485,20 @@ const biochemistry = [
         "Phổ NMR"
       ],
       cauTruc :"Rutin.jpg",
-      hoatTinh :"Rutin đã có hoạt tính chống oxy hóa <a class='link-reference' href=''>[83]</a>; chống viêm <a class='link-reference' href=''>[76]</a>, <a class='link-reference' href=''>[15]</a>, <a class='link-reference' href=''>[77]</a>;kháng khuẩn <a class='link-reference' href=''>[136]</a>; kháng virus <a class='link-reference' href=''>[143]</a> <a class='link-reference' href=''>[46]</a>; chống ung thư <a class='link-reference' href=''>[153]</a>, <a class='link-reference' href=''>[67]</a>; hỗ trợ điều trị trị đái tháo đường <a class='link-reference' href=''>[51]</a>; bảo vệ tim <a class='link-reference' href=''>[162]</a>; bảo vệ hệ thần kinh <a class='link-reference' href=''>[83]</a>, <a class='link-reference' href=''>[60]</a>; bảo vệ thận <a class='link-reference' href=''>[58]</a>; bảo vệ gan <a class='link-reference' href=''>[127]</a>, <a class='link-reference' href=''>[88]</a>; bảo vệ tế bào sụn khớp <a class='link-reference' href=''>[135]</a>."
+      hoatTinh :"Rutin đã có hoạt tính chống oxy hóa <a class='link-reference' href='https://doi.org/10.1155/2018/6241017'>[83]</a>; chống viêm <a class='link-reference' href='ttps://doi.org/10.1016/j.carbpol.2016.06.039'>[76]</a>, <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5374339/'>[15]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.bbi.2019.05.003'>[77]</a>;kháng khuẩn <a class='link-reference' href='https://doi.org/10.1007/s10876-020-01947-9'>[136]</a>; kháng virus <a class='link-reference' href='https://doi.org/10.1016/j.jtcme.2021.01.006'>[143]</a> <a class='link-reference' href='https://doi.org/10.1016/j.jmgm.2021.107904'>[46]</a>; chống ung thư <a class='link-reference' href='https://link.springer.com/article/10.1007/s00210-018-1579-0'>[153]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.biopha.2016.11.001'>[67]</a>; hỗ trợ điều trị trị đái tháo đường <a class='link-reference' href='https://doi.org/10.1016/j.biopha.2017.10.001'>[51]</a>; bảo vệ tim <a class='link-reference' href='https://www.sciencedirect.com/science/article/pii/S1756464619305304'>[162]</a>; bảo vệ hệ thần kinh <a class='link-reference' href=' https://doi.org/10.1155/2018/6241017'>[83]</a>, <a class='link-reference' href='https://doi.org/10.1186/s12906-017-1976-9'>[60]</a>; bảo vệ thận <a class='link-reference' href='https://doi.org/10.1186/s12882-017-0601-y'>[58]</a>; bảo vệ gan <a class='link-reference' href='https://doi.org/10.1016/j.biopha.2018.08.046'>[127]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.apjtb.2017.06.013'>[88]</a>; bảo vệ tế bào sụn khớp <a class='link-reference' href='https://doi.org/10.1016/j.bbrc.2016.04.064'>[135]</a>."
     }
   ]},
   {name : "Phenolic",
   data : [
     {
-      hoatChat:"Protocatechuic acid <a class='link-reference' href=''>[158]</a>",
+      hoatChat:"Protocatechuic acid <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan: "hexane",
       tinhChat :[
         "Công thức phân tử:  C7H6O4",
         "Khối lượng mol:  154,12 g/mol",
         "Tính chất: Chất rắn màu trắng đến hơi nâu; đổi màu trong không khí.",
         "Nhiệt độ điểm nóng chảy:  221 °C",
-        "Độ tan: 18,2 mg/mL trong nước ở 14 °C <a class='link-reference' href=''>[29]</a>"
+        "Độ tan: 18,2 mg/mL trong nước ở 14 °C <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/3_4-Dihydroxybenzoic-acid'>[29]</a>"
       ],
       pho :[
         "Phổ UV",
@@ -507,10 +507,10 @@ const biochemistry = [
         "Phổ NMR"
       ],
       cauTruc :"Protocatechuic.jpg",
-      hoatTinh :"Protocatechuic acid có hoạt tính chống oxy hóa <a class='link-reference' href=''>[183]</a>, <a class='link-reference' href=''>[152]</a>; kháng viêm <a class='link-reference' href=''>[180]</a>; kháng khuẩn <a class='link-reference' href=''>[52]</a>, <a class='link-reference' href=''>[181]</a>; bảo vệ tế bào gan <a class='link-reference' href=''>[92]</a>. bảo vệ tế bào thần kinh <a class='link-reference' href=''>[55]</a>, <a class='link-reference' href=''>[180]</a>, <a class='link-reference' href=''>[125]</a>, chống lão hóa da <a class='link-reference' href=''>[160]</a>; hạ đường huyết và cải thiện tình trạng kháng insuline <a class='link-reference' href=''>[57]</a>, <a class='link-reference' href=''>[48]</a>; hạ huyết áp <a class='link-reference' href=''>[152]</a>."
+      hoatTinh :"Protocatechuic acid có hoạt tính chống oxy hóa <a class='link-reference' href='https://www.sciencedirect.com/science/article/abs/pii/S0144861720313837'>[183]</a>, <a class='link-reference' href='https://www.sciencedirect.com/science/article/abs/pii/S0753332217341434'>[152]</a>; kháng viêm <a class='link-reference' href='https://www.hindawi.com/journals/omcl/2017/6297080/'>[180]</a>; kháng khuẩn <a class='link-reference' href='https://doi.org/10.1002/mbo3.472'>[52]</a>, <a class='link-reference' href='https://www.sciencedirect.com/science/article/abs/pii/S0956713521007118'>[181]</a>; bảo vệ tế bào gan <a class='link-reference' href='https://doi.org/10.1016/j.lfs.2021.119485'>[92]</a>. bảo vệ tế bào thần kinh <a class='link-reference' href='https://doi.org/10.1016/j.scitotenv.2020.137969'>[55]</a>, <a class='link-reference' href='https://www.hindawi.com/journals/omcl/2017/6297080/'>[180]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.cbi.2021.109392'>[125]</a>, chống lão hóa da <a class='link-reference' href='https://onlinelibrary.wiley.com/doi/abs/10.1111/jocd.13086'>[160]</a>; hạ đường huyết và cải thiện tình trạng kháng insuline <a class='link-reference' href='https://doi.org/10.1111/jfbc.12927'>[57]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.etapp.2020.103577'>[48]</a>; hạ huyết áp <a class='link-reference' href='https://www.sciencedirect.com/science/article/abs/pii/S0753332217341434'>[152]</a>."
     },
     {
-      hoatChat:"Gallic acid <a class='link-reference' href=''>[158]</a>",
+      hoatChat:"Gallic acid <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan: "MeOH",
       tinhChat :[
         "Công thức phân tử:  C7H6O5",
@@ -518,7 +518,7 @@ const biochemistry = [
         "Tính chất: Chất rắn không màu đến hơi vàng hoặc tinh thể hình kim màu trắng, không mùi",
         "Nhiệt độ điểm nóng chảy: 258 - 265 °C",
         "Nhiệt độ điểm sôi:  501,00 °C",
-        "Độ tan: 11,9 mg/mL trong nước ở 20 °C; 1g hoạt chất hòa tan trong 3 ml nước nóng, 6 ml alcohol, 100 ml ether, 10 ml glycerol, 5 ml acetone; hoạt chất thực tế không tan trong benzene, chloroform, petrolium ether <a class='link-reference' href=''>[30]</a>"
+        "Độ tan: 11,9 mg/mL trong nước ở 20 °C; 1g hoạt chất hòa tan trong 3 ml nước nóng, 6 ml alcohol, 100 ml ether, 10 ml glycerol, 5 ml acetone; hoạt chất thực tế không tan trong benzene, chloroform, petrolium ether <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Gallic-acid'>[30]</a>"
       ],
       pho :[
         "Phổ UV",
@@ -527,10 +527,10 @@ const biochemistry = [
         "Phổ NMR"
       ],
       cauTruc :"Gallic.jpg",
-      hoatTinh :"Gallic acid có hoạt tính kháng khuẩn <a class='link-reference' href=''>[129]</a>; kháng nấm <a class='link-reference' href=''>[126]</a>; kháng viêm <a class='link-reference' href=''>[79]</a>; <a class='link-reference' href=''>[194]</a>, <a class='link-reference' href=''>[105]</a>; kháng ung thư <a class='link-reference' href=''>[63]</a> (tế bào ung thư ruột kết <a class='link-reference' href=''>[19]</a>, tế bào ung thư biểu mô gan <a class='link-reference' href=''>[167]</a>, tế bào ung thư phổi <a class='link-reference' href=''>[190]</a>,…); chống oxy hóa <a class='link-reference' href=''>[79]</a>, [105]."
+      hoatTinh :"Gallic acid có hoạt tính kháng khuẩn <a class='link-reference' href='https://doi.org/10.1016/j.micpath.2016.08.004'>[129]</a>; kháng nấm <a class='link-reference' href='https://doi.org/10.1002/ptr.5823'>[126]</a>; kháng viêm <a class='link-reference' href='https://doi.org/10.3390/nu11010023'>[79]</a>; <a class='link-reference' href='https://www.sciencedirect.com/science/article/pii/S1567576918312438'>[194]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.pharepp.2017.03.011'>[105]</a>; kháng ung thư <a class='link-reference' href='https://doi.org/10.1016/j.fct.2021.112576'>[63]</a> (tế bào ung thư ruột kết <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4823245/'>[19]</a>, tế bào ung thư biểu mô gan <a class='link-reference' href='https://www.spandidos-publications.com/10.3892/ol.2015.3845'>[167]</a>, tế bào ung thư phổi <a class='link-reference' href='https://www.spandidos-publications.com/10.3892/or.2019.6976'>[190]</a>,…); chống oxy hóa <a class='link-reference' href='https://doi.org/10.3390/nu11010023'>[79]</a>, href='https://doi.org/10.1016/j.pharepp.2017.03.011'>[105]</a>."
     },
     {
-      hoatChat:"Pteleoellagic acid <a class='link-reference' href=''>[158]</a>",
+      hoatChat:"Pteleoellagic acid <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan: "hexane",
       tinhChat :[
         "Công thức phân tử: C16H8O8",
@@ -545,7 +545,7 @@ const biochemistry = [
       hoatTinh :"Chưa được công bố."
     },
     {
-      hoatChat:"3,3’,4’-tri-O-methylellagic acid <a class='link-reference' href=''>[158]</a>",
+      hoatChat:"3,3’,4’-tri-O-methylellagic acid <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan: "hexane",
       tinhChat :[
         "Công thức phân tử: C17H12O8"
@@ -563,7 +563,7 @@ const biochemistry = [
   {name : "Triterpenoid",
   data: [
     {
-      hoatChat:"Squalene <a class='link-reference' href=''>[158]</a>",
+      hoatChat:"Squalene <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan: "hexane",
       tinhChat :[
         "Công thức phân tử: C30H50",
@@ -571,7 +571,7 @@ const biochemistry = [
         "Bề ngoài: Chất lỏng trong suốt, màu hơi vàng, có mùi dễ chịu",
         "Nhiệt độ điểm nóng chảy: -4,8 °C",
         "Nhiệt độ điểm sôi: 421,3 °C",
-        "Độ tan: hoạt chất không tan trong nước, tan trong ether, petroleum ether, và các dung môi hữu cơ kém phân cực khác, ít tan trong alcol, acid acetic băng <a class='link-reference' href=''>[43]</a>"
+        "Độ tan: hoạt chất không tan trong nước, tan trong ether, petroleum ether, và các dung môi hữu cơ kém phân cực khác, ít tan trong alcol, acid acetic băng <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Squalene'>[43]</a>"
       ],
       pho :[
         "Phổ UV",
@@ -580,17 +580,17 @@ const biochemistry = [
         "Phổ NMR"
       ],
       cauTruc :"Squalene.jpg",
-      hoatTinh :"Squalene có hoạt tính chống oxy hóa <a class='link-reference' href=''>[86]</a>, <a class='link-reference' href=''>[144]</a>, <a class='link-reference' href=''>[18]</a>;chống viêm <a class='link-reference' href=''>[86]</a>, <a class='link-reference' href=''>[154]</a>, <a class='link-reference' href=''>[69]</a>; chống xơ vữa động mạch và bảo vệ hệ tim mạch <a class='link-reference' href=''>[10]</a>, <a class='link-reference' href=''>[131]</a>; chống ung thư <a class='link-reference' href=''>[179]</a>, <a class='link-reference' href=''>[4]</a>; chống trầm cảm <a class='link-reference' href=''>[154]</a>; hỗ trợ điều trị đái tháo đường type 2 <a class='link-reference' href=''>[3]</a>. "
+      hoatTinh :"Squalene có hoạt tính chống oxy hóa <a class='link-reference' href='https://doi.org/10.1111/jfbc.12628'>[86]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.indcropp.2018.10.031'>[144]</a>, <a class='link-reference' href='ttps://doi.org/10.3177/jnsv.65.S62'>[18]</a>;chống viêm <a class='link-reference' href='https://doi.org/10.1111/jfbc.12628'>[86]</a>, <a class='link-reference' href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0218923'>[154]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.jff.2015.03.009'>[69]</a>; chống xơ vữa động mạch và bảo vệ hệ tim mạch <a class='link-reference' href='https://doi.org/10.3390/nu12020414'>[10]</a>, <a class='link-reference' href='https://doi.org/10.1002/mnfr.201800136'>[131]</a>; chống ung thư <a class='link-reference' href='https://www.sciencedirect.com/science/article/abs/pii/S0278691510000839'>[179]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.nano.2018.09.013'>[4]</a>; chống trầm cảm <a class='link-reference' href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0218923'>[154]</a>; hỗ trợ điều trị đái tháo đường type 2 <a class='link-reference' href='https://europepmc.org/article/med/26292512'>[3]</a>. "
     },
     {
-      hoatChat:"Betulonic acid <a class='link-reference' href=''>[158]</a>",
+      hoatChat:"Betulonic acid <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan: "hexane",
       tinhChat :[
         "Công thức phân tử:  C30H46O3",
         "Khối lượng mol: 454,7 g/mol",
         "Tính chất: Chất rắn màu trắng hoặc trắng ngà",
         "Nhiệt độ điểm nóng chảy: 316-318 °C",
-        "Độ hòa tan: hoạt chất tan ít trong chloroform, ethyl acetate <a class='link-reference' href=''>[41]</a>"
+        "Độ hòa tan: hoạt chất tan ít trong chloroform, ethyl acetate <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Betulinic-acid'>[41]</a>"
       ],
       pho :[
         "Phổ UV",
@@ -599,17 +599,17 @@ const biochemistry = [
         "Phổ NMR"
       ],
       cauTruc :"Betulonic.jpg",
-      hoatTinh :"Đến hiện nay betulonic acid vẫn chưa được nghiên cứu về các hoạt động sinh học nhiều nhưng các dẫn xuất của betulonic acid rất được chú trọng nghiên cứu <a class='link-reference' href=''>[115]</a>. Các dẫn chất của betulonic acid đã có nhiều hoạt tính như kháng viêm <a class='link-reference' href=''>[97]</a>, <a class='link-reference' href=''>[98]</a>; kháng ung thư <a class='link-reference' href=''>[130]</a>, <a class='link-reference' href=''>[68]</a>;  điều trị xơ gan <a class='link-reference' href=''>[82]</a> và bảo vệ gan <a class='link-reference' href=''>[156]</a>; bảo vệ hệ thống tim mạch <a class='link-reference' href=''>[175]</a>; kháng virus (dẫn xuất betulonic acid liên hợp với azidothymidine là chất chống HIV mạnh <a class='link-reference' href=''>[182]</a>, dẫn xuất betulonic acid can thiệp vào quá trình sao chép của coronavirus <a class='link-reference' href=''>[166]</a>)."
+      hoatTinh :"Đến hiện nay betulonic acid vẫn chưa được nghiên cứu về các hoạt động sinh học nhiều nhưng các dẫn xuất của betulonic acid rất được chú trọng nghiên cứu <a class='link-reference' href='https://doi.org/10.1007/s10973-016-5299-8'>[115]</a>. Các dẫn chất của betulonic acid đã có nhiều hoạt tính như kháng viêm <a class='link-reference' href='https://doi.org/10.1016/j.jff.2014.12.009'>[97]</a>, <a class='link-reference' href='https://doi.org/10.1186/s12906-015-0592-9'>[98]</a>; kháng ung thư <a class='link-reference' href='https://doi.org/10.3390/ijms22073676'>[130]</a>, <a class='link-reference' href='https://doi.org/10.1002/cmdc.201600626'>[68]</a>;  điều trị xơ gan <a class='link-reference' href='https://doi.org/10.1016/j.bbamem.2020.183383'>[82]</a> và bảo vệ gan <a class='link-reference' href='https://link.springer.com/article/10.1007/s10517-015-2756-5'>[156]</a>; bảo vệ hệ thống tim mạch <a class='link-reference' href='https://www.mdpi.com/1420-3049/21/2/139'>[175]</a>; kháng virus (dẫn xuất betulonic acid liên hợp với azidothymidine là chất chống HIV mạnh <a class='link-reference' href='https://www.sciencedirect.com/science/article/abs/pii/S0968089610006206'>[182]</a>, dẫn xuất betulonic acid can thiệp vào quá trình sao chép của coronavirus <a class='link-reference' href='https://pubmed.ncbi.nlm.nih.gov/33877845/'>[166]</a>)."
     },
     {
-      hoatChat:"Betulin <a class='link-reference' href=''>[158]</a>",
+      hoatChat:"Betulin <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan : "hexane",
       tinhChat :[
         "Công thức phân tử:  C30H50O2",
         "Khối lượng mol:  442,7 g/mol",
         "Tính chất: chất rắn, tinh thể có hình kimmàu nâu nhạt đến màu be",
         "Nhiệt độ điểm nóng chảy:  251 - 252 °C",
-        "Nhiệt độ điểm sôi:  284,00 đến 288,00 °C <a class='link-reference' href=''>[42]</a>",
+        "Nhiệt độ điểm sôi:  284,00 đến 288,00 °C <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Betulin'>[42]</a>",
         "Độ hòa tan: 0.0001726 mg/L trong nước ở 25 °C, hoạt chất ít tan trong ethanol, benzene và hòa tan trong diethyl ete, ethyl acetate <a class='link-reference' href=''>[28]</a>."
       ],
       pho :[
@@ -619,30 +619,10 @@ const biochemistry = [
         "Phổ NMR"
       ],
       cauTruc :"Betulin.jpg",
-      hoatTinh :"Betulin có hoạt tính chống viêm<a class='link-reference' href=''>[146]</a>, <a class='link-reference' href=''>[155]</a>; kháng ung thư <a class='link-reference' href=''>[163]</a>, <a class='link-reference' href=''>[155]</a>; giảm tổn thương gan do rượu <a class='link-reference' href=''>[64]</a>; Betulin có thể dễ dàng chuyển đổi thành axit betulinic và các dẫn chất khác chất có phổ hoạt tính sinh học và dược lý rộng rãi <a class='link-reference' href=''>[56]</a>, <a class='link-reference' href=''>[61]</a> như kháng ung thư <a class='link-reference' href=''>[66]</a>, <a class='link-reference' href=''>[104]</a> <a class='link-reference' href=''>[75]</a>;  kháng viêm <a class='link-reference' href=''>[114]</a>; kháng khuẩn <a class='link-reference' href=''>[189]</a> và kháng virus <a class='link-reference' href=''>[107]</a>."
+      hoatTinh :"Betulin có hoạt tính chống viêm<a class='link-reference' href='https://doi.org/10.1016/j.fct.2021.112539'>[146]</a>, <a class='link-reference' href='https://www.ingentaconnect.com/content/ben/acamc/2018/00000018/00000005/art00005'>[155]</a>; kháng ung thư <a class='link-reference' href='https://link.springer.com/article/10.1007/s12272-018-1064-9'>[163]</a>, <a class='link-reference' href='https://www.ingentaconnect.com/content/ben/acamc/2018/00000018/00000005/art00005'>[155]</a>; giảm tổn thương gan do rượu <a class='link-reference' href='https://doi.org/10.1016/j.phrs.2015.12.022'>[64]</a>; Betulin có thể dễ dàng chuyển đổi thành axit betulinic và các dẫn chất khác chất có phổ hoạt tính sinh học và dược lý rộng rãi <a class='link-reference' href='https://doi.org/10.1016/j.ejps.2006.04.006'>[56]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.biotechadv.2019.06.008'>[61]</a> như kháng ung thư <a class='link-reference' href='https://doi.org/10.1007/s00044-016-1713-9'>[66]</a>, <a class='link-reference' href='https://doi.org/10.1016/B978-0-444-63930-1.00002-8'>[104]</a> <a class='link-reference' href='https://doi.org/10.1016/j.bioorg.2019.03.060'>[75]</a>;  kháng viêm <a class='link-reference' href='https://doi.org/10.1021/acs.jnatprod.5b00709'>[114]</a>; kháng khuẩn <a class='link-reference' href='https://pubs.acs.org/doi/abs/10.1021/acsbiomaterials.1c00563'>[189]</a> và kháng virus <a class='link-reference' href='https://doi.org/10.1134/S1068162018050059'>[107]</a>."
     },
     {
-      hoatChat:"Betulinic acid <a class='link-reference' href=''>[158]</a>",
-      phanDoan:"hexane",
-      tinhChat :[
-        "Công thức phân tử:  C30H48O3",
-        "Khối lượng mol:  456,7 g/mol",
-        "Tính chất: Chất rắn màu trắng hoặc trắng ngà.",
-        "Nhiệt độ điểm nóng chảy:  316 - 318 °C",
-        "Nhiệt độ điểm sôi:  550,02 °C",
-        "Độ tan: 0,001607 mg/L trong nước ở 25 °C <a class='link-reference' href=''>[31]</a>"
-      ],
-      pho : [
-        "Phổ UV",
-        "Phổ MS",
-        "Phổ IR",
-        "Phổ NMR"
-      ],
-      cauTruc :"Betulin1.jpg",
-      hoatTinh : "Betulin có hoạt tính chống viêm<a class='link-reference' href=''>[146]</a>, <a class='link-reference' href=''>[155]</a>; kháng ung thư <a class='link-reference' href=''>[163]</a>, <a class='link-reference' href=''>[155]</a>; giảm tổn thương gan do rượu <a class='link-reference' href=''>[64]</a>; Betulin có thể dễ dàng chuyển đổi thành axit betulinic và các dẫn chất khác chất có phổ hoạt tính sinh học và dược lý rộng rãi <a class='link-reference' href=''>[56]</a>, <a class='link-reference' href=''>[61]</a> như kháng ung thư <a class='link-reference' href=''>[66]</a>, <a class='link-reference' href=''>[104]</a> <a class='link-reference' href=''>[75]</a>;  kháng viêm <a class='link-reference' href=''>[114]</a>; kháng khuẩn <a class='link-reference' href=''>[189]</a> và kháng virus <a class='link-reference' href=''>[107]</a>."
-    },
-    {
-      hoatChat:"Betulinic acid <a class='link-reference' href=''>[158]</a>",
+      hoatChat:"Betulinic acid <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan:"hexane",
       tinhChat :[
         "Công thức phân tử:  C30H48O3",
@@ -650,7 +630,7 @@ const biochemistry = [
         "Tính chất: Chất rắn màu trắng hoặc trắng ngà",
         "Nhiệt độ điểm nóng chảy:  316 - 318 °C",
         "Nhiệt độ điểm sôi:  550,02 ° C ",
-        "Độ tan: 0,001607 mg/L trong nước ở 25 °C <a class='link-reference' href=''>[31]</a>"
+        "Độ tan: 0,001607 mg/L trong nước ở 25 °C <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Betulinic-acid'>[31]</a>"
       ],
       pho : [
         "Phổ UV",
@@ -659,13 +639,13 @@ const biochemistry = [
         "Phổ NMR"
       ],
       cauTruc :"Betulinic.jpg",
-      hoatTinh : "Betulinic acid có hoạt tính chống khối u <a class='link-reference' href=''>[20]</a>,<a class='link-reference' href=''>[108]</a>; chống viêm <a class='link-reference' href=''>[138]</a>; chống virus (HIV <a class='link-reference' href=''>[53]</a>); chống đái tháo đường <a class='link-reference' href=''>[112]</a>, <a class='link-reference' href=''>[187]</a>; bảo vệ gan <a class='link-reference' href=''>[187]</a>. Ngoài ra, betulinic acid được sử dụng nhằm tổng hợp những dẫn xuất có hoạt tính sinh học đa dạng như kháng lại tế bào ung thư <a class='link-reference' href=''>[96]</a>; kháng virus <a class='link-reference' href=''>[186]</a>."
+      hoatTinh : "Betulinic acid có hoạt tính chống khối u <a class='link-reference' href='https://doi.org/10.1166/jbn.2020.2888'>[20]</a>,<a class='link-reference' href='https://doi.org/10.1016/j.ejmech.2015.11.018'>[108]</a>; chống viêm <a class='link-reference' href='https://doi.org/10.1016/j.intimpp.2014.09.021'>[138]</a>; chống virus (HIV <a class='link-reference' href='https://doi.org/10.1007/s11745-001-0750-4'>[53]</a>); chống đái tháo đường <a class='link-reference' href='https://doi.org/10.1021/jf4030739'>[112]</a>, <a class='link-reference' href='https://www.sciencedirect.com/science/article/abs/pii/S0014299916307579'>[187]</a>; bảo vệ gan <a class='link-reference' href='https://www.sciencedirect.com/science/article/abs/pii/S0014299916307579'>[187]</a>. Ngoài ra, betulinic acid được sử dụng nhằm tổng hợp những dẫn xuất có hoạt tính sinh học đa dạng như kháng lại tế bào ung thư <a class='link-reference' href='https://doi.org/10.1007/s11101-019-09623-1'>[96]</a>; kháng virus <a class='link-reference' href='https://www.ingentaconnect.com/content/ben/cmc/2005/00000012/00000006/art00003'>[186]</a>."
     },
   ]},
   {name : "Steroid",
   data : [
     {
-      hoatChat: "(24R)-6β-hydroxy-stigmasta-4-en-3-one <a class='link-reference' href=''>[158]</a>",
+      hoatChat: "(24R)-6β-hydroxy-stigmasta-4-en-3-one <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan:"hexane",
       tinhChat :[],
       pho : [
@@ -678,7 +658,7 @@ const biochemistry = [
       hoatTinh : "Chưa được công bố."
     },
     {
-      hoatChat:"∆22(23); (22E,24R)- 6β-hydroxy-stigmasta-4,22-dien-3-one <a class='link-reference' href=''>[158]</a>",
+      hoatChat:"∆22(23); (22E,24R)- 6β-hydroxy-stigmasta-4,22-dien-3-one <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan:"hexane",
       tinhChat :[],
       pho : [
@@ -696,22 +676,22 @@ const biochemistry = [
 const introCommon = [
   {
     img: "intro-page1.jpeg",
-    text: "Công thức phân tử: C30H48O3 Khối lượng mol: 456,7 g/mol Tính chất: Chất rắn màu trắng hoặc trắng ngà.    Nhiệt độ điểm nóng chảy:  316 - 318 °C Nhiệt độ điểm sôi:  550,02 ° C Độ tan: 0,001607 mg/L trong nước ở 25 °C [31]",
+    text: "Công thức phân tử: C30H48O3 Khối lượng mol: 456,7 g/mol Tính chất: Chất rắn màu trắng hoặc trắng ngà.    Nhiệt độ điểm nóng chảy:  316 - 318 °C Nhiệt độ điểm sôi:  550,02 ° C Độ tan: 0,001607 mg/L trong nước ở 25 °C <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Betulinic-acid'>[31]</a>",
     id: 1
   },
   {
     img: "intro-page2.jpg",
-    text: "Toàn cây Ludwigia adscendens được thu hái vào mùa thu, có thể dùng tươi hay phơi khô. Ludwigia adscendens được dùng chữa cảm sốt, ho khan, đái đục, phù thủng, lỵ ra máu [2]. Đắp ngoài, chữa sưng lở, vết thương, rắn cắn, bỏng. Cả cây Ludwigia adscendens giã nát với dầu thầu dầu rồi xát lên đầu chữa nấm tóc và một số bệnh da đầu khác.",
+    text: "Toàn cây Ludwigia adscendens được thu hái vào mùa thu, có thể dùng tươi hay phơi khô. Ludwigia adscendens được dùng chữa cảm sốt, ho khan, đái đục, phù thủng, lỵ ra máu <a class='link-reference' href=''>[2]</a>. Đắp ngoài, chữa sưng lở, vết thương, rắn cắn, bỏng. Cả cây Ludwigia adscendens giã nát với dầu thầu dầu rồi xát lên đầu chữa nấm tóc và một số bệnh da đầu khác.",
     id: 2
   },
   {
     img: "intro-page3.jpeg",
-    text: "Một số bệnh viện đông y dược liệu Ludwigia adscendens để điều trị viêm bàng quang không do sỏi, lao bàng quang hoặc lao thận với những triệu chứng đái buốt, đái rắt, đái ra máu. Sau đó, đã mở rộng việc điều trị đái ra dưỡng trấp và huyết dưỡng trấp niệu mà không có ấu trùng giun chỉ trong máu. Thuốc không những làm hết dưỡng trấp mà còn hết cả albumin, hồng cầu, bạch cầu trong nước tiểu [1]. ",
+    text: "Một số bệnh viện đông y dược liệu Ludwigia adscendens để điều trị viêm bàng quang không do sỏi, lao bàng quang hoặc lao thận với những triệu chứng đái buốt, đái rắt, đái ra máu. Sau đó, đã mở rộng việc điều trị đái ra dưỡng trấp và huyết dưỡng trấp niệu mà không có ấu trùng giun chỉ trong máu. Thuốc không những làm hết dưỡng trấp mà còn hết cả albumin, hồng cầu, bạch cầu trong nước tiểu <a class='link-reference' href=''>[1]</a>. ",
     id: 3
   },
   {
     img: "intro-page4.jpg",
-    text: "Ở Việt Nam, Ludwigia adscendens (rau dừa nước) có thể gặp ở hầu hết các địa phương thuộc vùng đồng bằng trung du và miền núi thấp, cây thường mọc ở nơi đất ngập nước (ao, đầm, bờ rượng ẩm ướt) [2]. Nếu mọc ở nơi nước nông như ở ruộng nước, vũng lầy cây mọc thẳng. Khi nước dâng cao hay ở môi trường nước sâu như ao, hồ, kênh mương, cây nổi trên mặt nước nhờ hệ thống rễ phụ biến thành phao xốp. Rau dừa nước ra hoa quả hàng năm. Quả nang khi già sẽ tự mở, hạt phát tán nhờ nước. Vào mùa xuân hè, khi cây bị cắt, phần còn lại mọc ra nhiều chồi [1].",
+    text: "Ở Việt Nam, Ludwigia adscendens (rau dừa nước) có thể gặp ở hầu hết các địa phương thuộc vùng đồng bằng trung du và miền núi thấp, cây thường mọc ở nơi đất ngập nước (ao, đầm, bờ rượng ẩm ướt) [2]. Nếu mọc ở nơi nước nông như ở ruộng nước, vũng lầy cây mọc thẳng. Khi nước dâng cao hay ở môi trường nước sâu như ao, hồ, kênh mương, cây nổi trên mặt nước nhờ hệ thống rễ phụ biến thành phao xốp. Rau dừa nước ra hoa quả hàng năm. Quả nang khi già sẽ tự mở, hạt phát tán nhờ nước. Vào mùa xuân hè, khi cây bị cắt, phần còn lại mọc ra nhiều chồi <a class='link-reference' href=''>[1]</a>.",
     id: 4
   },
 ]

@@ -21,7 +21,7 @@
             <div>
                 <form class="search_form" action="">
                     <div class="search-input-div">
-                        <input type="text" placeholder="Nhập thông tin loại cần tìm"/>
+                        <input type="text" placeholder="Nhập thông tin loại cần tìm" />
                     </div>
                     <div class="search-button-div">
                         <button type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
@@ -85,8 +85,10 @@
         </div>
     </div>
     <script>
-        // let text = document.getElementsByClassName('name');
-        // console.log(text[0].innerText);
+        const listTagA = document.getElementsByClassName('link-reference')
+        for (let index = 0; index < listTagA.length; index++) {
+            listTagA[index].setAttribute("target", "_blank")
+        }
     </script>
 </body>
 
