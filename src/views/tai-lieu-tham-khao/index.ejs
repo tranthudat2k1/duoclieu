@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tài liệu tham khảo</title>
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/tai-lieu-tham-khao.css" />
+</head>
+<body>
+  <div class="container">
+    <%- include('../include/navbar.ejs',{title : "Tài liệu tham khảo"}) %>
+  <div class="content">
+    <div class="sidebar">
+      <%- include('../include/sidebar.ejs') -%>
+    </div>
+    <div class="tai-lieu">
+      <h1>Tài liệu Tiếng Việt</h1>
+      <% for(let i=0; i < result[0].VN.length; i++) { %>
+        <p class="tai-lieu-text"><%= result[0].VN[i] %></p>
+      <%}%>
+      <h1>Tài liệu Tiếng Anh</h1>
+      <% for(let i=0; i < result[1].EN.length; i++) { %>
+        <p class="tai-lieu-text"><%= result[1].EN[i] %></p>
+      <%}%>
+    </div>
+  </div>
+</div>
+</body>
+</html>
