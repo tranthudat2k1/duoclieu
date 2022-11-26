@@ -190,10 +190,27 @@ const biochemistry = [
         "Độ tan: 440 mg/L trong nước ở 25 °C, hoạt chất tan trong benzene; ít tan trong chloroform; hòa tan trong acetic acid, dung dịch kiềm; rất tan trong ethanol, ethyl ether, acetone <a class='link-reference' href=''>[35]</a>."
       ],
       pho : [
-        "Phổ UV",
-        "Phổ MS",
-        "Phổ IR",
-        "Phổ NMR"
+        "1",
+        {
+          name : "Phổ UV", 
+          text : "UV: λmax ở 265, 365 nm O'Neil M.J., et al. (2006), The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals, NJ: Merck and Co.Inc., pp. 913.",
+          img : ""
+        },
+        {
+          name : "Phổ MS", 
+          text : "",
+          img : "pho/Kaempfero/MS.jpg"
+        },
+        {
+          name : "Phổ NMR", 
+          text : "Phổ H^1 –NMR  của kaempferol",
+          img : "pho/Kaempfero/NMR.jpg"
+        },
+        {
+          name : "Phổ IR", 
+          text : "",
+          img : "pho/Kaempfero/IR.jpg"
+        }
       ],
       cauTruc : "Kaempferol.jpg",
       hoatTinh : "Kaempferol có hoạt tính kháng ung thư giảm nguy cơ phát triển một số loại tế bào ung thư, bao gồm tế bào ung thư vú <a class='link-reference' href=''>[5]</a>,<a class='link-reference' href=''>[119]</a> tế bào ung thư não <a class='link-reference' href=''>[103]</a> tế bào ung thư da và ung thư gan <a class='link-reference' href=''>[17]</a>,  tế bào ung thư ruột kết <a class='link-reference' href=''>[148]</a>, <a class='link-reference' href=''>[74]</a>, tế bào ung thư tiền liệt tuyến <a class='link-reference' href=''>[132]</a> tế  bào ung thư tuyến tụy <a class='link-reference' href=''>[116]</a>, tế bào ung thư phổi <a class='link-reference' href=''>[165]</a>, <a class='link-reference' href=''>[93]</a>, tế bào ung thư thận, tế bào ung thư biểu mô ống thận <a class='link-reference' href=''>[164]</a>, tế bào ung thư cổ tử cung <a class='link-reference' href=''>[106]</a>, <a class='link-reference' href=''>[172]</a> ung thư tế bào buồn trứng <a class='link-reference' href=''>[26]</a>; kháng khuẩn <a class='link-reference' href=''>[84]</a>; chống viêm mạnh <a class='link-reference' href=''>[78]</a>, <a class='link-reference' href=''>[178]</a>; chống oxy hóa <a class='link-reference' href=''>[81]</a>, <a class='link-reference' href=''>[128]</a>; chống béo phì và ức chế quá trình tạo mỡ <a class='link-reference' href=''>[170]</a> <a class='link-reference' href=''>[176]</a>; bảo vệ thành mạch máu <a class='link-reference' href=''>[24]</a>, bảo vệ tim <a class='link-reference' href=''>[72]</a>, bảo vệ gan <a class='link-reference' href=''>[6]</a>, hỗ trợ điều trị đái tháo đường, ức chế tân tạo đường ở gan và tăng cường độ nhạy insulin <a class='link-reference' href=''>[59]</a>."
@@ -210,10 +227,27 @@ const biochemistry = [
         "Độ tan: 0,06 mg/mL trong nước ở 16 °C , hoạt chất rất tan trong ether, methanol; tan trong ethanol,acetone, pyridine, acetic acid <a class='link-reference' href=''>[44]</a>",
       ],
       pho : [
-        "Phổ UV",
-        "Phổ MS",
-        "Phổ IR",
-        "Phổ NMR"
+        "1",
+        {
+          name : "Phổ UV", 
+          text : "UV: λmax ở 256 nm và 301 nm Weast R.C., et al. (1979). Handbook of Chemistry and Physics. 60th ed., Florida: CRC Press Inc., pp. C-306",
+          img : ""
+        },
+        {
+          name : "Phổ MS", 
+          text : "",
+          img : "pho/Quercetin/MS.jpg"
+        },
+        {
+          name : "Phổ IR", 
+          text : "",
+          img : "pho/Quercetin/IR.jpg"
+        },
+        {
+          name : "Phổ NMR", 
+          text : "",
+          img : ""
+        }
       ],
       cauTruc :"Quercetin.jpg",
       hoatTinh :"Quercetin  có hoạt tính chống ung thư <a class='link-reference' href=''>[145]</a>, <a class='link-reference' href=''>[65]</a> (tế bào ung thư vú <a class='link-reference' href=''>[85]</a>, tế bào ung thư dạ dày <a class='link-reference' href=''>[120]</a>, tế bào ung thư gan <a class='link-reference' href=''>[193]</a>,…); kháng viêm <a class='link-reference' href=''>[91]</a>, <a class='link-reference' href=''>[151]</a>, <a class='link-reference' href=''>[121]</a>; kháng khuẩn <a class='link-reference' href=''>[102]</a>, <a class='link-reference' href=''>[91]</a>, <a class='link-reference' href=''>[137]</a>; kháng virus <a class='link-reference' href=''>[133]</a>, <a class='link-reference' href=''>[149]</a>; chống oxy hóa <a class='link-reference' href=''>[121]</a>, <a class='link-reference' href=''>[62]</a>."

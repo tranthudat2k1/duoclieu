@@ -31,6 +31,7 @@ td {
 td {
   padding: 0.4rem;
   color: black;
+  position: relative;
 }
 tr.item > th {
   background-color: #206b40;
@@ -53,4 +54,38 @@ tr.item > th {
 }
 .img {
 
+}
+.container-popup {
+  position: relative;
+}
+.popup {
+  width: 40vw;
+  border: solid 2px orange;
+  border-radius: 0.868rem;
+  overflow: hidden;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  left: 1rem;
+  display: none;
+}
+.popup.active {
+  display: block;
+}
+.popup-name {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.popup-text {
+  background-color: antiquewhite;
+  margin-bottom: 1rem;
+}
+.popup-text > p {
+  text-align: justify;
+  padding: 1rem 1rem;
+  margin: 0;
+}
+.popup-img > img {
+  width: 100%;
+  height: auto;
 }

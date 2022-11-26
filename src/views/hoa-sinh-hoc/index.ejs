@@ -44,9 +44,33 @@
                   <%}%>
                 </td>
                 <td>
-                  <% for(let k=0; k < result[i].data[j].pho.length; k++) { %>
-                    <p><%= result[i].data[j].pho[k] %></p>
-                  <%}%>
+                  <%if (result[i].data[j].pho[0] !== "1") {%>
+                    <% for(let k=0; k < result[i].data[j].pho.length; k++) { %>
+                      <p><%= result[i].data[j].pho[k] %></p>
+                    <%}%>
+                  <%} else {%>          
+                      <% for(let k=1; k < result[i].data[j].pho.length; k++) { %>
+                        <%if (result[i].data[j].pho[k].text !== "" || result[i].data[j].pho[k].img !== "") {%>
+                            <div class="container-popup">
+                            <p class="popup-name"><%= result[i].data[j].pho[k].name %></p>
+                            <div class="popup">
+                              <%if (result[i].data[j].pho[k].text !== "") {%>
+                                <div class="popup-text">
+                                  <p><%= result[i].data[j].pho[k].text %></p>
+                                </div>                        
+                                <%}%>
+                                <%if (result[i].data[j].pho[k].img !== "") {%>
+                                  <div class="popup-img">
+                                    <img src="/upload/<%= result[i].data[j].pho[k].img %>" alt="pho">
+                                  </div>                
+                                <%}%>
+                            </div>
+                          </div>
+                          <%} else {%>
+                            <p class="popup-name"><%= result[i].data[j].pho[k].name %></p>
+                          <%}%>
+                      <%}%>
+                    <%}%>
                 </td>
                 <td><img src="/upload/<%= result[i].data[j].cauTruc%>" class="img"/></td>
                 <td><%= result[i].data[j].hoatTinh%></td>
@@ -56,5 +80,17 @@
           </table>  
       </div>
     </div>
+    <script>
+      const listNamePho = document.getElementsByClassName("container-popup")
+      const listPopup = document.getElementsByClassName("popup") 
+      for(let i=0; i<listNamePho.length ; i++) {
+        listNamePho[i].addEventListener("mouseover", (event) => {
+          listPopup[i].classList.add("active")
+        })
+        listNamePho[i].addEventListener("mouseout", (event) => {
+          listPopup[i].classList.remove("active")
+        })
+      }
+    </script>
   </body>
 </html>
