@@ -12,5 +12,6 @@ module.exports.get = (req, res, next) => {
   }
 
   module.exports.getTaiLieuThamKhao = (req, res, next) => {
-    res.render("tai-lieu-tham-khao/index.ejs")
+    const data = require("../data")
+    res.render("tai-lieu-tham-khao/index.ejs", {result : data.taiLieuThamKhao})
   }
