@@ -950,6 +950,6 @@ module.exports = {
   microsurgery,
   distribution,
   uses,
-  reference
+  reference,
   taiLieuThamKhao
 }
