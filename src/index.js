@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 8000
+const port = process.env.PORT || 8000
 const path = require("path")
 const dotenv = require('dotenv');
 // env
@@ -18,6 +18,6 @@ require('./routes')(app)
 // config mongodb
 //require('./db/mongodb').connect()
 
-app.listen(process.env.PORT, () => {
-  console.log(`Example app listening on port ${process.env.PORT}`)
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
 })
