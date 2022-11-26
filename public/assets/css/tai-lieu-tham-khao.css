@@ -1,0 +1,15 @@
+.content {
+  display: flex;
+  padding-top: 60px;
+}
+.sidebar {
+  position: fixed;
+  top: 60px;
+}
+.tai-lieu  {
+  margin-left: 300px;
+  padding: 1rem 2rem;
+}
+.tai-lieu-text {
+  padding-bottom: 8px;
+}

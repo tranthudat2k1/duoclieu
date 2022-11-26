@@ -53,7 +53,12 @@ tr.item > th {
   padding-bottom: 0.6rem;
 }
 .img {
-
+  max-width: 92%;
+  max-height: 92%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .container-popup {
   position: relative;
@@ -88,4 +93,20 @@ tr.item > th {
 .popup-img > img {
   width: 100%;
   height: auto;
+}
+.cau-truc{
+  background-color: #8dcaa8;
+  position: relative;
+  min-height: 300px;
+  display: block;
+}
+.bg-cau-truc {
+  position: absolute;
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
 }

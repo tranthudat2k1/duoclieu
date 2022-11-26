@@ -1,121 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hóa thực vật và hoạt tính sinh học</title>
-  <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
-  <link rel="stylesheet" type="text/css" href="/assets/css/hoa-thuc-vat.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
-    rel="stylesheet" />
-</head>
-
-<body>
-  <div class="container">
-    <div class="left">
-      <%- include('../include/sidebar.ejs')%>
-    </div>
-    <div class="right">
-      <%- include('../include/navWithName.ejs',{title : "Hóa thực vật và hoạt tính sinh học" })%>
-        <table>
-          <tr>
-            <th style="width:13%">Hoạt chất</th>
-            <th style="width:8%">Phân đoạn chiết tách</th>
-            <th style="width:26%">Tính chất vật lý</th>
-            <th style="width:13%">Quang phổ</th>
-            <th style="width:21%">Cấu trúc hóa học</th>
-            <th style="width:19%">Hoạt tính dược lý</th>
-          </tr>
-          <% for(let i=0; i < result.length; i++) { %>
-            <tr class="item">
-              <th colspan="6">
-                <%-result[i].name %>
-              </th>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hóa thực vật và hoạt tính sinh học</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/hoa-thuc-vat.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <%- include('../include/sidebar.ejs')%></div>
+      <div class="right">
+          <%- include('../include/navWithName.ejs',{title : "Hóa thực vật và hoạt tính sinh học"})%>
+          <table>
+            <tr>
+              <th style="width:13%">Hoạt chất</th>
+              <th style="width:8%">Phân đoạn chiết tách</th>
+              <th style="width:26%">Tính chất vật lý</th>
+              <th style="width:10%">Quang phổ</th>
+              <th style="width:18%">Cấu trúc hóa học</th>
+              <th style="width:25%">Hoạt tính dược lý</th>
             </tr>
-
-            <% for(let j=0; j < result[i].data.length; j++) { %>
-              <tr>
-                <td class="hoat-chat">
-                  <%- result[i].data[j].hoatChat %>
-                </td>
-                <td class="phan-doan">
-                  <%- result[i].data[j].phanDoan %>
-                </td>
+            <% for(let i=0; i < result.length; i++) { %>
+              <tr class="item">
+                <th colspan="6"><%=result[i].name %></th>
+              </tr>
+              
+              <% for(let j=0; j < result[i].data.length; j++) { %>
+                <tr>
+                <td class="hoat-chat"><%= result[i].data[j].hoatChat %></td>
+                <td class="phan-doan"><%= result[i].data[j].phanDoan %></td>
                 <td class="tinh-chat">
                   <% for(let k=0; k < result[i].data[j].tinhChat.length; k++) { %>
-                    <p class="item-tinh-chat">
-                      <%- result[i].data[j].tinhChat[k] %>
-                    </p>
+                    <p class="item-tinh-chat"><%= result[i].data[j].tinhChat[k] %></p>
+                  <%}%>
+                </td>
+                <td>
+                  <%if (result[i].data[j].pho[0] !== "1") {%>
+                    <% for(let k=0; k < result[i].data[j].pho.length; k++) { %>
+                      <p><%= result[i].data[j].pho[k] %></p>
+                    <%}%>
+                  <%} else {%>          
+                      <% for(let k=1; k < result[i].data[j].pho.length; k++) { %>
+                        <%if (result[i].data[j].pho[k].text !== "" || result[i].data[j].pho[k].img !== "") {%>
+                            <div class="container-popup">
+                            <p class="popup-name"><%= result[i].data[j].pho[k].name %></p>
+                            <div class="popup">
+                              <%if (result[i].data[j].pho[k].text !== "") {%>
+                                <div class="popup-text">
+                                  <p><%= result[i].data[j].pho[k].text %></p>
+                                </div>                        
+                                <%}%>
+                                <%if (result[i].data[j].pho[k].img !== "") {%>
+                                  <div class="popup-img">
+                                    <img src="/upload/<%= result[i].data[j].pho[k].img %>" alt="pho">
+                                  </div>                
+                                <%}%>
+                            </div>
+                          </div>
+                          <%} else {%>
+                            <p><%= result[i].data[j].pho[k].name %></p>
+                          <%}%>
+                      <%}%>
                     <%}%>
                 </td>
-                <td>
-                  <%if (result[i].data[j].pho[0] !=="1" ) {%>
-                    <% for(let k=0; k < result[i].data[j].pho.length; k++) { %>
-                      <p>
-                        <%= result[i].data[j].pho[k] %>
-                      </p>
-                      <%}%>
-                        <%} else {%>
-                          <% for(let k=1; k < result[i].data[j].pho.length; k++) { %>
-                            <%if (result[i].data[j].pho[k].text !=="" || result[i].data[j].pho[k].img !=="" ) {%>
-                              <div class="container-popup">
-                                <p class="popup-name">
-                                  <%= result[i].data[j].pho[k].name %>
-                                </p>
-                                <div class="popup">
-                                  <%if (result[i].data[j].pho[k].text !=="" ) {%>
-                                    <div class="popup-text">
-                                      <p>
-                                        <%- result[i].data[j].pho[k].text %>
-                                      </p>
-                                    </div>
-                                    <%}%>
-                                      <%if (result[i].data[j].pho[k].img !=="" ) {%>
-                                        <div class="popup-img">
-                                          <img src="/upload/<%= result[i].data[j].pho[k].img %>" alt="pho">
-                                        </div>
-                                        <%}%>
-                                </div>
-                              </div>
-                              <%} else {%>
-                                <p class="popup-name">
-                                  <%= result[i].data[j].pho[k].name %>
-                                </p>
-                                <%}%>
-                                  <%}%>
-                                    <%}%>
-                </td>
-                <td><img src="/upload/<%= result[i].data[j].cauTruc%>" class="img" /></td>
-                <td>
-                  <%- result[i].data[j].hoatTinh%>
-                </td>
+                <td class="cau-truc">
+                  <div class="bg-cau-truc"></div>
+                  <img src="/upload/<%= result[i].data[j].cauTruc%>" class="img"/></td>
+                <td class="hoat-tinh"><%= result[i].data[j].hoatTinh%></td>
               </tr>
               <%}%>
                 <%}%>
         </table>
     </div>
-  </div>
-  <script>
-    const listNamePho = document.getElementsByClassName("container-popup")
-    const listPopup = document.getElementsByClassName("popup")
-    for (let i = 0; i < listNamePho.length; i++) {
-      listNamePho[i].addEventListener("mouseover", (event) => {
-        listPopup[i].classList.add("active")
-      })
-      listNamePho[i].addEventListener("mouseout", (event) => {
-        listPopup[i].classList.remove("active")
-      })
-    }
-
-    const listTagA = document.getElementsByClassName('link-reference')
-    for (let index = 0; index < listTagA.length; index++) {
-      listTagA[index].setAttribute("target", "_blank")
-    }
-  </script>
-</body>
-
+    <script>
+      const listNamePho = document.getElementsByClassName("container-popup")
+      const listPopup = document.getElementsByClassName("popup") 
+      for(let i=0; i<listNamePho.length ; i++) {
+        listNamePho[i].addEventListener("mouseover", (event) => {
+          listPopup[i].classList.add("active")
+        })
+        listNamePho[i].addEventListener("mouseout", (event) => {
+          listPopup[i].classList.remove("active")
+        })
+      }
+      const listCauTruc = document.getElementsByClassName("cau-truc")
+      const listHoatTinh = document.getElementsByClassName("hoat-tinh")
+      for (let index = 0; index < listHoatTinh.length; index++) {
+        listCauTruc[index].style.height = `${listHoatTinh[index].offsetHeight}px`
+      }
+    </script>
+  </body>
 </html>
