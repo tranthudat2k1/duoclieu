@@ -25,9 +25,9 @@
               <th style="width:13%">Hoạt chất</th>
               <th style="width:8%">Phân đoạn chiết tách</th>
               <th style="width:26%">Tính chất vật lý</th>
-              <th style="width:13%">Quang phổ</th>
-              <th style="width:21%">Cấu trúc hóa học</th>
-              <th style="width:19%">Hoạt tính dược lý</th>
+              <th style="width:10%">Quang phổ</th>
+              <th style="width:18%">Cấu trúc hóa học</th>
+              <th style="width:25%">Hoạt tính dược lý</th>
             </tr>
             <% for(let i=0; i < result.length; i++) { %>
               <tr class="item">
@@ -67,13 +67,15 @@
                             </div>
                           </div>
                           <%} else {%>
-                            <p class="popup-name"><%= result[i].data[j].pho[k].name %></p>
+                            <p><%= result[i].data[j].pho[k].name %></p>
                           <%}%>
                       <%}%>
                     <%}%>
                 </td>
-                <td><img src="/upload/<%= result[i].data[j].cauTruc%>" class="img"/></td>
-                <td><%= result[i].data[j].hoatTinh%></td>
+                <td class="cau-truc">
+                  <div class="bg-cau-truc"></div>
+                  <img src="/upload/<%= result[i].data[j].cauTruc%>" class="img"/></td>
+                <td class="hoat-tinh"><%= result[i].data[j].hoatTinh%></td>
               </tr>
               <%}%>
             <%}%>
@@ -90,6 +92,11 @@
         listNamePho[i].addEventListener("mouseout", (event) => {
           listPopup[i].classList.remove("active")
         })
+      }
+      const listCauTruc = document.getElementsByClassName("cau-truc")
+      const listHoatTinh = document.getElementsByClassName("hoat-tinh")
+      for (let index = 0; index < listHoatTinh.length; index++) {
+        listCauTruc[index].style.height = `${listHoatTinh[index].offsetHeight}px`
       }
     </script>
   </body>
