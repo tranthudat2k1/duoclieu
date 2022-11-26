@@ -10,3 +10,8 @@ module.exports.get = (req, res, next) => {
   module.exports.test = (req, res, next) => {
     res.render("hoa-sinh-hoc/test.ejs")
   }
+
+  module.exports.getTaiLieuThamKhao = (req, res, next) => {
+    const data = require("../data")
+    res.render("tai-lieu-tham-khao/index.ejs", {result : data.taiLieuThamKhao})
+  }
