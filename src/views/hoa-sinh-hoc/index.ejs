@@ -44,8 +44,14 @@
                   <%}%>
                 </td>
                 <td>
-                  <% for(let k=0; k < result[i].data[j].pho.length; k++) { %>
-                    <p><%= result[i].data[j].pho[k] %></p>
+                  <%if (result[i].data[j].pho[0] !== "1") {%>
+                    <% for(let k=1; k < result[i].data[j].pho.length; k++) { %>
+                      <p><%= result[i].data[j].pho[k] %></p>
+                    <%}%>
+                  <%} else {%>
+                    <% for(let k=0; k < result[i].data[j].pho.length; k++) { %>
+                      <p><%= result[i].data[j].pho[k].name %></p>
+                    <%}%>
                   <%}%>
                 </td>
                 <td><img src="/upload/<%= result[i].data[j].cauTruc%>" class="img"/></td>

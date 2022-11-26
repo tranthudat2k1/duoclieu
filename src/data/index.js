@@ -186,10 +186,27 @@ const biochemistry = [
         "Độ tan: 440 mg/L trong nước ở 25 °C, hoạt chất tan trong benzene; ít tan trong chloroform; hòa tan trong acetic acid, dung dịch kiềm; rất tan trong ethanol, ethyl ether, acetone [35]."
       ],
       pho : [
-        "Phổ UV",
-        "Phổ MS",
-        "Phổ IR",
-        "Phổ NMR"
+        "1",
+        {
+          name : "Phổ UV", 
+          text : "UV: λmax ở 265, 365 nm O'Neil M.J., et al. (2006), The Merck Index - An Encyclopedia of Chemicals, Drugs, and Biologicals, NJ: Merck and Co.Inc., pp. 913.",
+          img : ""
+        },
+        {
+          name : "Phổ MS", 
+          text : "",
+          img : "pho/Kaempfero/MS.jpeg"
+        },
+        {
+          name : "Phổ NMR", 
+          text : "Phổ H^1 –NMR  của kaempferol",
+          img : "pho/Kaempfero/NMR.jpeg"
+        },
+        {
+          name : "Phổ IR", 
+          text : "",
+          img : "pho/Kaempfero/NMR.jpeg"
+        }
       ],
       cauTruc : "Kaempferol.jpg",
       hoatTinh : "Kaempferol có hoạt tính kháng ung thư giảm nguy cơ phát triển một số loại tế bào ung thư, bao gồm tế bào ung thư vú [5],[119] tế bào ung thư não [103] tế bào ung thư da và ung thư gan [17],  tế bào ung thư ruột kết [148], [74], tế bào ung thư tiền liệt tuyến [132] tế  bào ung thư tuyến tụy [116], tế bào ung thư phổi [165], [93], tế bào ung thư thận, tế bào ung thư biểu mô ống thận [164], tế bào ung thư cổ tử cung [106], [172] ung thư tế bào buồn trứng [26]; kháng khuẩn [84]; chống viêm mạnh [78], [178]; chống oxy hóa [81], [128]; chống béo phì và ức chế quá trình tạo mỡ [170] [176]; bảo vệ thành mạch máu [24], bảo vệ tim [72], bảo vệ gan [6], hỗ trợ điều trị đái tháo đường, ức chế tân tạo đường ở gan và tăng cường độ nhạy insulin [59]."
@@ -206,10 +223,27 @@ const biochemistry = [
         "Độ tan: 0,06 mg/mL trong nước ở 16 °C , hoạt chất rất tan trong ether, methanol; tan trong ethanol,acetone, pyridine, acetic acid [44]",
       ],
       pho : [
-        "Phổ UV",
-        "Phổ MS",
-        "Phổ IR",
-        "Phổ NMR"
+        "1",
+        {
+          name : "Phổ UV", 
+          text : "UV: λmax ở 256 nm và 301 nm Weast R.C., et al. (1979). Handbook of Chemistry and Physics. 60th ed., Florida: CRC Press Inc., pp. C-306",
+          img : ""
+        },
+        {
+          name : "Phổ MS", 
+          text : "",
+          img : "pho/Quercetin/MS.jpeg"
+        },
+        {
+          name : "Phổ IR", 
+          text : "",
+          img : "pho/Quercetin/IR.jpeg"
+        },
+        {
+          name : "Phổ NMR", 
+          text : "",
+          img : "pho/Kaempfero/NMR.jpeg"
+        }
       ],
       cauTruc :"Quercetin.jpg",
       hoatTinh :"Quercetin  có hoạt tính chống ung thư [145], [65] (tế bào ung thư vú [85], tế bào ung thư dạ dày [120], tế bào ung thư gan [193],…); kháng viêm [91], [151], [121]; kháng khuẩn [102], [91], [137]; kháng virus [133], [149]; chống oxy hóa [121], [62]."
