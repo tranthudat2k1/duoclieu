@@ -5,7 +5,9 @@
 }
 
 .content-desc {
-  padding: 8rem;
-  /* padding-left: 332px; */
+  margin-left: 300px;
+  margin-top: 100px;
+  display: flex;
+  width: calc(100vw - 300px);
 }
 
