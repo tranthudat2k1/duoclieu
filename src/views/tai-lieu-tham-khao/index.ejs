@@ -18,11 +18,11 @@
     <div class="tai-lieu">
       <h1>Tài liệu Tiếng Việt</h1>
       <% for(let i=0; i < result[0].VN.length; i++) { %>
-        <p class="tai-lieu-text"><%= result[0].VN[i] %></p>
+        <p class="tai-lieu-text"><%- result[0].VN[i] %></p>
       <%}%>
       <h1>Tài liệu Tiếng Anh</h1>
       <% for(let i=0; i < result[1].EN.length; i++) { %>
-        <p class="tai-lieu-text"><%= result[1].EN[i] %></p>
+        <p class="tai-lieu-text"><%- result[1].EN[i] %></p>
       <%}%>
     </div>
   </div>

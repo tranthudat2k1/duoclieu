@@ -86,10 +86,11 @@
       const listNamePho = document.getElementsByClassName("container-popup")
       const listPopup = document.getElementsByClassName("popup") 
       for(let i=0; i<listNamePho.length ; i++) {
-        listNamePho[i].addEventListener("mouseover", (event) => {
+        listNamePho[i].addEventListener("click", (event) => {
           listPopup[i].classList.add("active")
+          console.log(listPopup[i])
         })
-        listNamePho[i].addEventListener("mouseout", (event) => {
+        listPopup[i].addEventListener("mouseleave", (event) => {
           listPopup[i].classList.remove("active")
         })
       }
