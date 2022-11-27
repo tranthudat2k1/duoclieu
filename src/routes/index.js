@@ -8,4 +8,4 @@ module.exports = api => api
   .use('/distribution', require('./distribution.router'))
   .use('/uses', require('./uses.router'))
   .use('/reference', require('./reference.router'))
-  .use('/home', require('./home.router'))
+  .use('/', require('./home.router'))
