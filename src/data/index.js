@@ -182,7 +182,7 @@ const biochemistry = [
       hoatChat : "Kaempferol <a class='link-reference' href='https://doi.org/10.1080/14786410600943288'>[14]</a>",
       phanDoan : "ethyl acetate",
       tinhChat : [
-        "Công thức phân tử :  C15H10O6",
+        "Công thức phân tử : C<sub style='font-size:11px;'>15</sub>H<sub style='font-size:11px;'>10</sub>O<sub style='font-size:11px;'>6</sub>",
         "Khối lượng mol : 286,24 g/mol",
         "Tính chất:Chất rắn màu vàng.",
         "Nhiệt độ điểm nóng chảy: 285-287 °C",
@@ -219,7 +219,7 @@ const biochemistry = [
       hoatChat :"Quercetin <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan :"hexane",
       tinhChat :[
-        "Công thức phân tử: C15H10O7",
+        "Công thức phân tử: C<sub style='font-size:11px;'>15</sub>H<sub style='font-size:11px;'>10</sub>O<sub style='font-size:11px;'>7</sub>",
         "Khối lượng mol: 302,23 g/mol",
         "Tính chất: Dạng rắn, kết tinh hình kim màu vàng, có tính ổn định và bền với nhiệt",
         "Nhiệt độ điểm nóng chảy: 316-318 °C",
@@ -256,7 +256,7 @@ const biochemistry = [
       hoatChat : "Dihydroquercetin <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan: "hexane",
       tinhChat :[
-        "Công thức phân tử: C15 H12O7",
+        "Công thức phân tử: C<sub style='font-size:11px;'>15</sub>H<sub style='font-size:11px;'>12</sub>O<sub style='font-size:11px;'>7</sub>",
         "Khối lượng mol: 304,25 g/mol",
         "Tính chất: : Bột màu trắng đến nâu nhạt <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Taxifolin'>[32]</a>",
       ],
@@ -273,7 +273,7 @@ const biochemistry = [
       hoatChat: "Afzelin <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan :"hexane",
       tinhChat :[
-        "Công thức phân tử: C21H20O10",
+        "Công thức phân tử: C<sub style='font-size:11px;'>21</sub>H<sub style='font-size:11px;'>20</sub>O<sub style='font-size:11px;'>10</sub>",
         "Khối lượng mol: 432,4 g/mol",
       ],
       pho : [
@@ -289,7 +289,7 @@ const biochemistry = [
       hoatChat : "Quercitrin <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan :"hexane",
       tinhChat :[
-        "Công thức phân tử: C21H20O11",
+        "Công thức phân tử: C<sub style='font-size:11px;'>21</sub>H<sub style='font-size:11px;'>20</sub>O<sub style='font-size:11px;'>11</sub>",
         "Khối lượng mol: 448,4 g/mol",
         "Tính chất: Chất rắn màu vàng",
         "Nhiệt độ điểm nóng chảy: 176-179°C",
@@ -309,7 +309,7 @@ const biochemistry = [
       hoatChat :"Myricitrin <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan :"methanol",
       tinhChat :[
-        "Công thức phân tử: C21H20O12",
+        "Công thức phân tử: C<sub style='font-size:11px;'>21</sub>H<sub style='font-size:11px;'>20</sub>O<sub style='font-size:11px;'>12</sub>",
         "Khối lượng mol: 464,4 g/mol",
         "Tính chất: Chất rắn màu trắng đến vàng nhạt và có mùi thơm nhẹ.",
         "Nhiệt độ điểm nóng chảy: 197 °C",
@@ -355,7 +355,7 @@ const biochemistry = [
       hoatChat : "Guaijaverin <a class='link-reference' href='https://doi.org/10.1080/14786410600943288'>[14]</a>",
       phanDoan :"ethyl acetate",
       tinhChat :[
-        "Công thức phân tử:  C20H18O11",
+        "Công thức phân tử:  C<sub style='font-size:11px;'>20</sub>H<sub style='font-size:11px;'>18</sub>O<sub style='font-size:11px;'>11</sub>",
         "Khối lượng mol:  434,3 g/mol <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Guaijaverin'>[45]</a>"
       ],
       pho : [
@@ -371,7 +371,7 @@ const biochemistry = [
       hoatChat : "Reynoutrin <a class='link-reference' href='https://doi.org/10.1080/14786410600943288'>[14]</a>",
       phanDoan :"ethyl acetate",
       tinhChat :[
-        "Công thức phân tử: C20H18O11",
+        "Công thức phân tử: C<sub style='font-size:11px;'>20</sub>H<sub style='font-size:11px;'>18</sub>O<sub style='font-size:11px;'>11</sub>",
         "Khối lượng mol: 434,3 g/mol",
         "Nhiệt độ điểm nóng chảy: 201-203 ℃ <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Reynoutrin'>[40]</a>",
       ],
@@ -388,7 +388,7 @@ const biochemistry = [
       hoatChat :"Juglanin <a class='link-reference' href='https://doi.org/10.1080/14786410600943288'>[14]</a>",
       phanDoan :"ethyl acetate",
       tinhChat :[
-        "Công thức phân tử: C20H18O10",
+        "Công thức phân tử: C<sub style='font-size:11px;'>20</sub>H<sub style='font-size:11px;'>18</sub>O<sub style='font-size:11px;'>10</sub>",
         "Khối lượng mol: 418,3 g/mol <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Juglanin'>[39]</a>"
       ],
       pho : [
@@ -404,7 +404,7 @@ const biochemistry = [
       hoatChat :"Avicularin <a class='link-reference' href='https://doi.org/10.1080/14786410600943288'>[14]</a>",
       phanDoan :"ethyl acetate",
       tinhChat :[
-        "Công thức phân tử: C20H18O11",
+        "Công thức phân tử: C<sub style='font-size:11px;'>20</sub>H<sub style='font-size:11px;'>18</sub>O<sub style='font-size:11px;'>11</sub>",
         "Khối lượng mol: : 434,3 g/mol",
         "Nhiệt độ điểm nóng chảy: 207-208 °C",
       ],
@@ -421,7 +421,7 @@ const biochemistry = [
       hoatChat :"Hyperin <a class='link-reference' href='https://doi.org/10.1080/14786410600943288'>[14]</a>",
       phanDoan :"ethyl acetate",
       tinhChat :[
-        "Công thức phân tử: C20H18O12",
+        "Công thức phân tử: C<sub style='font-size:11px;'>20</sub>H<sub style='font-size:11px;'>18</sub>O<sub style='font-size:11px;'>12</sub>",
         "Khối lượng mol: 464,4 g/mol",
         "Tính chất: Chất rắn màu vàng nhạt đến vàng",
         "Nhiệt độ điểm nóng chảy: 232 - 233 °C",
@@ -441,7 +441,7 @@ const biochemistry = [
       hoatChat :"Trifolin <a class='link-reference' href='https://doi.org/10.1080/14786410600943288'>[14]</a>",
       phanDoan :"ethyl acetate",
       tinhChat :[
-        "Công thức phân tử: C21H20O11",
+        "Công thức phân tử: C<sub style='font-size:11px;'>21</sub>H<sub style='font-size:11px;'>20</sub>O<sub style='font-size:11px;'>11</sub>",
         "Khối lượng mol: 448,4 g/mol",
         "Tính chất: Chất rắn",
         "Nhiệt độ điểm nóng chảy: 235 °C <a class='link-reference' href=' https://pubchem.ncbi.nlm.nih.gov/compound/Trifolin'>[38]</a>",
@@ -472,7 +472,7 @@ const biochemistry = [
       hoatChat:"Rutin <a class='link-reference' href='https://doi.org/10.1080/14786410600943288'>[14]</a>",
       phanDoan: "ethyl acetate",
       tinhChat :[
-        "Công thức phân tử: C27H30O16",
+        "Công thức phân tử: C<sub style='font-size:11px;'>27</sub>H<sub style='font-size:11px;'>30</sub>O<sub style='font-size:11px;'>16</sub>",
         "Khối lượng mol: 610,5 g/mol",
         "Tính chất: Chất rắn màu vàng đến xanh lục",
         "Nhiệt độ điểm nóng chảy: 125 °C",
@@ -494,7 +494,7 @@ const biochemistry = [
       hoatChat:"Protocatechuic acid <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan: "hexane",
       tinhChat :[
-        "Công thức phân tử:  C7H6O4",
+        "Công thức phân tử: C<sub style='font-size:11px;'>7</sub>H<sub style='font-size:11px;'>6</sub>O<sub style='font-size:11px;'>4</sub>",
         "Khối lượng mol:  154,12 g/mol",
         "Tính chất: Chất rắn màu trắng đến hơi nâu; đổi màu trong không khí.",
         "Nhiệt độ điểm nóng chảy:  221 °C",
@@ -513,7 +513,7 @@ const biochemistry = [
       hoatChat:"Gallic acid <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan: "MeOH",
       tinhChat :[
-        "Công thức phân tử:  C7H6O5",
+        "Công thức phân tử: C<sub style='font-size:11px;'>7</sub>H<sub style='font-size:11px;'>6</sub>O<sub style='font-size:11px;'>5</sub>",
         "Khối lượng mol:   170,12 g/mol",
         "Tính chất: Chất rắn không màu đến hơi vàng hoặc tinh thể hình kim màu trắng, không mùi",
         "Nhiệt độ điểm nóng chảy: 258 - 265 °C",
@@ -527,13 +527,13 @@ const biochemistry = [
         "Phổ NMR"
       ],
       cauTruc :"Gallic.jpg",
-      hoatTinh :"Gallic acid có hoạt tính kháng khuẩn <a class='link-reference' href='https://doi.org/10.1016/j.micpath.2016.08.004'>[129]</a>; kháng nấm <a class='link-reference' href='https://doi.org/10.1002/ptr.5823'>[126]</a>; kháng viêm <a class='link-reference' href='https://doi.org/10.3390/nu11010023'>[79]</a>; <a class='link-reference' href='https://www.sciencedirect.com/science/article/pii/S1567576918312438'>[194]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.pharepp.2017.03.011'>[105]</a>; kháng ung thư <a class='link-reference' href='https://doi.org/10.1016/j.fct.2021.112576'>[63]</a> (tế bào ung thư ruột kết <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4823245/'>[19]</a>, tế bào ung thư biểu mô gan <a class='link-reference' href='https://www.spandidos-publications.com/10.3892/ol.2015.3845'>[167]</a>, tế bào ung thư phổi <a class='link-reference' href='https://www.spandidos-publications.com/10.3892/or.2019.6976'>[190]</a>,…); chống oxy hóa <a class='link-reference' href='https://doi.org/10.3390/nu11010023'>[79]</a>, href='https://doi.org/10.1016/j.pharepp.2017.03.011'>[105]</a>."
+      hoatTinh :"Gallic acid có hoạt tính kháng khuẩn <a class='link-reference' href='https://doi.org/10.1016/j.micpath.2016.08.004'>[129]</a>; kháng nấm <a class='link-reference' href='https://doi.org/10.1002/ptr.5823'>[126]</a>; kháng viêm <a class='link-reference' href='https://doi.org/10.3390/nu11010023'>[79]</a>; <a class='link-reference' href='https://www.sciencedirect.com/science/article/pii/S1567576918312438'>[194]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.pharepp.2017.03.011'>[105]</a>; kháng ung thư <a class='link-reference' href='https://doi.org/10.1016/j.fct.2021.112576'>[63]</a> (tế bào ung thư ruột kết <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4823245/'>[19]</a>, tế bào ung thư biểu mô gan <a class='link-reference' href='https://www.spandidos-publications.com/10.3892/ol.2015.3845'>[167]</a>, tế bào ung thư phổi <a class='link-reference' href='https://www.spandidos-publications.com/10.3892/or.2019.6976'>[190]</a>,…); chống oxy hóa <a class='link-reference' href='https://doi.org/10.3390/nu11010023'>[79]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.pharepp.2017.03.011'>[105]</a>."
     },
     {
       hoatChat:"Pteleoellagic acid <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan: "hexane",
       tinhChat :[
-        "Công thức phân tử: C16H8O8",
+        "Công thức phân tử: C<sub style='font-size:11px;'>16</sub>H<sub style='font-size:11px;'>8</sub>O<sub style='font-size:11px;'>8</sub>",
       ],
       pho :[
         "Phổ UV",
@@ -548,7 +548,7 @@ const biochemistry = [
       hoatChat:"3,3’,4’-tri-O-methylellagic acid <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan: "hexane",
       tinhChat :[
-        "Công thức phân tử: C17H12O8"
+        "Công thức phân tử: C<sub style='font-size:11px;'>17</sub>H<sub style='font-size:11px;'>12</sub>O<sub style='font-size:11px;'>8</sub>"
       ],
       pho :[
         "Phổ UV",
@@ -566,7 +566,7 @@ const biochemistry = [
       hoatChat:"Squalene <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan: "hexane",
       tinhChat :[
-        "Công thức phân tử: C30H50",
+        "Công thức phân tử: C<sub style='font-size:11px;'>30</sub>H<sub style='font-size:11px;'>50</sub>",
         "Khối lượng mol: 410,7 g/mol",
         "Bề ngoài: Chất lỏng trong suốt, màu hơi vàng, có mùi dễ chịu",
         "Nhiệt độ điểm nóng chảy: -4,8 °C",
@@ -586,7 +586,7 @@ const biochemistry = [
       hoatChat:"Betulonic acid <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan: "hexane",
       tinhChat :[
-        "Công thức phân tử:  C30H46O3",
+        "Công thức phân tử:  C<sub style='font-size:11px;'>30</sub>H<sub style='font-size:11px;'>46</sub>O<sub style='font-size:11px;'>3</sub>",
         "Khối lượng mol: 454,7 g/mol",
         "Tính chất: Chất rắn màu trắng hoặc trắng ngà",
         "Nhiệt độ điểm nóng chảy: 316-318 °C",
@@ -605,7 +605,7 @@ const biochemistry = [
       hoatChat:"Betulin <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan : "hexane",
       tinhChat :[
-        "Công thức phân tử:  C30H50O2",
+        "Công thức phân tử:  C<sub style='font-size:11px;'>30</sub>H<sub style='font-size:11px;'>5</sub>O<sub style='font-size:11px;'>2</sub>",
         "Khối lượng mol:  442,7 g/mol",
         "Tính chất: chất rắn, tinh thể có hình kimmàu nâu nhạt đến màu be",
         "Nhiệt độ điểm nóng chảy:  251 - 252 °C",
@@ -625,7 +625,7 @@ const biochemistry = [
       hoatChat:"Betulinic acid <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan:"hexane",
       tinhChat :[
-        "Công thức phân tử:  C30H48O3",
+        "Công thức phân tử:  C<sub style='font-size:11px;'>30</sub>H<sub style='font-size:11px;'>48</sub>O<sub style='font-size:11px;'>3</sub>",
         "Khối lượng mol:  456,7 g/mol",
         "Tính chất: Chất rắn màu trắng hoặc trắng ngà",
         "Nhiệt độ điểm nóng chảy:  316 - 318 °C",
@@ -658,7 +658,7 @@ const biochemistry = [
       hoatTinh : "Chưa được công bố."
     },
     {
-      hoatChat:"∆22(23); (22E,24R)- 6β-hydroxy-stigmasta-4,22-dien-3-one <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
+      hoatChat:"∆<sup>22</sup>(<sup>23</sup>); (22E,24R)- 6β-hydroxy-stigmasta-4,22-dien-3-one <a class='link-reference' href='https://www.researchgate.net/profile/Jamil-Shilpi/post/What_is_the_best_method_to_extract_Squalene_from_plant_sources/attachment/59d6211ec49f478072e984e3/AS%3A271761046335491%401441804292789/download/ludwigia_adscendens_2010.pdf'>[158]</a>",
       phanDoan:"hexane",
       tinhChat :[],
       pho : [
@@ -676,7 +676,7 @@ const biochemistry = [
 const introCommon = [
   {
     img: "intro-page1.jpeg",
-    text: "Công thức phân tử: C30H48O3 Khối lượng mol: 456,7 g/mol Tính chất: Chất rắn màu trắng hoặc trắng ngà.    Nhiệt độ điểm nóng chảy:  316 - 318 °C Nhiệt độ điểm sôi:  550,02 ° C Độ tan: 0,001607 mg/L trong nước ở 25 °C <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Betulinic-acid'>[31]</a>",
+    text: "Công thức phân tử: C<sub style='font-size:11px;'>30</sub>H<sub style='font-size:11px;'>48</sub>O<sub style='font-size:11px;'>3</sub> Khối lượng mol: 456,7 g/mol Tính chất: Chất rắn màu trắng hoặc trắng ngà.    Nhiệt độ điểm nóng chảy:  316 - 318 °C Nhiệt độ điểm sôi:  550,02 ° C Độ tan: 0,001607 mg/L trong nước ở 25 °C <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Betulinic-acid'>[31]</a>",
     id: 1
   },
   {

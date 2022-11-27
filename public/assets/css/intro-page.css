@@ -21,7 +21,7 @@ body {
 .content-item.active {
   display: block;
   width: 88%;
-  height: 400px;
+  height: 600px;
   padding: 2rem 1rem;
   border: 9px solid #206b40;
   border-radius: 1rem;
@@ -38,10 +38,13 @@ body {
 .content {
   position: relative;
   width: 60%;
+  margin-left: 40px;
+  bottom: 40px;
 }
 
 .container-img {
-  width: 40%;
+  width: 30%;
+  margin-top: 70px;
 }
 
 .img-top {
@@ -55,6 +58,7 @@ body {
   border-radius: 1rem;
   cursor: pointer;
   object-fit: cover;
+  margin-left: 5px;
 }
 
 .img-bottom {
