@@ -129,19 +129,19 @@ const description = [
 ]
 
 const introduction = {
-  name: "Ludwigia adscendens (L.) Hara",
+  name: "<i>Ludwigia adscendens</i> (L.) Hara",
   otherNames: [
-    "Jussiaea repens f. brevipes Domin",
-    "Jussiaea repens f. longipes Domin",
-    "Jussiaea repens subsp. glabrata Hassl",
-    "Jussiaea repens subsp. hirsuta Hassl",
-    "Jussiaea repens var. clarenciana H. Lév",
-    "Jussiaea repens var. grandiflora Hassl <a class='link-reference' href='https://www.gbif.org/species/7322187'>[27]</a>",
+    "<i>Jussiaea repens</i> f. <i>brevipes</i> Domin",
+    "<i>Jussiaea repens</i> f. <i>longipes</i> Domin",
+    "<i>Jussiaea repens</i> subsp. <i>glabrata</i> Hassl",
+    "<i>Jussiaea repens</i> subsp. <i>hirsuta</i> Hassl",
+    "<i>Jussiaea repens</i> var. <i>clarenciana</i> H. Lév",
+    "<i>Jussiaea repens</i> var. <i>grandiflora</i> Hassl <a class='link-reference' href='https://www.gbif.org/species/7322187'>[27]</a>",
   ],
   vietnameseName: "Rau dừa nước, rau dừa trâu, thuy thái, thủy long, du long thái <a class='link-reference' href=''>[1]</a>",
   relationship: {
     des1: "Rau dừa nước hoặc họ rau mương, còn gọi là họ Anh thảo chiều hay Nguyệt kiến thảo (Danh pháp khoa học: Onagraceae) <a class='link-reference' href=''>[1]</a>",
-    des2: "Ludwigia adscendens được (L.) Hara mô tả lần đầu tiên năm 1953 và được phân loại theo hệ thống của Takhtajan như sau:",
+    des2: "<i>Ludwigia adscendens</i> được (L.) Hara mô tả lần đầu tiên năm 1953 và được phân loại theo hệ thống của Takhtajan như sau:",
     root: [
       {
         vn: "Giới thực vật",
