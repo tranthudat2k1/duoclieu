@@ -755,28 +755,102 @@ const biochemistry = [
 const introCommon = [
   {
     img: "intro-page1.jpeg",
-    text: "Công thức phân tử: C<sub style='font-size:11px;'>30</sub>H<sub style='font-size:11px;'>48</sub>O<sub style='font-size:11px;'>3</sub> Khối lượng mol: 456,7 g/mol Tính chất: Chất rắn màu trắng hoặc trắng ngà.    Nhiệt độ điểm nóng chảy:  316 - 318 °C Nhiệt độ điểm sôi:  550,02 ° C Độ tan: 0,001607 mg/L trong nước ở 25 °C <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Betulinic-acid'>[31]</a>",
+    text: "Ở Việt Nam, chi <i>Ludwigia</i> (chi rau mương)  hiện biết có khoảng 6 loài phân bố rải rác khắp cả nước, gồm có L. <i>octovalvis</i> (rau mương lớn), L. <i>repens</i> (rau mương hoa nhỏ), L. <i>hyssopifolia</i> (rau mương thon), L. <i>epilobioides</i> (rau mương hẹp), L. <i>prostrata</i> (rau mương đất),  L. <i>adscendens</i> (rau dừa nước). ",
     id: 1
   },
   {
     img: "intro-page2.jpg",
-    text: "Toàn cây Ludwigia adscendens được thu hái vào mùa thu, có thể dùng tươi hay phơi khô. Ludwigia adscendens được dùng chữa cảm sốt, ho khan, đái đục, phù thủng, lỵ ra máu <a class='link-reference' href=''>[2]</a>. Đắp ngoài, chữa sưng lở, vết thương, rắn cắn, bỏng. Cả cây Ludwigia adscendens giã nát với dầu thầu dầu rồi xát lên đầu chữa nấm tóc và một số bệnh da đầu khác.",
+    text: "Theo y học cổ truyền, có nhiều bài thuốc dùng các cây thuộc chi <i>Ludwigia</i> để điều trị cho người bệnh như: L. <i>octovalvis</i> được dùng chữa táo bón, lợi tiểu, chữa giun sán, hạ sốt, chữa vết thương; L. <i>adscendens</i> được dùng chữa cảm sốt, ho khan, phù thũng, lỵ ra máu; L. <i>hysopifolia</i> được dùng chữa kiết lỵ, tiêu chảy, viêm ruột, ho, cảm mạo, viêm họng và mụn nhọt.",
     id: 2
   },
   {
     img: "intro-page3.jpeg",
-    text: "Một số bệnh viện đông y dược liệu Ludwigia adscendens để điều trị viêm bàng quang không do sỏi, lao bàng quang hoặc lao thận với những triệu chứng đái buốt, đái rắt, đái ra máu. Sau đó, đã mở rộng việc điều trị đái ra dưỡng trấp và huyết dưỡng trấp niệu mà không có ấu trùng giun chỉ trong máu. Thuốc không những làm hết dưỡng trấp mà còn hết cả albumin, hồng cầu, bạch cầu trong nước tiểu <a class='link-reference' href=''>[1]</a>. ",
+    text: "Nhằm thúc đẩy nghiên cứu về những loài dược liệu thuộc chi <i>Ludwigia</i>, chúng tôi xây dựng website cung cấp cơ sở dữ liệu về hóa thực vật và hoạt tính sinh học của 6 loài thuộc chi <i>Ludwigia</i> ở Việt Nam. Website hứa hẹn cung cấp những thông tin có tính cập nhật, đầy đủ, chi tiết và đảm bảo tính chính xác của thông tin nhầm phục vụ cho việc nghiên cứu và ứng dụng của các dược liệu thuộc chi <i>Ludwigia</i>.",
     id: 3
   },
   {
     img: "intro-page4.jpg",
-    text: "Ở Việt Nam, Ludwigia adscendens (rau dừa nước) có thể gặp ở hầu hết các địa phương thuộc vùng đồng bằng trung du và miền núi thấp, cây thường mọc ở nơi đất ngập nước (ao, đầm, bờ rượng ẩm ướt) [2]. Nếu mọc ở nơi nước nông như ở ruộng nước, vũng lầy cây mọc thẳng. Khi nước dâng cao hay ở môi trường nước sâu như ao, hồ, kênh mương, cây nổi trên mặt nước nhờ hệ thống rễ phụ biến thành phao xốp. Rau dừa nước ra hoa quả hàng năm. Quả nang khi già sẽ tự mở, hạt phát tán nhờ nước. Vào mùa xuân hè, khi cây bị cắt, phần còn lại mọc ra nhiều chồi <a class='link-reference' href=''>[1]</a>.",
+    text: "Ở Việt Nam, <i>Ludwigia adscendens</i> (rau dừa nước) có thể gặp ở hầu hết các địa phương thuộc vùng đồng bằng trung du và miền núi thấp, cây thường mọc ở nơi đất ngập nước (ao, đầm, bờ rượng ẩm ướt) <a class='link-reference';>[2]</a>. Nếu mọc ở nơi nước nông như ở ruộng nước, vũng lầy cây mọc thẳng. Khi nước dâng cao hay ở môi trường nước sâu như ao, hồ, kênh mương, cây nổi trên mặt nước nhờ hệ thống rễ phụ biến thành phao xốp. Rau dừa nước ra hoa quả hàng năm. Quả nang khi già sẽ tự mở, hạt phát tán nhờ nước. Vào mùa xuân hè, khi cây bị cắt, phần còn lại mọc ra nhiều chồi <a class='link-reference' href=''>[1]</a>.",
     id: 4
   },
 ]
 
 const microsurgery = {
-
+  bieu_bi: [
+    {
+      img: '1.jpg',
+      textImg: "Hình 1: vi phẩu biểu bì trên",
+      cmt: ""
+    },
+    {
+      img: '2.jpg',
+      textImg: "Hình 2: vi phẩu biểu bì dưới",
+      cmt: ""
+    },
+  ],
+  phan: [
+    {
+      img: '3.jpg',
+      textImg: "Hình 3: vi phẩu bao phấn",
+      cmt: ""
+    },
+    {
+      img: '4.jpg',
+      textImg: "Hình 4: vi phẩu hạt phấn",
+      cmt: ""
+    },
+    {
+      img: '5.jpg',
+      textImg: "Hình 5: vi phẩu noãn và lá noãn",
+      cmt: ""
+    }
+  ],
+  re: [
+    {
+      img: '6.jpg',
+      textImg: "Hình 6: vi phẫu cấu tạo của rễ",
+      cmt: "1.	Lớp tế bào bảo vê; 2. Lông hút; 3. Gỗ 2; 4. Libe 2; 5. Mô mền vỏ"
+    },
+    {
+      img: '7.jpg',
+      textImg: "Hình : vi phẫu một phần cấu tạo của rễ",
+      cmt: "1.	Đai Caspary; 2. Mạch gỗ ; 3. Trụ bì hóa mô cứng"
+    }
+  ],
+  than: [
+    {
+      img: '8.jpg',
+      textImg: "Hình 8: vi phẫu một phần cấu tạo của thân",
+      cmt: "1.	Biểu bì; 2. Mô dày; 3. Mô mềm vỏ; 4. Mô mềm xốp; 5. Libe 1; 6. Libe 2; tầng sinh trụ; 8. Tia gỗ; 9. Mạch gỗ; 10. Mô mền tủy"
+    },
+    {
+      img: '9.jpg',
+      textImg: "Hình 9: vi phẫu một phần cấu tạo của thân",
+      cmt: ""
+    },
+    {
+      img: '10.jpg',
+      textImg: "Hình 10: vi phẫu một phần cấu tạo của thân ",
+      cmt: "1.	Biểu bì; 2. Mô dày; 3. Mô mềm vỏ; 4. Mô mềm xốp"
+    },
+    {
+      img: '11.jpg',
+      textImg: "Hình 11: vi phẫu một phần cấu tạo của thân ",
+      cmt: ""
+    }
+  ],
+  la: [
+    {
+      img: '12.jpg',
+      textImg: "Hình 12: vi phẫu cấu tạo của cuống lá ",
+      cmt: ""
+    },
+    {
+      img: '13.jpg',
+      textImg: "Hình 13: vi phẫu một phần cấu tạo của lá ",
+      cmt: "1.	Lông che chở; 2. Biểu bì trên; 3. Biểu bì dưới; 4. Mô dày; 5. Mô mền; 6. Mô mền xốp; 7. Mô mền giậu; 8. Mô mềm khuyết; 9. Bó gân phụ; 10. Libe; 11. Gỗ "
+    }
+  ]
 }
 
 const distribution = "Ở Việt Nam, <a style='font-style: italic;'>Ludwigia adscendens</a> (rau dừa nước)  <a class='link-reference' href=''>[1]</a> có thể gặp ở hầu hết các địa phương thuộc vùng đồng bằng trung du và miền núi thấp, cây thường mọc ở nơi đất ngập nước (ao, đầm, bờ rượng ẩm ướt) <a class='link-reference' href=''>[2]</a>. Nếu mọc ở nơi nước nông như ở ruộng nước, vũng lầy cây mọc thẳng. Khi nước dâng cao hay ở môi trường nước sâu như ao, hồ, kênh mương, cây nổi trên mặt nước nhờ hệ thống rễ phụ biến thành phao xốp. Rau dừa nước ra hoa quả hàng năm. Quả nang khi già sẽ tự mở, hạt phát tán nhờ nước. Vào mùa xuân hè, khi cây bị cắt, phần còn lại mọc ra nhiều chồi <a class='link-reference' href=''>[1]</a>."
