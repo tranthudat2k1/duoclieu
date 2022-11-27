@@ -1,3 +1,6 @@
+body {
+    overflow: hidden;
+}
 
 .infor {
     position: relative;
@@ -5,22 +8,24 @@
     width: auto;
     height: auto;
     background-color: aquamarine;
-    top: -40px;
+    top: 100px;
 }
 
 h1 {
     position: absolute;
     top: 0px;
+    left: -50px;
     font-family: 'Signika', sans-serif;
     color: rgb(45, 106, 86);
     font-size: 200px;
+    font-style: italic;
 }
 
 b {
     position: absolute;
     font-family: 'Arial';
     color: rgb(45, 106, 86);
-    top: 380px;
+    top: 360px;
     left: 70px;
     font-size: 20px;
 }
@@ -54,11 +59,12 @@ b {
     background-repeat: no-repeat;
     background-position: left;
     background-size: 450px 80px;
-    padding: 30px 250px 30px 50px; /*top-right-bottom-left*/
+    padding: 30px 250px 30px 50px;
+    /*top-right-bottom-left*/
 
 }
 
-#lienhe{
+#lienhe {
     background-repeat: no-repeat;
     background-position: left;
     background-size: 300px 80px;
@@ -85,8 +91,8 @@ b {
 
 .search-button {
     position: absolute;
-    top: 11px;
-    left: 430px;
+    top: 13px;
+    left: 440px;
     width: 50px;
     height: 100%;
     border-radius: 50%;
@@ -123,4 +129,14 @@ img {
     width: 75%;
     height: 75%;
     object-fit: contain;
+}
+
+@media only screen and (max-width:1601px) {
+    h1 {
+        font-size: 180px;
+    }
+
+    .infor{
+        top:-10px;
+    }
 }
