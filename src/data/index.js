@@ -775,83 +775,87 @@ const introCommon = [
   },
 ]
 
-const microsurgery = {
-  bieu_bi: [
+const microsurgery = [
+  [
     {
       img: '1.jpg',
       textImg: "Hình 1: vi phẩu biểu bì trên",
-      cmt: ""
+      cmt: "",
+      type: '2'
     },
     {
       img: '2.jpg',
       textImg: "Hình 2: vi phẩu biểu bì dưới",
-      cmt: ""
+      cmt: "",
+      type: '2'
     },
   ],
-  phan: [
+  [
     {
       img: '3.jpg',
       textImg: "Hình 3: vi phẩu bao phấn",
-      cmt: ""
+      cmt: "",
+      type: '3'
     },
     {
       img: '4.jpg',
       textImg: "Hình 4: vi phẩu hạt phấn",
-      cmt: ""
+      cmt: "",
+      type: '3'
     },
     {
       img: '5.jpg',
       textImg: "Hình 5: vi phẩu noãn và lá noãn",
-      cmt: ""
+      cmt: "",
+      type: '3'
     }
   ],
-  re: [
+  [
     {
       img: '6.jpg',
       textImg: "Hình 6: vi phẫu cấu tạo của rễ",
-      cmt: "1.	Lớp tế bào bảo vê; 2. Lông hút; 3. Gỗ 2; 4. Libe 2; 5. Mô mền vỏ"
+      cmt: "1.Lớp biểu bì; 2.Lông hút; 3.Gỗ 2; 4.Libe 2; 5.Mô mền vỏ",
+      type: '2'
     },
     {
       img: '7.jpg',
       textImg: "Hình : vi phẫu một phần cấu tạo của rễ",
-      cmt: "1.	Đai Caspary; 2. Mạch gỗ ; 3. Trụ bì hóa mô cứng"
+      cmt: "1. Mạch gỗ; 2. Trụ bì hóa mô cứng",
+      type: '2'
     }
   ],
-  than: [
+  [
     {
       img: '8.jpg',
       textImg: "Hình 8: vi phẫu một phần cấu tạo của thân",
-      cmt: "1.	Biểu bì; 2. Mô dày; 3. Mô mềm vỏ; 4. Mô mềm xốp; 5. Libe 1; 6. Libe 2; tầng sinh trụ; 8. Tia gỗ; 9. Mạch gỗ; 10. Mô mền tủy"
+      cmt: "1.Biểu bì; 2.Mô dày; 3.Mô mềm vỏ; 4.Mô mềm xốp; 5.Libe 1; 6.Libe 2; 7.Tia gỗ; 8.Mạch gỗ; 9.Mô mền tủy",
+      type: '1'
     },
+  ],
+  [
     {
       img: '9.jpg',
       textImg: "Hình 9: vi phẫu một phần cấu tạo của thân",
-      cmt: ""
+      cmt: "1.Biểu bì; 2.Mô dày; 3.Mô mềm vỏ; 4.Mô mềm xốp",
+      type: '2'
     },
     {
       img: '10.jpg',
       textImg: "Hình 10: vi phẫu một phần cấu tạo của thân ",
-      cmt: "1.	Biểu bì; 2. Mô dày; 3. Mô mềm vỏ; 4. Mô mềm xốp"
+      cmt: "1.Tầng phát sinh trụ; 2.Tia gỗ; 3.Mạch gỗ; 4.Mô mền tủy",
+      type: '2'
     },
+
+  ],
+  [
     {
       img: '11.jpg',
       textImg: "Hình 11: vi phẫu một phần cấu tạo của thân ",
-      cmt: ""
-    }
-  ],
-  la: [
-    {
-      img: '12.jpg',
-      textImg: "Hình 12: vi phẫu cấu tạo của cuống lá ",
-      cmt: ""
-    },
-    {
-      img: '13.jpg',
-      textImg: "Hình 13: vi phẫu một phần cấu tạo của lá ",
-      cmt: "1.	Lông che chở; 2. Biểu bì trên; 3. Biểu bì dưới; 4. Mô dày; 5. Mô mền; 6. Mô mền xốp; 7. Mô mền giậu; 8. Mô mềm khuyết; 9. Bó gân phụ; 10. Libe; 11. Gỗ "
+      cmt: "1.Lông che chở; 2.Biểu bì trên; 3.Biểu bì dưới; 4.Mô dày; 5.Mô mền; 6. mô mền xốp; 7.Mô mền giậu; 8.Mô mềm khuyết; 10.Libe; 11.Gỗ",
+      type: '1'
     }
   ]
-}
+]
 
 const distribution = "Ở Việt Nam, <a style='font-style: italic;'>Ludwigia adscendens</a> (rau dừa nước)  <a class='link-reference' href=''>[1]</a> có thể gặp ở hầu hết các địa phương thuộc vùng đồng bằng trung du và miền núi thấp, cây thường mọc ở nơi đất ngập nước (ao, đầm, bờ rượng ẩm ướt) <a class='link-reference' href=''>[2]</a>. Nếu mọc ở nơi nước nông như ở ruộng nước, vũng lầy cây mọc thẳng. Khi nước dâng cao hay ở môi trường nước sâu như ao, hồ, kênh mương, cây nổi trên mặt nước nhờ hệ thống rễ phụ biến thành phao xốp. Rau dừa nước ra hoa quả hàng năm. Quả nang khi già sẽ tự mở, hạt phát tán nhờ nước. Vào mùa xuân hè, khi cây bị cắt, phần còn lại mọc ra nhiều chồi <a class='link-reference' href=''>[1]</a>."
 
