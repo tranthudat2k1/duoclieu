@@ -641,13 +641,13 @@ const biochemistry = [
             name: "Phổ MS",
             text: "",
             img: "pho/squalene/MS1.jpg",
-            cmt:""
+            cmt: ""
           },
           {
             name: "Phổ IR",
             text: "",
             img: "pho/squalene/IR1.jpg",
-            cmt:""
+            cmt: ""
           },
           {
             name: "Phổ NMR",
@@ -706,10 +706,13 @@ const biochemistry = [
             cmt: ""
           },
           {
-            name: "Phổ NMR",
-            text: "",
-            img: "pho/betulin/C-NMR.jpg,pho/betulin/H-NMR.jpg",
-            cmt: "Phổ <sup>13</sup>C- NMR,Phổ <sup>1</sup>H-NMR"
+            C_NMR: {
+              name: "Phổ IR",
+              text: "",
+              img: "pho/betulin/IR.jpg",
+              cmt: ""
+            },
+            H_NMR: {},
           },
         ],
         cauTruc: "Betulin.jpg",
