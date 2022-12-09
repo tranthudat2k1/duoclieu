@@ -54,16 +54,33 @@
                             <div class="container-popup">
                             <p class="popup-name"><%= result[i].data[j].pho[k].name %></p>
                             <div class="popup">
-                              <%if (result[i].data[j].pho[k].text !== "") {%>
-                                <div class="popup-text">
-                                  <p><%- result[i].data[j].pho[k].text %></p>
-                                </div>                        
-                                <%}%>
+                              <!--  -->
+                              <%if(result[i].data[j].pho[k].name.includes('NMR')) { %>
+                                <%- let imgs = result[i].data[j].pho[k].img.split(',');%>
+                                <%- let cmts = result[i].data[j].pho[k].cmt.split(',');%>
+                                <% for(let h = 0; h < imgs.length; h++) { %>
+                                  <% if(imgs[h] !== ""){ %>
+                                    <div class="popup-img">
+                                      <img src="/upload/<%= imgs[h] %>" alt="pho">
+                                    </div>
+                                    <div class="popup-ctm">
+                                      <img src="/upload/<%= cmts[h] %>" alt="pho">
+                                    </div>
+                                  <% } %>
+                                <% } %>
+                              <% } else {%>
+                                <!--  -->
                                 <%if (result[i].data[j].pho[k].img !== "") {%>
                                   <div class="popup-img">
                                     <img src="/upload/<%= result[i].data[j].pho[k].img %>" alt="pho">
                                   </div>                
                                 <%}%>
+                                <%if (result[i].data[j].pho[k].text !== "") {%>
+                                  <div class="popup-text">
+                                    <p><%- result[i].data[j].pho[k].text %></p>
+                                  </div>                        
+                                <%}%>
+                              <%}%>
                             </div>
                           </div>
                           <%} else {%>

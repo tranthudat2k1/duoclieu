@@ -635,10 +635,26 @@ const biochemistry = [
           "Độ tan: hoạt chất không tan trong nước, tan trong ether, petroleum ether, và các dung môi hữu cơ kém phân cực khác, ít tan trong alcol, acid acetic băng <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Squalene'>[43]</a>"
         ],
         pho: [
+          "1",
           "Phổ UV",
-          "Phổ MS",
-          "Phổ IR",
-          "Phổ NMR"
+          {
+            name: "Phổ MS",
+            text: "",
+            img: "pho/squalene/MS1.jpg",
+            cmt:""
+          },
+          {
+            name: "Phổ IR",
+            text: "",
+            img: "pho/squalene/IR1.jpg",
+            cmt:""
+          },
+          {
+            name: "Phổ NMR",
+            text: "",
+            img: "pho/squalene/C-NMR.jpg",
+            cmt: "Phổ <sup>13</sup>C- NMR"
+          },
         ],
         cauTruc: "Squalene.jpg",
         hoatTinh: "Squalene có hoạt tính chống oxy hóa <a class='link-reference' href='https://doi.org/10.1111/jfbc.12628'>[86]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.indcropp.2018.10.031'>[144]</a>, <a class='link-reference' href='ttps://doi.org/10.3177/jnsv.65.S62'>[18]</a>;chống viêm <a class='link-reference' href='https://doi.org/10.1111/jfbc.12628'>[86]</a>, <a class='link-reference' href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0218923'>[154]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.jff.2015.03.009'>[69]</a>; chống xơ vữa động mạch và bảo vệ hệ tim mạch <a class='link-reference' href='https://doi.org/10.3390/nu12020414'>[10]</a>, <a class='link-reference' href='https://doi.org/10.1002/mnfr.201800136'>[131]</a>; chống ung thư <a class='link-reference' href='https://www.sciencedirect.com/science/article/abs/pii/S0278691510000839'>[179]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.nano.2018.09.013'>[4]</a>; chống trầm cảm <a class='link-reference' href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0218923'>[154]</a>; hỗ trợ điều trị đái tháo đường type 2 <a class='link-reference' href='https://europepmc.org/article/med/26292512'>[3]</a>. "
@@ -675,10 +691,26 @@ const biochemistry = [
           "Độ hòa tan: 0.0001726 mg/L trong nước ở 25 °C, hoạt chất ít tan trong ethanol, benzene và hòa tan trong diethyl ete, ethyl acetate <a class='link-reference' href=''>[28]</a>."
         ],
         pho: [
+          "1",
           "Phổ UV",
-          "Phổ MS",
-          "Phổ IR",
-          "Phổ NMR"
+          {
+            name: "Phổ MS",
+            text: "",
+            img: "pho/betulin/MS.jpg",
+            cmt: ""
+          },
+          {
+            name: "Phổ IR",
+            text: "",
+            img: "pho/betulin/IR.jpg",
+            cmt: ""
+          },
+          {
+            name: "Phổ NMR",
+            text: "",
+            img: "pho/betulin/C-NMR.jpg,pho/betulin/H-NMR.jpg",
+            cmt: "Phổ <sup>13</sup>C- NMR,Phổ <sup>1</sup>H-NMR"
+          },
         ],
         cauTruc: "Betulin.jpg",
         hoatTinh: "Betulin có hoạt tính chống viêm<a class='link-reference' href='https://doi.org/10.1016/j.fct.2021.112539'>[146]</a>, <a class='link-reference' href='https://www.ingentaconnect.com/content/ben/acamc/2018/00000018/00000005/art00005'>[155]</a>; kháng ung thư <a class='link-reference' href='https://link.springer.com/article/10.1007/s12272-018-1064-9'>[163]</a>, <a class='link-reference' href='https://www.ingentaconnect.com/content/ben/acamc/2018/00000018/00000005/art00005'>[155]</a>; giảm tổn thương gan do rượu <a class='link-reference' href='https://doi.org/10.1016/j.phrs.2015.12.022'>[64]</a>; Betulin có thể dễ dàng chuyển đổi thành axit betulinic và các dẫn chất khác chất có phổ hoạt tính sinh học và dược lý rộng rãi <a class='link-reference' href='https://doi.org/10.1016/j.ejps.2006.04.006'>[56]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.biotechadv.2019.06.008'>[61]</a> như kháng ung thư <a class='link-reference' href='https://doi.org/10.1007/s00044-016-1713-9'>[66]</a>, <a class='link-reference' href='https://doi.org/10.1016/B978-0-444-63930-1.00002-8'>[104]</a> <a class='link-reference' href='https://doi.org/10.1016/j.bioorg.2019.03.060'>[75]</a>;  kháng viêm <a class='link-reference' href='https://doi.org/10.1021/acs.jnatprod.5b00709'>[114]</a>; kháng khuẩn <a class='link-reference' href='https://pubs.acs.org/doi/abs/10.1021/acsbiomaterials.1c00563'>[189]</a> và kháng virus <a class='link-reference' href='https://doi.org/10.1134/S1068162018050059'>[107]</a>."
