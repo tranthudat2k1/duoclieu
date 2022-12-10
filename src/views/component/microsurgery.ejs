@@ -24,51 +24,43 @@
                     <%- include('../include/sidebar.ejs') -%>
                 </div>
                 <div class="content-desc">
-                    <div class="adscendens-part">
-                        <%data.bieu_bi.forEach(function(result){%>
-                            <div class="adscendens-part-desc">
-                                <img src="/upload/viphau/<%=result.img%>" alt="">
-                                <p><%=result.textImg%></p>
-                                <p><%=result.cmt%></p>
-                            </div>
-                            <%})%>.
-                    </div>
-                    <div class="adscendens-part">
-                        <%data.phan.forEach(function(result){%>
-                            <div class="adscendens-part-desc">
-                                <img src="/upload/viphau/<%=result.img%>" alt="">
-                                <p><%=result.textImg%></p>
-                                <p><%=result.cmt%></p>
-                            </div>
-                            <%})%>.
-                    </div>
-                    <div class="adscendens-part">
-                        <%data.re.forEach(function(result){%>
-                            <div class="adscendens-part-desc">
-                                <img src="/upload/viphau/<%=result.img%>" alt="">
-                                <p><%=result.textImg%></p>
-                                <p><%=result.cmt%></p>
-                            </div>
-                            <%})%>.
-                    </div>
-                    <div class="adscendens-part">
-                        <%data.than.forEach(function(result){%>
-                            <div class="adscendens-part-desc">
-                                <img src="/upload/viphau/<%=result.img%>" alt="">
-                                <p><%=result.textImg%></p>
-                                <p><%=result.cmt%></p>
-                            </div>
-                            <%})%>.
-                    </div>
-                    <div class="adscendens-part">
-                        <%data.la.forEach(function(result){%>
-                            <div class="adscendens-part-desc">
-                                <img src="/upload/viphau/<%=result.img%>" alt="">
-                                <p><%=result.textImg%></p>
-                                <p><%=result.cmt%></p>
-                            </div>
-                            <%})%>.
-                    </div>
+                    <%data.forEach(function(result){%>
+                        <div class="adscendens-part">
+                            <%result.forEach(function(item){%>
+                                <%if(item.type==='3' ){%>
+                                    <div class="adscendens-part-desc-3">
+                                        <img src="/upload/viphau/<%=item.img%>" alt="">
+                                        <p>
+                                            <%=item.textImg%>
+                                        </p>
+                                        <p>
+                                            <%=item.cmt%>
+                                        </p>
+                                    </div>
+                                    <%} else if(item.type==='2' ) {%>
+                                        <div class="adscendens-part-desc-2">
+                                            <img src="/upload/viphau/<%=item.img%>" alt="">
+                                            <p>
+                                                <%=item.textImg%>
+                                            </p>
+                                            <p>
+                                                <%=item.cmt%>
+                                            </p>
+                                        </div>
+                                    <%} else {%>
+                                        <div class="adscendens-part-desc-1">
+                                            <img src="/upload/viphau/<%=item.img%>" alt="">
+                                            <p>
+                                                <%=item.textImg%>
+                                            </p>
+                                            <p>
+                                                <%=item.cmt%>
+                                            </p>
+                                        </div>
+                                    <%}%>
+                            <%})%>
+                        </div>
+                    <%})%>
                 </div>
             </div>
     </div>
