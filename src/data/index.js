@@ -264,10 +264,31 @@ const biochemistry = [
           "Độ tan:"
         ],
         pho: [
-          "Phổ UV",
-          "Phổ MS",
-          "Phổ IR",
-          "Phổ NMR"
+          "2",
+          {
+            name: "Phổ UV",
+            text: "Dihydroquercetin có λmax ở: - 232 nm, 292 nm và 335 nm. Zenkevich, I. G.; Journal of Analytical Chemistry, (2005), 60(7), 655-667, CAplus - 286 nm. Regos, Ionela; Journal of Agricultural and Food Chemistry, (2009), 57(13), 5843-5852, CAplus",
+            img: ""
+          },
+          {
+            name: "Phổ MS",
+            text: "Mass spectrum (m/z) c 305 [M+ H] +  303 [M- H] - Marles, M. A. Susan; Phytochemistry (Elsevier), (2003), 62(5), 663-672, CAplus ESMS (negative-ion mode) m/z 303 [M -1] -1; MS-MS 285, 241, 217, 175, 151, 125 Kim, Nam-Cheol; Organic & Biomolecular Chemistry, (2003), 1(10), 1684-1689, CAplus",
+            img: ""
+          },
+          {
+            name: "Phổ IR",
+            text: "IR (KBr, vmax) 3416, 3262, 1640, 1616, 1507, 1475, 1371, 1266, 1166, 1138, 1083 cm-1 Kim, Nam-Cheol; Organic & Biomolecular Chemistry, (2003), 1(10), 1684-1689, CAplus IR (KBr): 3366, 2370, 1640, 1468, 1360, 1164, 1086 cm-1 Lee, Eun Ha; Archives of Pharmacal Research, (2003), 26(12), 1018-1023, CAplus",
+            img: ""
+          },
+          {
+            name: "Phổ NMR",
+            text1: "",
+            img1: "pho/Dihydroquercetin/C-NMR.jpg",
+            text2: "",
+            img2: "pho/Dihydroquercetin/H-NMR.jpg",
+            cmt1: "Phổ <sup>13</sup>C-NMR",
+            cmt2: "Phổ <sup>13</sup>H-NMR",
+          },
         ],
         cauTruc: "Dihydroquercetin.jpg",
         hoatTinh: "Dihydroquercetin có hoạt tính chống oxy hóa mạnh <a class='link-reference' href='https://www.mdpi.com/2076-3921/10/8/1262'>[161]</a>, <a class='link-reference' href='https://doi.org/10.3390/ijms17121986'>[73]</a>, <a class='link-reference' href='https://pubmed.ncbi.nlm.nih.gov/30776416/'>[173]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.jddst.2021.102486'>[113]</a>; chống viêm <a class='link-reference' href='https://doi.org/10.1016/j.intimpp.2019.03.038'>[139]</a>, <a class='link-reference' href='https://doi.org/10.1007/s10787-022-01014-x'>[140]</a>; chống  ung  thư (tế bào ung thư xương <a class='link-reference' href='https://doi.org/10.3892/mmr.2017.8271'>[71]</a> tế bào ung thư vú <a class='link-reference' href='https://doi.org/10.1016/j.biopha.2018.05.114'>[94]</a>); bảo vệ hệ tim mạch và tế bào gan <a class='link-reference' href='https://www.mdpi.com/2072-6643/11/11/2655'>[184]</a>; bảo vệ tế bào thần kinh <a class='link-reference' href='https://pubmed.ncbi.nlm.nih.gov/30776416/'>[173]</a>"
@@ -284,10 +305,31 @@ const biochemistry = [
           "Độ tan:"
         ],
         pho: [
-          "Phổ UV",
-          "Phổ MS",
-          "Phổ IR",
-          "Phổ NMR"
+          "2",
+          {
+            name: "Phổ UV",
+            text: "Afzelin có λmax ở: - 342 nm, 265 nm trong dung môi methanol. - 390 nm, 325 nm, 272 nm trong dung môi NaOMe.- 393 nm, 345 nm, 303 nm, 273nm trong dung môi AlCl3.- 397 nm, 343 nm, 301 nm, 274 nm trong dung môi AlCl3 + HCl. - 343 nm, 265 nm trong dung môi NaOAc. - 342 nm, 264 nm trong dung môi NaOAc + H3BO3. Chung, Shin-Kyo; Journal of Agricultural and Food Chemistry, (2004), 52(15), 4664-4668, CAplus",
+            img: ""
+          },
+          {
+            name: "Phổ MS",
+            text: "",
+            img: "pho/Afzelin/MS.jpg"
+          },
+          {
+            name: "Phổ IR",
+            text: "IR (KBr , vmax) 3747, 3370, 2361, 1651, 1607, 1176 cm-1 Chung, Shin-Kyo; Journal of Agricultural and Food Chemistry, (2004), 52(15), 4664-4668, CAplus IR (liquid film, vmax): 3368, 1654, 1608, 1506, 1452, 1361, 1302, 1263, 1209, 1177, 1141, 1087, 1060, 971, 839, 814 cm-1 Sultana, N.; Biochemical Systematics and Ecology, (2003), 31(7), 681-691, Caplus IR  (vmax) : 3280, 1655, 1615, 1500, 1450, 1365 cm-1 Min, Byung-Sun; Biological & Pharmaceutical Bulletin, (2003), 26(7), 1042-1044, Caplus",
+            img: ""
+          },
+          {
+            name: "Phổ NMR",
+            text1: "",
+            img1: "pho/Afzelin/C-NMR.jpg",
+            text2: "",
+            img2: "pho/Afzelin/H-NMR.jpg",
+            cmt1: "Phổ <sup>13</sup>C-NMR",
+            cmt2: "Phổ <sup>13</sup>H-NMR",
+          },
         ],
         cauTruc: "Afzelin.jpg",
         hoatTinh: "Afzelin có hoạt kháng viêm <a class='link-reference' href='https://doi.org/10.3892/ijmm.2019.4162'>[110]</a>; chống ung thư ( tế bào ung thư dạ dày <a class='link-reference' href='https://doi.org/10.3390/ph14100973'>[142]</a>, tế bào ung thư vú <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7710241/'>[16]</a>); chống oxy hóa <a class='link-reference' href='https://doi.org/10.1186/s12906-022-03633-x'>[54]</a>; bảo vệ tế bào gan và cải thiện suy gan <a class='link-reference' href='https://doi.org/10.1111/bph.13669'>[118]</a>, bảo vệ thận <a class='link-reference' href='https://doi.org/10.1021/acs.jnatprod.0c00274'>[70]</a>, bảo vệ tế bào da chống lại tổn thương do tia cực tím <a class='link-reference' href='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061971'>[159]</a>."
@@ -304,10 +346,31 @@ const biochemistry = [
           "Độ tan: 0,064 mg/mL trong nước ở 16°C <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Quercitrin'>[33]</a>",
         ],
         pho: [
-          "Phổ UV",
-          "Phổ MS",
-          "Phổ IR",
-          "Phổ NMR"
+          "2",
+          {
+            name: "Phổ UV",
+            text: "Quercitrin có λmax ở:- 357 nm và 259 nm trong dung môi Tris-DMSO. - 355 nm và 259 nm trong dung môi Tris-ethanol. Le Nest, G.; Inorganica Chimica Acta, (2004), 357(3), 775-784, Caplus",
+            img: "",
+          },
+          {
+            name: "Phổ MS",
+            text: "",
+            img: "pho/Quercitrin/MS.jpg"
+          },
+          {
+            name: "Phổ IR",
+            text: "",
+            img: "pho/Quercitrin/IR.jpg"
+          },
+          {
+            name: "Phổ NMR",
+            text1: "",
+            img1: "pho/Quercitrin/C-NMR.jpg",
+            text2: "",
+            img2: "pho/Quercitrin/H-NMR.jpg",
+            cmt1: "Phổ <sup>13</sup>C-NMR",
+            cmt2: "Phổ <sup>13</sup>H-NMR",
+          },
         ],
         cauTruc: "Quercitrin.jpg",
         hoatTinh: "Quercitrin có hoạt tính chống oxy hóa <a class='link-reference' href='https://doi.org/10.3390/molecules21091246'>[124]</a>, <a class='link-reference' href='https://link.springer.com/article/10.1007/s10456-016-9504-y'>[191]</a>; kháng viêm <a class='link-reference' href='https://doi.org/10.1016/j.jare.2020.06.020'>[89]</a>; hạn chế sự di căn và xâm lấn của những tế bào ung thư (tế bào ung thư biểu mô phổi <a class='link-reference' href='https://doi.org/10.1080/21655979.2022.2037372'>[12]</a>, tế bào ung thư ruột kết <a class='link-reference' href='https://www.mdpi.com/1424-8247/15/3/364'>[171]</a>); bảo vệ thành mạch máu <a class='link-reference' href='https://pubs.rsc.org/en/content/articlelanding/2017/fo/c7fo00755h/unauth'>[150]</a>; cải thiện tình trạng tăng lipid máu <a class='link-reference' href='https://doi.org/10.3390/life10100243'>[101]</a>."
@@ -324,9 +387,19 @@ const biochemistry = [
           "Độ tan: hoạt chất không tan trong nước, hơi tan trong ethanol <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Myricitrin'>[37]</a>",
         ],
         pho: [
-          "Phổ UV",
+          "1",
+          {
+            name: "Phổ UV",
+            text: "IR max : 3270, 1655, 1610, 1500, 1455, 1340 cm-1 Min, Byung-Sun; Biological & Pharmaceutical Bulletin, (2003), 26(7), 1042-1044, CAplus",
+            img: "",
+          },
           "Phổ MS",
-          "Phổ IR",
+          {
+            name: "Phổ IR",
+            text: "IR max : 3270, 1655, 1610, 1500, 1455, 1340 cm-1 Min, Byung-Sun; Biological & Pharmaceutical Bulletin, (2003), 26(7), 1042-1044, CAplus",
+            img: "",
+          },
+          
           "Phổ NMR"
         ],
         cauTruc: "Myricitrin.jpg",
@@ -384,10 +457,27 @@ const biochemistry = [
           "Độ tan:"
         ],
         pho: [
-          "Phổ UV",
-          "Phổ MS",
+          "2",
+          {
+            name:"Phổ UV",
+            text:"Guaijaverin có λmax  ở: -	250 nm, 268 sh, 300 sh, 348 nm trong dung môi methanol. -	265 nm, 328 nm, 397 nm trong dung môi NaOMe -	270 nm, 305 sh, 330 nm, 435 nm trong dung môi AlCl3 -	 265 nm, 300 sh, 355 nm, 400 nm trong dung môi AlCl3-HCl -	268 nm, 323 sh, 383 nm trong dung môi NaOAc -	262 nm,  300 sh, 372 nm trong dung môi NaOAc-H3BO3. Olszewska, Monika; Acta Poloniae Pharmaceutica, (2002), 59(2), 133-137, Caplus",
+            img:""
+          },
+          {
+            name:"Phổ MS",
+            text:"",
+            img:"pho/Guaijaverin/MS.jpg"
+          },
           "Phổ IR",
-          "Phổ NMR"
+          {
+            name:"Phổ NMR",
+            text1:"",
+            img1:"pho/Guaijaverin/MS.jpg",
+            text2:"",
+            img2:"pho/Guaijaverin/MS.jpg",
+            cmt1: "Phổ <sup>13</sup>C-NMR",
+            cmt2: "Phổ <sup>13</sup>H-NMR",
+          }
         ],
         cauTruc: "Guaijaverin.jpg",
         hoatTinh: "Chưa được công bố."
@@ -404,10 +494,27 @@ const biochemistry = [
           "Độ tan:"
         ],
         pho: [
-          "Phổ UV",
-          "Phổ MS",
+          "2",
+          {
+            name:"Phổ UV",
+            text:"Reynoutrin có λmax  ở: -	257 nm, 267 sh, 300 sh, 354 nm trong dung môi methanol -	270 nm, 326 nm, 410 nm trong dung môi NaOMe -	 274 nm, 305 sh, 335 nm, 436 nm trong dung môi AlCl3 -	 270 nm, 301 sh, 362 nm, 404 nm trong dung môi AlCl3-HCl -	268 nm, 323 sh, 394 nm trong dung môi NaOAc -	261 nm, 268 sh, 303 sh, 378 nm trong dung môi NaOAc-H3BO3. Olszewska, Monika; Acta Poloniae Pharmaceutica, (2002), 59(2), 133-137, CAplus",
+            img:"",
+          },
+          {
+            name:"Phổ MS",
+            text:"FAB-MS, m/z 435 (M + H) Kim, Mi-Yeon; Journal of the Science of Food and Agriculture, (2005), 85(4), 633-640",
+            img:"",
+          },
           "Phổ IR",
-          "Phổ NMR"
+          {
+            name:"Phổ NMR",
+            text1:"",
+            img1:"pho/Reynoutrin/C-NMR.jpg",
+            text2:"Phổ 1H NMR (CD3OD) δ 7.60 (1H, m, H2 ), 7.57 (1H, d, H6 ), 6.85 (1H, d, H5 ), 6.38 (1H, m, H8), 6.19 (1H, m, H6), 5.17 (1H, d, H1), 3.77 (1H, dd, H5a), 3.51 (1H, dd, H2), 3.50 (1H, ddd, H4), 3.39 (1H, t, H3), 3.09 (1H, dd, H5b). Kim, Mi-Yeon; Journal of the Science of Food and Agriculture, (2005), 85(4), 633-640",
+            img2:"",
+            cmt1: "Phổ <sup>13</sup>C-NMR",
+            cmt2: "Phổ <sup>13</sup>H-NMR",
+          },
         ],
         cauTruc: "Reynoutrin.jpg",
         hoatTinh: "Reynoutrin có hoạt tính giúp cải thiện bệnh suy tim do thiếu máu cục bộ <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8343003/'>[23]</a>; điều hòa miễn dịch và chống lại tế bào ung thư bạch cầu <a class='link-reference' href='https://doi.org/10.1016/j.bfopcu.2018.06.001'>[47]</a>."
@@ -424,8 +531,13 @@ const biochemistry = [
           "Độ tan:"
         ],
         pho: [
+          "1",
           "Phổ UV",
-          "Phổ MS",
+          {
+            name:"Phổ MS",
+            text:"",
+            img:"pho/Juglanin/MS.jpg"
+          },
           "Phổ IR",
           "Phổ NMR"
         ],
@@ -445,10 +557,31 @@ const biochemistry = [
 
         ],
         pho: [
-          "Phổ UV",
-          "Phổ MS",
-          "Phổ IR",
-          "Phổ NMR"
+          "2",
+          {
+            name:"Phổ UV",
+            text:"Avicularin có λmax  ở:  -	256 nm, 269 sh, 300 sh, 358 nm trong dung môi methanol  -	 271 nm, 325 nm, 406 nm trong dung môi NaOMe  -	 273 nm, 307 sh, 335 sh, 434 nm trong dung môi AlCl3  -	 269 nm, 303 sh, 362 nm, 401 nm trong dung môi AlCl3-HCl -	 274 nm, 323sh, 390 nm trong dung môi AlCl3-HCl -	 262 nm, 301sh, 376 nm trong dung môi NaOAc-H3BO3.Olszewska, Monika; Acta Poloniae Pharmaceutica, (2005), 62(2), 127-133, CAplus",
+            img:""
+          },
+          {
+            name:"Phổ MS",
+            text:"",
+            img:"pho/Avicularin/MS.jpg"
+          },
+          {
+            name:"Phổ IR",
+            text:"",
+            img:"pho/Avicularin/IR.jpg"
+          },
+          {
+            name:"Phổ NMR",
+            text1:"",
+            img1:"pho/Avicularin/C-NMR.jpg",
+            text2:"Phổ 13C-NMR (75 MHz, DMSO-d6) δC ppm 157.1 (C-2), 133.6 (C-3), 177.9 (C-4), 161.4 (C-5), 98.9 (C-6), 164.4 (C-7), 93.7 (C-8), 156.5 (C-9), 104.2 (C-10), 121.1 (C-1'), 115.7 (C-2'), 145.3 (C-3'), 148.7 (C-4'), 115.7 (C-5'), 121.9 (C-6'), 108.0 (ara C-1), 82.3 (ara C-2), 77.1 (ara C-3), 86.0 (ara C-4), 60.8 (ara C-5). Lee, Ming Hong; Archives of Pharmacal Research, (2002), 25(6), 842-850, CAplus",
+            img2:"",
+            cmt1: "Phổ <sup>13</sup>C-NMR",
+            cmt2: "Phổ <sup>13</sup>H-NMR",
+          },
         ],
         cauTruc: "Avicularin1.jpg",
         hoatTinh: "Avicularin có hoạt tính giúp cải thiện ung thư biểu mô tế bào gan <a class='link-reference' href='https://www.spandidos-publications.com/10.3892/mmr.2019.10198'>[177]</a>, giúp đảo ngược tình trạng đa kháng thuốc ở bệnh ung thư dạ dày <a class='link-reference' href='https://doi.org/10.1016/j.jare.2020.06.020'>[90]</a>; cải thiện đái tháo đường type 2 <a class='link-reference' href='https://faseb.onlinelibrary.wiley.com/doi/abs/10.1096/fasebj.31.1_supplement.46.7'>[196]</a>; kháng viêm <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7278328/'>[25]</a> <a class='link-reference' href='https://link.springer.com/article/10.1007/s42250-022-00413-5'>[174]</a>; chống oxy hóa <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7278328/'>[25]</a> <a class='link-reference' href='https://doi.org/10.1016/j.jiec.2018.11.018'>[117]</a>; bảo vệ gan <a class='link-reference' href='https://doi.org/10.3390/nu14224806'>[141]</a>, <a class='link-reference' href='https://www.sciencedirect.com/science/article/abs/pii/S2212429219302007'>[195]</a>."
@@ -465,10 +598,31 @@ const biochemistry = [
           "Độ tan: 27,82 mg/mL nước ở 25 °C <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Hyperoside'>[36]</a>",
         ],
         pho: [
-          "Phổ UV",
-          "Phổ MS",
-          "Phổ IR",
-          "Phổ NMR"
+          "2",
+          {
+            name:"Phổ UV",
+            text:"Hyperin có λmax  ở: - 361,6 nm; 292,6 sh; 267.0 nm trong dung môi methanol - 409.0 nm; 328.8 sh; 272,4 nm trong dung môi NaOMe - 425,6 nm; 274,4 nm trong dung môi AlCl3 - 405,2 nm; 368,2 sh; 298.2 sh. trong dung môi AlCl/HCl - 379,8 nm; 296,2sh; 262,4 nm. Trong dung môi AlCl/HCl. Park, Hye-Jeong; Journal of Plant Biology, (2003), 46(4), 250-254, CAplu",
+            img:""
+          },
+          {
+            name:"Phổ MS",
+            text:"",
+            img:"pho/Hyperin/MS.jpg"
+          },
+          {
+            name:"Phổ IR",
+            text:"",
+            img:"pho/Hyperin/IR.jpg"
+          },
+          {
+            name:"Phổ NMR",
+            text:"",
+            img:"pho/Hyperin/C-NMR.jpg",
+            text:"",
+            img:"pho/Hyperin/H-NMR.jpg",
+            cmt1: "Phổ <sup>13</sup>C-NMR",
+            cmt2: "Phổ <sup>13</sup>H-NMR",
+          },
         ],
         cauTruc: "Hyperin.jpg",
         hoatTinh: "Hoạt chất đã được chứng minh có những hoạt tính sinh học như chống oxy hóa <a class='link-reference' href='https://doi.org/10.1111/1750-3841.13706'>[100]</a>; chống viêm <a class='link-reference' href='https://doi.org/10.1111/1750-3841.13706'>[100]</a>; tăng độ nhạy của dòng tế bào ung thư ruột kết <a class='link-reference' href='https://europepmc.org/article/med/29739100'>[22]</a>;  bảo vệ thận <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5347717/'>[9]</a>;bảo vệ phổi <a class='link-reference' href='https://doi.org/10.1016/j.micpath.2018.11.048'>[99]</a> và bảo vệ tế bào hạt ở buồng trứng <a class='link-reference' href='https://www.hindawi.com/journals/ecam/2021/9399261/'>[188]</a> ."
@@ -485,10 +639,31 @@ const biochemistry = [
           "Độ tan:"
         ],
         pho: [
-          "Phổ UV",
-          "Phổ MS",
-          "Phổ IR",
-          "Phổ NMR"
+          "2" ,
+          {
+            name:"Phổ UV",
+            text:"Trifolin có λmax  ở : 265 nm, 289 sh, 351 nm trong dung môi methanol 275, 324sh, 401 trong dung môi NaOMe 273 nm, 348 nm, 395 nm trong dung môi AlCl3 275, 348, 394 trong dung môi AlCl3/HCl: 274, 305, 375 trong dung môi NaOAc:  265, 351 trong dung môi NaOAc/H3BO3 Backheet, Enaam Y.; Bulletin of Pharmaceutical Sciences, Assiut University, (2003), 26(1), 55-66, Caplus",
+            img:""
+          },
+          {
+            name:"Phổ MS",
+            text:"LC-MS (ESI+), m/z 449 (100; [M]+), 287 (47 [M - gal]+); Scharbert, Susanne; Journal of Agricultural and Food Chemistry, (2004), 52(11), 3498-3508, Caplus",
+            img:""
+          },
+          {
+            name:"Phổ IR",
+            text:"IR (KBr, vmax): 3438 cm-1 , 1655 cm-1 Cardoso, Carmem L.; Journal of the Brazilian Chemical Society, (2005), 16(6B), 1353-1359, Caplus",
+            img:""
+          },
+          {
+            name:"Phổ NMR",
+            text1:"",
+            img1:"pho/Trifolin/C-NMR.jpg",
+            text2:"Phổ 1H NMR (600 MHz; CD3COD) δ 3.43 [ddd, 1H, H-C(5′′)], 3.5 [m,2H, H-C(6b′′), H-C(3′′)], 3.62 [dd, 1H, H-C(6a′′)], 3.78 [dd, 1H,H-C(2′′)], 3.81 [dd, 1H, H-C(4′′)], 5.2 [d, 1H, J ) 7.8 Hz, H-C(1′′)],6.21 [d, 1H, H-C(6)], 6.42 [d, 1H, H-C(8)], 6.88 [d, 2H, H-C(3′), H-C(5′)], 8.09 [d, 2H, H-C(2′), H-C(6′)]; 1 Scharbert, Susanne; Journal of Agricultural and Food Chemistry, (2004), 52(11), 3498-3508, Caplus Phổ 1H-NMR (400 MHz, DMSO-d6) δ:12.62 (1H, brs, OH), 8.06 (2H, d, J = 8.05, H-2′, 6′), 6.85 (2H, d, J = 8.05, H-3′, 5′), 6.43 (1H, d, J = 1.8, H-8), 6.20 (1H, d, J = 1.8, H-6), 5.39 (1H, d, J = 7.6, H-1″) Jung, Mee Jung; Phytotherapy Research, (2003), 17(9), 1064-1068, Caplus",
+            img2:"",
+            cmt1: "Phổ <sup>13</sup>C-NMR",
+            cmt2: "Phổ <sup>1</sup>H-NMR",
+          },
         ],
         cauTruc: "Trifolin1.jpg",
         hoatTinh: "Trifolin (kaempferol-3-O-galactoside) là một flavonol liên hợp với galactose có hoạt tính chống ung thư phổi ở người thông qua cơ chế apoptosis <a class='link-reference' href='https://doi.org/10.1016/j.phymed.2016.05.009'>[111]</a>."
@@ -525,10 +700,28 @@ const biochemistry = [
           "Độ tan: 0,125 mg/mL <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Rutin'>[34]</a>",
         ],
         pho: [
-          "Phổ UV",
-          "Phổ MS",
-          "Phổ IR",
-          "Phổ NMR"
+          "1",
+          {
+            name:"Phổ UV",
+            text:"Rutin có có λmax ở: - 363 nm và 267 nm trong dung môi Tris-DMSO.- 360 nm và 255 nm trong dung môi Tris-ethanol. Le Nest, G.; Inorganica Chimica Acta, (2004), 357(3), 775-784, Caplus - 361 nm, 295 nm và 259 nm trong dung môi ethanol. Nagai, Souichi; Journal of Physical Chemistry B, (2005), 109(9), 4234-4240, Caplus",
+            img:""
+          },
+          {
+            name:"Phổ MS",
+            text:"",
+            img:"pho/Rutin/MS.jpg"
+          },
+          {
+            name:"Phổ IR",
+            text:"",
+            img:"pho/Rutin/IR.jpg"
+          },
+          {
+            name:"Phổ NMR",
+            text:"",
+            img:"pho/Rutin/C-NMR.jpg",
+            cmt: "Phổ <sup>13</sup>C-NMR",
+          },  
         ],
         cauTruc: "Rutin.jpg",
         hoatTinh: "Rutin đã có hoạt tính chống oxy hóa <a class='link-reference' href='https://doi.org/10.1155/2018/6241017'>[83]</a>; chống viêm <a class='link-reference' href='ttps://doi.org/10.1016/j.carbpol.2016.06.039'>[76]</a>, <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5374339/'>[15]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.bbi.2019.05.003'>[77]</a>;kháng khuẩn <a class='link-reference' href='https://doi.org/10.1007/s10876-020-01947-9'>[136]</a>; kháng virus <a class='link-reference' href='https://doi.org/10.1016/j.jtcme.2021.01.006'>[143]</a> <a class='link-reference' href='https://doi.org/10.1016/j.jmgm.2021.107904'>[46]</a>; chống ung thư <a class='link-reference' href='https://link.springer.com/article/10.1007/s00210-018-1579-0'>[153]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.biopha.2016.11.001'>[67]</a>; hỗ trợ điều trị trị đái tháo đường <a class='link-reference' href='https://doi.org/10.1016/j.biopha.2017.10.001'>[51]</a>; bảo vệ tim <a class='link-reference' href='https://www.sciencedirect.com/science/article/pii/S1756464619305304'>[162]</a>; bảo vệ hệ thần kinh <a class='link-reference' href=' https://doi.org/10.1155/2018/6241017'>[83]</a>, <a class='link-reference' href='https://doi.org/10.1186/s12906-017-1976-9'>[60]</a>; bảo vệ thận <a class='link-reference' href='https://doi.org/10.1186/s12882-017-0601-y'>[58]</a>; bảo vệ gan <a class='link-reference' href='https://doi.org/10.1016/j.biopha.2018.08.046'>[127]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.apjtb.2017.06.013'>[88]</a>; bảo vệ tế bào sụn khớp <a class='link-reference' href='https://doi.org/10.1016/j.bbrc.2016.04.064'>[135]</a>."
@@ -550,10 +743,31 @@ const biochemistry = [
           "Độ tan: 18,2 mg/mL trong nước ở 14 °C <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/3_4-Dihydroxybenzoic-acid'>[29]</a>"
         ],
         pho: [
-          "Phổ UV",
-          "Phổ MS",
-          "Phổ IR",
-          "Phổ NMR"
+          "2",
+          {
+            name: "Phổ UV",
+            text: "Protocatechuic acid có λmax ở:- 230 nm, 251 nm và 280 nm. Zenkevich, I. G.; Journal of Analytical Chemistry, (2005), 60(7), 655-667, Caplus - 293.2 nm trong dung môi methanol. Kowalski, Radoslaw; Journal of Planar Chromatography--Modern TLC, (2003), 16(3), 230-236, Caplus - 228.4 nm, 261.5 nm và 294.8 nm. Allouche, N.; Journal de la Societe Chimique de Tunisie, (2004), 6(1), 33-43, CAplus",
+            img: "",
+          },
+          {
+            name: "Phổ MS",
+            text: "",
+            img: "pho/Protocatechuic/MS.jpg",
+          },
+          {
+            name: "Phổ IR",
+            text: "",
+            img: "pho/Protocatechuic/IR.jpg",
+          },
+          {
+            name: "Phổ NMR",
+            text1: "",
+            img1: "pho/Protocatechuic/C-NMR.jpg",
+            text2: "",
+            img2: "pho/Protocatechuic/H-NMR.jpg",
+            cmt1: "Phổ <sup>13</sup>C-NMR",
+            cmt2: "Phổ <sup>13</sup>H-NMR",
+          },
         ],
         cauTruc: "Protocatechuic.jpg",
         hoatTinh: "Protocatechuic acid có hoạt tính chống oxy hóa <a class='link-reference' href='https://www.sciencedirect.com/science/article/abs/pii/S0144861720313837'>[183]</a>, <a class='link-reference' href='https://www.sciencedirect.com/science/article/abs/pii/S0753332217341434'>[152]</a>; kháng viêm <a class='link-reference' href='https://www.hindawi.com/journals/omcl/2017/6297080/'>[180]</a>; kháng khuẩn <a class='link-reference' href='https://doi.org/10.1002/mbo3.472'>[52]</a>, <a class='link-reference' href='https://www.sciencedirect.com/science/article/abs/pii/S0956713521007118'>[181]</a>; bảo vệ tế bào gan <a class='link-reference' href='https://doi.org/10.1016/j.lfs.2021.119485'>[92]</a>. bảo vệ tế bào thần kinh <a class='link-reference' href='https://doi.org/10.1016/j.scitotenv.2020.137969'>[55]</a>, <a class='link-reference' href='https://www.hindawi.com/journals/omcl/2017/6297080/'>[180]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.cbi.2021.109392'>[125]</a>, chống lão hóa da <a class='link-reference' href='https://onlinelibrary.wiley.com/doi/abs/10.1111/jocd.13086'>[160]</a>; hạ đường huyết và cải thiện tình trạng kháng insuline <a class='link-reference' href='https://doi.org/10.1111/jfbc.12927'>[57]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.etapp.2020.103577'>[48]</a>; hạ huyết áp <a class='link-reference' href='https://www.sciencedirect.com/science/article/abs/pii/S0753332217341434'>[152]</a>."
@@ -570,10 +784,31 @@ const biochemistry = [
           "Độ tan: 11,9 mg/mL trong nước ở 20 °C; 1g hoạt chất hòa tan trong 3 ml nước nóng, 6 ml alcohol, 100 ml ether, 10 ml glycerol, 5 ml acetone; hoạt chất thực tế không tan trong benzene, chloroform, petrolium ether <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Gallic-acid'>[30]</a>"
         ],
         pho: [
-          "Phổ UV",
-          "Phổ MS",
-          "Phổ IR",
-          "Phổ NMR"
+          "2",
+          {
+            name: "Phổ UV",
+            text: "Gallic acid có λmax ở:- 230 nm, 251 nm và 280 nm. Zenkevich, I. G.; Journal of Analytical Chemistry, (2005), 60(7), 655-667, Caplus",
+            img: ""
+          },
+          {
+            name: "Phổ MS",
+            text: "",
+            img: "pho/Gallic/MS.jpg",
+          },
+          {
+            name: "Phổ IR",
+            text: "",
+            img: "pho/Gallic/IR.jpg",
+          },
+          {
+            name: "Phổ NMR",
+            text1: "",
+            img1: "pho/Gallic/C-NMR.jpg",
+            text2: "",
+            img2: "pho/Gallic/H-NMR.jpg",
+            cmt1: "Phổ <sup>13</sup>C-NMR",
+            cmt2: "Phổ <sup>13</sup>H-NMR",
+          },
         ],
         cauTruc: "Gallic.jpg",
         hoatTinh: "Gallic acid có hoạt tính kháng khuẩn <a class='link-reference' href='https://doi.org/10.1016/j.micpath.2016.08.004'>[129]</a>; kháng nấm <a class='link-reference' href='https://doi.org/10.1002/ptr.5823'>[126]</a>; kháng viêm <a class='link-reference' href='https://doi.org/10.3390/nu11010023'>[79]</a>; <a class='link-reference' href='https://www.sciencedirect.com/science/article/pii/S1567576918312438'>[194]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.pharepp.2017.03.011'>[105]</a>; kháng ung thư <a class='link-reference' href='https://doi.org/10.1016/j.fct.2021.112576'>[63]</a> (tế bào ung thư ruột kết <a class='link-reference' href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4823245/'>[19]</a>, tế bào ung thư biểu mô gan <a class='link-reference' href='https://www.spandidos-publications.com/10.3892/ol.2015.3845'>[167]</a>, tế bào ung thư phổi <a class='link-reference' href='https://www.spandidos-publications.com/10.3892/or.2019.6976'>[190]</a>,…); chống oxy hóa <a class='link-reference' href='https://doi.org/10.3390/nu11010023'>[79]</a>, <a class='link-reference' href='https://doi.org/10.1016/j.pharepp.2017.03.011'>[105]</a>."
@@ -590,10 +825,23 @@ const biochemistry = [
           "Độ tan:"
         ],
         pho: [
+          "2",
           "Phổ UV",
           "Phổ MS",
-          "Phổ IR",
-          "Phổ NMR"
+          {
+            name: "Phổ IR",
+            text: "IR (KBr, vmax): 3762, 3426, 1700, 1070, 950 cm-1. Da Silva, Saulo L.; Toxicon, (2008), 52(6), 655-666, CAplus",
+            img: ""
+          },
+          {
+            name: "Phổ NMR",
+            text1: "",
+            text2: "Phổ 1H-NMR (400 MHz – CHD2OD/DMSO-d5,) δH ppm: 4.04 (3H: OCH3-3), 6.36 (2H: CH2-3a), 7.52 (1H: H-5), 7.54 (1H: H-50), 8.70 (1H: OH-8a). Da Silva, Saulo L.; Toxicon, (2008), 52(6), 655-666, CAplus",
+            img1: "pho/squalene/MS1.jpg",
+            img2: "",
+            cmt1: "Phổ <sup>13</sup>C-NMR",
+            cmt2: "Phổ <sup>13</sup>H-NMR",
+          },
         ],
         cauTruc: "Pteleoellagic.jpg",
         hoatTinh: "Chưa được công bố."
@@ -691,7 +939,7 @@ const biochemistry = [
           "Độ hòa tan: 0.0001726 mg/L trong nước ở 25 °C, hoạt chất ít tan trong ethanol, benzene và hòa tan trong diethyl ete, ethyl acetate <a class='link-reference' href=''>[28]</a>."
         ],
         pho: [
-          "1",
+          "2",
           "Phổ UV",
           {
             name: "Phổ MS",
@@ -706,13 +954,12 @@ const biochemistry = [
             cmt: ""
           },
           {
-            C_NMR: {
-              name: "Phổ IR",
-              text: "",
-              img: "pho/betulin/IR.jpg",
-              cmt: ""
-            },
-            H_NMR: {},
+            name: "Phổ NMR",
+            text: "",
+            img1: "pho/betulin/C-NMR.jpg",
+            img2: "pho/betulin/H-NMR.jpg",
+            cmt1: "Phổ <sup>13</sup>C-NMR",
+            cmt2: "Phổ <sup>13</sup>H-NMR"
           },
         ],
         cauTruc: "Betulin.jpg",
@@ -730,10 +977,33 @@ const biochemistry = [
           "Độ tan: 0,001607 mg/L trong nước ở 25 °C <a class='link-reference' href='https://pubchem.ncbi.nlm.nih.gov/compound/Betulinic-acid'>[31]</a>"
         ],
         pho: [
-          "Phổ UV",
-          "Phổ MS",
-          "Phổ IR",
-          "Phổ NMR"
+          "2",
+          {
+            name: "Phổ UV",
+            text: "Betulinic acid có λ<sub>max</sub> ở - 249 nm và 340 nm trong methanol. Khan, Zeba; Natural Product Research, (2010), 24(11), 1059-1068, CAplus",
+            img: "",
+            cmt: ""
+          },
+          {
+            name: "Phổ MS",
+            text: "",
+            img: "pho/betulinic/MS.jpg",
+            cmt: ""
+          },
+          {
+            name: "Phổ IR",
+            text: "",
+            img: "pho/betulinic/IR.jpg",
+            cmt: ""
+          },
+          {
+            name: "Phổ NMR",
+            text: "",
+            img1: "pho/betulinic/C-NMR.jpg",
+            img2: "pho/betulinic/H-NMR.jpg",
+            cmt1: "Phổ <sup>13</sup>C-NMR",
+            cmt2: "Phổ <sup>13</sup>H-NMR"
+          },
         ],
         cauTruc: "Betulinic.jpg",
         hoatTinh: "Betulinic acid có hoạt tính chống khối u <a class='link-reference' href='https://doi.org/10.1166/jbn.2020.2888'>[20]</a>,<a class='link-reference' href='https://doi.org/10.1016/j.ejmech.2015.11.018'>[108]</a>; chống viêm <a class='link-reference' href='https://doi.org/10.1016/j.intimpp.2014.09.021'>[138]</a>; chống virus (HIV <a class='link-reference' href='https://doi.org/10.1007/s11745-001-0750-4'>[53]</a>); chống đái tháo đường <a class='link-reference' href='https://doi.org/10.1021/jf4030739'>[112]</a>, <a class='link-reference' href='https://www.sciencedirect.com/science/article/abs/pii/S0014299916307579'>[187]</a>; bảo vệ gan <a class='link-reference' href='https://www.sciencedirect.com/science/article/abs/pii/S0014299916307579'>[187]</a>. Ngoài ra, betulinic acid được sử dụng nhằm tổng hợp những dẫn xuất có hoạt tính sinh học đa dạng như kháng lại tế bào ung thư <a class='link-reference' href='https://doi.org/10.1007/s11101-019-09623-1'>[96]</a>; kháng virus <a class='link-reference' href='https://www.ingentaconnect.com/content/ben/cmc/2005/00000012/00000006/art00003'>[186]</a>."
