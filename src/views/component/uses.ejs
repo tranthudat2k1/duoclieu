@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ludgiwia hyssofolia</title>
+    <title>Công dụng</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/uses.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -31,31 +31,35 @@
                     </div>
                     <div class="imgs">
                         <%data.img.forEach(function(item){%>
-                            <div>
-                                <img src='/upload/<%=item%>' alt="">
-                            </div>
+                            <img src='/upload/<%=item%>' alt="">
                             <%})%>
                     </div>
-                    <div class="prescription">
-                        <div style="font-weight: 600;">Một số bài thuốc có sử dụng dược liệu Ludwigia adcendens <a
-                                class="link-reference" href="">[1]</a>:</div>
-                        <ol>
-                            <%for(let i=0; i < data.prescription.length; i++){%>
-                                <li style="margin-top: 10px;">
-                                    <div style="font-style:italic">
-                                        <%-data.prescription[i][0]%>
-                                    </div>
-                                    <%for(let j=1; j < data.prescription[i].length; j++){%>
-                                        <div class="prescription-desc">
-                                            <%-data.prescription[i][j]%>
-                                        </div>
-                                        <%}%>
-                                </li>
-                                <%}%>
-                        </ol>
+                </div>
+                <div class="prescription">
+                    <div style="font-weight: 600;">Một số bài thuốc có sử dụng dược liệu <i>Ludwigia adscendens</i>
+                        <a class="link-reference" href="">[1]</a>:
                     </div>
+                    <ol>
+                        <%for(let i=0; i < data.prescription.length; i++){%>
+                            <li style="margin-top: 10px;">
+                                <div style="font-style:italic">
+                                    <%-data.prescription[i][0]%>
+                                </div>
+                                <ol>
+                                    <%for(let j=1; j < data.prescription[i].length; j++){%>
+                                        <li class="prescription-desc">
+                                            <%-data.prescription[i][j]%>
+                                        </li>
+                                        <%}%>
+                                </ol>
+                            </li>
+
+
+                            <%}%>
+                    </ol>
                 </div>
             </div>
+    </div>
     </div>
     <script>
         const listTagA = document.getElementsByClassName('link-reference')

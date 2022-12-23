@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ludgiwia</title>
+    <title>Vi phẫu</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="/assets/css/microsurgery.css" />
     <link rel="stylesheet" href="/font/Agrandir-WideBlackItalic.otf">
@@ -24,8 +24,43 @@
                     <%- include('../include/sidebar.ejs') -%>
                 </div>
                 <div class="content-desc">
-                    <img style="width: 50%" src="/upload/microsurgery1.jpg" alt="">
-                    <img style="width: 50%" src="/upload/microsurgery2.jpg" alt="">
+                    <%data.forEach(function(result){%>
+                        <div class="adscendens-part">
+                            <%result.forEach(function(item){%>
+                                <%if(item.type==='3' ){%>
+                                    <div class="adscendens-part-desc-3">
+                                        <img src="/upload/viphau/<%=item.img%>" alt="">
+                                        <p>
+                                            <%=item.textImg%>
+                                        </p>
+                                        <p>
+                                            <%=item.cmt%>
+                                        </p>
+                                    </div>
+                                    <%} else if(item.type==='2' ) {%>
+                                        <div class="adscendens-part-desc-2">
+                                            <img src="/upload/viphau/<%=item.img%>" alt="">
+                                            <p>
+                                                <%=item.textImg%>
+                                            </p>
+                                            <p>
+                                                <%=item.cmt%>
+                                            </p>
+                                        </div>
+                                    <%} else {%>
+                                        <div class="adscendens-part-desc-1">
+                                            <img src="/upload/viphau/<%=item.img%>" alt="">
+                                            <p>
+                                                <%=item.textImg%>
+                                            </p>
+                                            <p>
+                                                <%=item.cmt%>
+                                            </p>
+                                        </div>
+                                    <%}%>
+                            <%})%>
+                        </div>
+                    <%})%>
                 </div>
             </div>
     </div>
