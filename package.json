@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "booking ",
   "main": "index.js",
+  "engines": {
+    "node" : "16.x"
+  },
   "scripts": {
     "test": "nodemon --inspect src/index.js",
     "start": "node src/index.js"
